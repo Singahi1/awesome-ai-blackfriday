@@ -85,9 +85,9 @@
         <b>${esc(s.v)}</b><span>${esc(s.l)}</span>
       </div>`).join('');
 
-    // ticker: top 8 by discount
-    const tick = withDisc.slice().sort((a, b) => b.discount - a.discount).slice(0, 9);
-    const line = tick.map((d) => `<span><b>${d.discount}%</b> ${esc(d.name)}</span>`).join('');
+    // ticker: top picks by usefulness
+    const tick = live.slice().sort((a, b) => (b.useful || 0) - (a.useful || 0)).slice(0, 9);
+    const line = tick.map((d) => `<span><b>${d.useful || '—'}</b> ${esc(d.name)}</span>`).join('');
     $('#ticker').innerHTML = `<div class="ticker-track">${line}${line}</div>`;
 
     // category chips
