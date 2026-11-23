@@ -231,6 +231,7 @@
     const title = d.ends_note && d.ends ? ` title="${esc(d.ends_note)}"` : '';
 
     return `<article class="card${cls === 'hot' || cls === 'warm' ? ' ending' : ''}${d.sponsored ? ' sponsored' : ''}">
+      <a class="stretched" href="${esc(d.url)}" target="_blank" rel="noopener" aria-label="Open ${esc(d.name)} pricing page"></a>
       <div class="card-head">
         <span class="cat">${esc(d.category)}</span>
         ${disc}

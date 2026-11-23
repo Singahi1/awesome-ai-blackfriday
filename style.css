@@ -176,9 +176,12 @@ h1 em { font-style: normal; color: var(--acid); }
   background: var(--bg-card); border: 1px solid var(--line-soft); border-radius: var(--radius);
   padding: 18px; transition: border-color .15s, transform .15s, background .15s;
 }
-.card:hover { border-color: #333c48; transform: translateY(-2px); background: #141920; }
-.card.sponsored { border-color: rgba(124,196,255,.28); background: linear-gradient(180deg, rgba(124,196,255,.045), transparent 55%), var(--bg-card); }
-.card.sponsored:hover { border-color: rgba(124,196,255,.5); }
+/* whole card is a link; real controls sit above the overlay */
+.card .stretched { position: absolute; inset: 0; z-index: 1; border-radius: var(--radius); }
+.card .stretched:focus-visible { outline: 2px solid var(--acid); outline-offset: 2px; }
+.card a:not(.stretched), .card button { position: relative; z-index: 2; }
+.card:hover { border-color: #3d4753; transform: translateY(-2px); background: #141920; }
+.card:has(.stretched:hover) { border-color: #4a5665; }
 .card.sponsored { border-color: rgba(124,196,255,.28); background: linear-gradient(180deg, rgba(124,196,255,.045), transparent 55%), var(--bg-card); }
 .card.sponsored:hover { border-color: rgba(124,196,255,.5); }
 .card.ending { border-color: #4a3a1c; }
