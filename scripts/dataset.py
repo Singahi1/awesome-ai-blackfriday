@@ -24,6 +24,7 @@ CATEGORIES = [
     "Research & PDF",
     "SEO & Marketing",
     "Hosting & Infra",
+    "Security & Compliance",
 ]
 
 D = []
@@ -968,6 +969,18 @@ add(name="Novita AI", category="Hosting & Infra",
     deal="50% off batch inference tokens",
     discount=50, ends=None, ends_note="No end date printed", tags=["usage-only"],
     url="https://novita.ai/pricing", source=TP, verified="2026-11-23")
+
+# ---------------------------------------------------------------- partner
+# Listing published by the site's sponsor. Kept visually distinct and marked
+# `sponsored` so it never reads as independently verified like the rows above.
+add(name="Singahi", category="Security & Compliance",
+    what="ISO 27001 / SOC 2 compliance, penetration testing and managed security for growing companies",
+    deal="30% off all services — compliance, assessment and managed security engagements",
+    discount=30, price_before="List price", price_after="30% off",
+    ends=None, ends_note="Partner offer — mention the list when you enquire",
+    status="live", audience="Companies that need to prove security to customers, investors or regulators",
+    tags=["partner"], sponsored=True,
+    url="https://singahi.com", source="https://singahi.com", verified="2026-11-23")
 
 payload = {
     "meta": {

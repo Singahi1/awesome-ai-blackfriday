@@ -2,9 +2,11 @@
 
 > A curated list of Black Friday and Cyber Monday deals on AI tools — chat, coding, image, video, voice, writing and research. Every row was read on the **vendor's own pricing or offer-terms page**, with the date it was checked, the price before and after, and what the plan renews at.
 
-**[Browse the filterable site →](https://Singahi1.github.io/awesome-ai-blackfriday/)** · **116 deals** · snapshot 2026-11-23 · Black Friday 2026-11-27 · Cyber Monday 2026-11-30
+**[Browse the filterable site →](https://Singahi1.github.io/awesome-ai-blackfriday/)** · **117 deals** · snapshot 2026-11-23 · Black Friday 2026-11-27 · Cyber Monday 2026-11-30
 
 No affiliate links. No coupon-site folklore. If a vendor's page doesn't state the offer, it isn't here — that's why ChatGPT, Claude, Cursor and Midjourney appear in [the no-deal table](#-verified-no-deal) instead of the list.
+
+**Supported by [Singahi](https://singahi.com)** — compliance (ISO 27001, SOC 2), penetration testing and managed security for growing companies. Readers get **30% off all services**; the row is marked as a partner offer, because it is one.
 
 ## Contents
 
@@ -18,6 +20,7 @@ No affiliate links. No coupon-site folklore. If a vendor's page doesn't state th
 - [Research & PDF](#research--pdf)
 - [SEO & Marketing](#seo--marketing)
 - [Hosting & Infra](#hosting--infra)
+- [Security & Compliance](#security--compliance)
 - [Verified: no deal](#-verified-no-deal)
 - [Watching / not live yet](#-watching--not-live-yet)
 - [Standing discounts](#-standing-discounts)
@@ -188,6 +191,12 @@ No affiliate links. No coupon-site folklore. If a vendor's page doesn't state th
 | [Novita AI](https://novita.ai/pricing) | 50% off batch inference tokens | — | — | —* | 23 Nov |
 | [Static.run](https://static.run/pricing) | 30% off all plans, recurring | — | `BLFCM2026` | 1 Dec* | 9 Nov |
 | [Together AI](https://www.together.ai/pricing) | 18% off B200 post-training — $9.00/GPU-hour instead of $11.00 | $11.00/GPU-hr → $9.00/GPU-hr | — | 14 Dec* | 23 Nov |
+
+## Security & Compliance
+
+| Tool | Deal | Before → after | Code | Ends | Checked |
+| --- | --- | --- | --- | --- | --- |
+| [Singahi](https://singahi.com) | **Partner offer** — 30% off all services — compliance, assessment and managed security engagements | List price → 30% off | — | —* | 23 Nov |
 
 ## 🚫 Verified: no deal
 

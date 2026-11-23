@@ -6,7 +6,7 @@ window.DEALS = {
     "cyber_monday": "2026-11-30",
     "generated": "2026-11-23",
     "checked_window": "2026-11-09 to 2026-11-23",
-    "count": 116
+    "count": 117
   },
   "categories": [
     "AI Chat & Assistants",
@@ -18,7 +18,8 @@ window.DEALS = {
     "Writing & Docs",
     "Research & PDF",
     "SEO & Marketing",
-    "Hosting & Infra"
+    "Hosting & Infra",
+    "Security & Compliance"
   ],
   "deals": [
     {
@@ -2285,6 +2286,29 @@ window.DEALS = {
       "status": "live",
       "audience": null,
       "id": "novita-ai"
+    },
+    {
+      "name": "Singahi",
+      "category": "Security & Compliance",
+      "what": "ISO 27001 / SOC 2 compliance, penetration testing and managed security for growing companies",
+      "deal": "30% off all services \u2014 compliance, assessment and managed security engagements",
+      "discount": 30,
+      "price_before": "List price",
+      "price_after": "30% off",
+      "ends": null,
+      "ends_note": "Partner offer \u2014 mention the list when you enquire",
+      "status": "live",
+      "audience": "Companies that need to prove security to customers, investors or regulators",
+      "tags": [
+        "partner"
+      ],
+      "sponsored": true,
+      "url": "https://singahi.com",
+      "source": "https://singahi.com",
+      "verified": "2026-11-23",
+      "code": null,
+      "renewal": null,
+      "id": "singahi"
     }
   ],
   "no_deal": [

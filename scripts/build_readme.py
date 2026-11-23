@@ -44,6 +44,11 @@ lines.append(
     "that's why ChatGPT, Claude, Cursor and Midjourney appear in [the no-deal table](#-verified-no-deal) "
     "instead of the list.\n"
 )
+lines.append(
+    "**Supported by [Singahi](https://singahi.com)** — compliance (ISO 27001, SOC 2), penetration testing and "
+    "managed security for growing companies. Readers get **30% off all services**; the row is marked as a "
+    "partner offer, because it is one.\n"
+)
 
 lines.append("## Contents\n")
 for c in data["categories"]:
@@ -64,6 +69,8 @@ for c in data["categories"]:
     for d in sorted(rows, key=lambda x: -(x.get("discount") or 0)):
         name = f"[{d['name']}]({d['url']})"
         deal = d["deal"].replace("|", "\\|")
+        if d.get("sponsored"):
+            deal = "**Partner offer** — " + deal
         code = f"`{d['code']}`" if d.get("code") else "—"
         end = fmt_end(d.get("ends")) + ("*" if d.get("ends_note") else "")
         lines.append(f"| {name} | {deal} | {price(d)} | {code} | {end} | {fmt_end(d['verified'])} |")

@@ -223,16 +223,17 @@
          </button></div>` : '';
 
     const tags = [
+      ...(d.sponsored ? ['<span class="tagpill pick">Partner</span>'] : []),
       ...(d.status === 'announced' ? ['<span class="tagpill">announced</span>'] : []),
       ...(d.status === 'perk' ? ['<span class="tagpill">credit perk</span>'] : []),
-    ].concat((d.tags || []).filter((t) => t !== 'announced' && t !== 'perk').map((t) => t === 'editor-pick'
+    ].concat((d.tags || []).filter((t) => !['announced', 'perk', 'partner'].includes(t)).map((t) => t === 'editor-pick'
       ? '<span class="tagpill pick">Editor’s pick</span>'
       : `<span class="tagpill">${esc(t)}</span>`)).join('');
 
     const endsTxt = d.ends_note && !d.ends ? d.ends_note : endLabel(d);
     const title = d.ends_note && d.ends ? ` title="${esc(d.ends_note)}"` : '';
 
-    return `<article class="card${cls === 'hot' || cls === 'warm' ? ' ending' : ''}">
+    return `<article class="card${cls === 'hot' || cls === 'warm' ? ' ending' : ''}${d.sponsored ? ' sponsored' : ''}">
       <div class="card-head">
         <span class="cat">${esc(d.category)}</span>
         ${disc}
