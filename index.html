@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Awesome AI Black Friday Deals 2026 — sourced, dated, filterable</title>
+<meta name="description" content="A curated list of 2026 Black Friday deals on AI tools — chat, coding, image, video, voice and writing — each one checked on the vendor's own pricing page with the date it was verified.">
+<meta name="theme-color" content="#0b0d10">
+<meta property="og:title" content="Awesome AI Black Friday Deals 2026">
+<meta property="og:description" content="58 AI deals, every price read on the vendor's own page and dated. Plus the big names that aren't discounting at all.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%230b0d10'/><text y='.9em' x='50%25' text-anchor='middle' font-size='62' fill='%23c6f24e'>%25</text></svg>">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#deals">Skip to deals</a>
+
+<header class="topbar">
+  <div class="wrap topbar-in">
+    <a class="brand" href="./">
+      <span class="brand-mark">%</span>
+      <span class="brand-txt">awesome<span class="dim">-ai-</span>blackfriday</span>
+    </a>
+    <nav class="topnav">
+      <a href="#deals">Deals</a>
+      <a href="#nodeal">No deal</a>
+      <a href="#method">Method</a>
+      <a class="gh" href="https://github.com/" id="repo-link" rel="noopener">GitHub ↗</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero wrap">
+    <div class="hero-grid">
+      <div>
+        <p class="eyebrow"><span class="pulse"></span> <span id="updated">Checked 23 Nov 2026</span></p>
+        <h1>AI deals that are <em>actually</em> on sale.</h1>
+        <p class="lede">Every row below was read on the vendor's own pricing page, with the price before, the price after, the end date and what it renews at. No coupon-site folklore, no affiliate links.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#deals">Browse the list</a>
+          <a class="btn" href="data/deals.json">Get the JSON</a>
+        </div>
+      </div>
+      <div class="stats" id="stats" aria-label="Summary"></div>
+    </div>
+    <div class="ticker" id="ticker" aria-hidden="true"></div>
+  </section>
+
+  <section class="wrap" id="deals">
+    <div class="controls">
+      <div class="search">
+        <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16.5 16.5 21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <input id="q" type="search" placeholder="Search tools, categories, codes…" autocomplete="off" aria-label="Search deals">
+        <kbd>/</kbd>
+      </div>
+      <label class="switch">
+        <input type="checkbox" id="hide-expired" checked>
+        <span>Hide ended</span>
+      </label>
+      <label class="select">
+        <span>Sort</span>
+        <select id="sort">
+          <option value="discount">Biggest discount</option>
+          <option value="ending">Ending soonest</option>
+          <option value="az">A → Z</option>
+          <option value="verified">Recently verified</option>
+        </select>
+      </label>
+    </div>
+
+    <div class="chips" id="cats" role="toolbar" aria-label="Filter by category"></div>
+
+    <div class="resultbar">
+      <p id="count">Loading…</p>
+      <button class="linkish" id="reset" hidden>Clear filters</button>
+    </div>
+
+    <div class="grid" id="grid"></div>
+    <p class="empty" id="empty" hidden>Nothing matches that. Try clearing the search or picking another category.</p>
+  </section>
+
+  <section class="wrap block" id="nodeal">
+    <h2>The big names that <span class="strike">aren't</span> discounting</h2>
+    <p class="sub">Verified as of the dates shown. If a coupon blog says otherwise, the coupon blog is wrong — or selling you someone else's affiliate link.</p>
+    <div class="tablewrap">
+      <table class="plain" id="nodeal-table">
+        <thead><tr><th>Tool</th><th>What we found</th><th>Checked</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="wrap block two-col">
+    <div>
+      <h2>Watching — not live yet</h2>
+      <ul class="notes" id="watchlist"></ul>
+    </div>
+    <div>
+      <h2>Standing discounts</h2>
+      <ul class="notes" id="always-on"></ul>
+    </div>
+  </section>
+
+  <section class="wrap block" id="method">
+    <h2>How this list is built</h2>
+    <div class="method-grid">
+      <div>
+        <h3>1. Vendor page or nothing</h3>
+        <p>A deal is listed only if the vendor's own pricing, promo or offer-terms page states it. Coupon aggregators, newsletters and "50% off" banners that lead to expired pages are excluded — that's why Grammarly is in the no-deal table with a live-looking banner.</p>
+      </div>
+      <div>
+        <h3>2. Dated, not timeless</h3>
+        <p>Every row carries the date it was checked, because last year's discount is not this year's. The window for this snapshot: <span id="window">9–23 Nov 2026</span>.</p>
+      </div>
+      <div>
+        <h3>3. The renewal price is the point</h3>
+        <p>A first-month price of $0.29 that renews at $15 is a coupon for one month, not a deal. Where the vendor prints a renewal price, it's on the card.</p>
+      </div>
+      <div>
+        <h3>4. First-party links only</h3>
+        <p>No affiliate tags, no redirects. Each card links the vendor page and the source where the offer was verified.</p>
+      </div>
+    </div>
+    <p class="fineprint">Prices change hourly during Black Friday week. Always confirm at checkout. This list is informational and has no affiliate relationship with any vendor. Data is MIT-licensed; corrections via pull request are welcome.</p>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <p><strong>awesome-ai-blackfriday</strong> — a curated, sourced list. Updated <span id="foot-date">23 Nov 2026</span>.</p>
+    <p class="dim">Black Friday <span id="bf-date">27 Nov 2026</span> · Cyber Monday <span id="cm-date">30 Nov 2026</span></p>
+  </div>
+</footer>
+
+<script src="data/deals.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

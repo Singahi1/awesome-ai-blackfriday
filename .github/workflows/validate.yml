@@ -1,0 +1,24 @@
+name: validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate dataset
+        run: python3 scripts/validate.py
+      - name: README is in sync with the dataset
+        run: |
+          python3 scripts/build_readme.py
+          git diff --exit-code README.md || {
+            echo "::error::README.md is out of date — run python3 scripts/build_readme.py and commit the result.";
+            exit 1;
+          }
