@@ -1,0 +1,85 @@
+name: Submit a deal
+description: Propose a Black Friday / Cyber Monday deal for the list
+title: "deal: <tool name> — <discount>"
+labels: ["deal-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks. The bar is high on purpose: a deal is listed only if the **vendor's own page** states it.
+        Coupon blogs, newsletters and "exclusive code" posts are leads, not proof.
+  - type: input
+    id: tool
+    attributes:
+      label: Tool
+      placeholder: ElevenLabs
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Vendor page that states the offer
+      description: A pricing page, /black-friday landing page, or published offer terms on the vendor's own domain.
+      placeholder: https://elevenlabs.io/black-friday-promo
+    validations:
+      required: true
+  - type: input
+    id: offer
+    attributes:
+      label: The offer, in the vendor's own words
+      placeholder: Up to 55% off Creator and Pro annual plans for the first year
+    validations:
+      required: true
+  - type: input
+    id: price
+    attributes:
+      label: Price before → after
+      placeholder: $220/yr → $99/yr
+  - type: input
+    id: code
+    attributes:
+      label: Promo code (if the vendor prints one)
+      placeholder: BLACKFRIDAY2026
+  - type: input
+    id: ends
+    attributes:
+      label: End date and timezone
+      placeholder: 1 Dec 2026, 11:59pm ET
+  - type: input
+    id: renewal
+    attributes:
+      label: What it renews at
+      description: This is the field most deal lists omit, and the one readers need most.
+      placeholder: Renews at the regular annual price from year two
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - AI Chat & Assistants
+        - Coding & Agents
+        - Meetings & Automation
+        - Image & Design
+        - Video
+        - Voice & Audio
+        - Writing & Docs
+        - Research & PDF
+        - SEO & Marketing
+        - Hosting & Infra
+        - Security & Compliance
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmations
+      options:
+        - label: I read this on the vendor's own page (not a coupon site or newsletter)
+          required: true
+        - label: I am not the vendor, or if I am, I disclose it below
+          required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else
+      description: Eligibility limits, region locks, coupon caps, whether existing customers qualify.
