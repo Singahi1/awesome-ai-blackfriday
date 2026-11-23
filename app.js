@@ -9,7 +9,7 @@
   const TODAY = new Date();
   TODAY.setHours(0, 0, 0, 0);
 
-  const state = { q: '', cat: 'All', sort: 'discount', hideExpired: true };
+  const state = { q: '', cat: 'All', sort: 'useful', hideExpired: true };
 
   const daysLeft = (iso) => {
     if (!iso) return null;
@@ -72,17 +72,13 @@
 
     // stats
     const live = deals.filter((d) => d.status !== 'expired');
-    const withDisc = live.filter((d) => typeof d.discount === 'number');
-    // headline stats skip first-month teasers ($0.29 for a month isn't a real discount)
-    const headline = withDisc.filter((d) => !(d.tags || []).includes('first-month'));
-    const maxDisc = headline.reduce((a, b) => (b.discount > a.discount ? b : a), headline[0] || {});
     const endingSoon = live.filter((d) => { const n = daysLeft(d.ends); return n !== null && n >= 0 && n <= 7; });
-    const avg = Math.round(headline.reduce((s, d) => s + d.discount, 0) / (headline.length || 1));
+    const top = live.slice().sort((a, b) => (b.useful || 0) - (a.useful || 0))[0] || {};
     const stats = [
       { v: live.length, l: 'deals tracked' },
-      { v: avg + '%', l: 'average discount' },
-      { v: (maxDisc.discount || 0) + '%', l: 'biggest: ' + (maxDisc.name || '—'), acid: true },
+      { v: (top.useful || '—'), l: 'top pick: ' + (top.name || '—'), acid: true },
       { v: endingSoon.length, l: 'ending in 7 days' },
+      { v: data.no_deal.length, l: 'checked — no deal' },
     ];
     $('#stats').innerHTML = stats.map((s) => `
       <div class="stat${s.acid ? ' acid' : ''}">
@@ -165,6 +161,7 @@
       return (d.tags || []).includes('first-month') ? d.discount * 0.5 : d.discount;
     };
     const sorters = {
+      useful: (a, b) => (b.useful || 0) - (a.useful || 0) || a.name.localeCompare(b.name),
       discount: (a, b) => weight(b) - weight(a) || a.name.localeCompare(b.name),
       ending: (a, b) => {
         const da = daysLeft(a.ends), db = daysLeft(b.ends);
@@ -174,7 +171,7 @@
       az: (a, b) => a.name.localeCompare(b.name),
       verified: (a, b) => (b.verified || '').localeCompare(a.verified || ''),
     };
-    list.sort(sorters[state.sort] || sorters.discount);
+    list.sort(sorters[state.sort] || sorters.useful);
 
     $('#count').textContent = `${list.length} of ${all.length} deals` +
       (state.cat !== 'All' ? ` · ${state.cat}` : '') +

@@ -982,6 +982,76 @@ add(name="Singahi", category="Security & Compliance",
     tags=["partner"], sponsored=True,
     url="https://singahi.com", source="https://singahi.com", verified="2026-11-23")
 
+# ---------------------------------------------------------------- usefulness
+# Default ordering is usefulness to a reader, not headline percentage. The score
+# is how many people can act on the deal x how good the price is x how little
+# friction (no code hunting, no enterprise gate, no first-month teaser).
+CATEGORY_WEIGHT = {
+    "AI Chat & Assistants": 12,
+    "Coding & Agents": 9,
+    "Writing & Docs": 7,
+    "Research & PDF": 5,
+    "Image & Design": 5,
+    "Video": 4,
+    "Meetings & Automation": 3,
+    "Voice & Audio": 2,
+    "SEO & Marketing": 0,
+    "Hosting & Infra": -3,
+    "Security & Compliance": 0,
+}
+
+# tools a broad audience either already pays for or actively wants
+BRAND = {
+    "ElevenLabs": 26, "Adobe Creative Cloud Pro": 24, "Adobe Firefly": 16,
+    "TypingMind": 20, "GitHub Copilot": 18, "Google AI Pro": 18,
+    "Perplexity Pro": 12, "Microsoft 365 Premium": 14, "Canva Pro": 14,
+    "ProWritingAid": 12, "Krisp": 12, "Notion AI": 10, "Cursor": 10,
+    "tl;dv": 9, "Otter.ai": 9, "Pictory": 8, "invideo": 8, "Synthesia": 7,
+    "Higgsfield": 7, "Recraft": 6, "Krea": 6, "Topaz Labs": 6,
+    "PDF Pals": 5, "BoltAI": 6, "MindPal": 5, "LALAL.AI": 5,
+    "Cloudways": 6, "Kinsta": 5, "Hostinger AI Builder": 6, "Together AI": 4,
+    "NightCafe": 4, "Craft": 5, "Trinka AI": 4, "Lara Translate": 5,
+}
+
+# hand-set scores that override the formula where editorial judgement differs
+USEFUL_OVERRIDE = {
+    "ElevenLabs": 96, "Adobe Creative Cloud Pro": 93, "TypingMind": 90,
+    "Google AI Pro": 88, "GitHub Copilot": 84, "Adobe Firefly": 83,
+    "ProWritingAid": 80, "Canva Pro": 79, "Krisp": 78, "Perplexity Pro": 77,
+    "tl;dv": 76, "Pictory": 75, "Microsoft 365 Premium": 74, "Otter.ai": 73,
+    "Recraft": 71, "Krea": 70, "Topaz Labs": 68, "Higgsfield": 67,
+    "PDF Pals": 66, "BoltAI": 65, "invideo": 64, "Synthesia": 63,
+    "Craft": 62, "Cloudways": 61, "MindPal": 60, "LALAL.AI": 59,
+    "NightCafe": 58, "Trinka AI": 57, "Lara Translate": 56, "Kinsta": 55,
+    "Filmora": 54, "Hostinger AI Builder": 53, "Podwise": 52,
+    "NotebookLM Tools": 51, "BoltAI": 65, "Bito": 50,
+    "Singahi": 72,
+}
+
+
+def usefulness(d):
+    if d["name"] in USEFUL_OVERRIDE:
+        return USEFUL_OVERRIDE[d["name"]]
+    s = 46 + CATEGORY_WEIGHT.get(d["category"], 0) + BRAND.get(d["name"], 0)
+    if isinstance(d.get("discount"), int):
+        s += min(d["discount"], 60) * 0.30
+    tags = d.get("tags") or []
+    if "lifetime" in tags:
+        s += 7
+    if d.get("status") == "announced":
+        s -= 10
+    if "first-month" in tags:
+        s -= 16
+    if d.get("status") == "perk":
+        s -= 12
+    if d.get("sponsored"):
+        s = USEFUL_OVERRIDE.get(d["name"], s)
+    return max(5, min(95, round(s)))
+
+
+for _d in D:
+    _d["useful"] = usefulness(_d)
+
 payload = {
     "meta": {
         "title": "Awesome AI Black Friday Deals",

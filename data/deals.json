@@ -41,7 +41,8 @@
       "verified": "2026-11-20",
       "renewal": null,
       "ends_note": null,
-      "id": "typingmind"
+      "id": "typingmind",
+      "useful": 90
     },
     {
       "name": "Google AI Pro",
@@ -64,7 +65,8 @@
       "verified": "2026-11-20",
       "code": null,
       "status": "live",
-      "id": "google-ai-pro"
+      "id": "google-ai-pro",
+      "useful": 88
     },
     {
       "name": "Microsoft 365 Premium",
@@ -84,7 +86,8 @@
       "code": null,
       "tags": [],
       "audience": null,
-      "id": "microsoft-365-premium"
+      "id": "microsoft-365-premium",
+      "useful": 74
     },
     {
       "name": "Perplexity Pro",
@@ -106,7 +109,8 @@
       "code": null,
       "renewal": null,
       "audience": null,
-      "id": "perplexity-pro"
+      "id": "perplexity-pro",
+      "useful": 77
     },
     {
       "name": "Grok / X Premium",
@@ -126,7 +130,8 @@
       "tags": [],
       "renewal": null,
       "audience": null,
-      "id": "grok---x-premium"
+      "id": "grok---x-premium",
+      "useful": 73
     },
     {
       "name": "Canva Pro",
@@ -146,7 +151,8 @@
       "code": null,
       "tags": [],
       "status": "live",
-      "id": "canva-pro"
+      "id": "canva-pro",
+      "useful": 79
     },
     {
       "name": "GitHub Copilot",
@@ -168,7 +174,8 @@
       "code": null,
       "audience": null,
       "ends_note": null,
-      "id": "github-copilot"
+      "id": "github-copilot",
+      "useful": 84
     },
     {
       "name": "BoltAI",
@@ -190,7 +197,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "boltai"
+      "id": "boltai",
+      "useful": 65
     },
     {
       "name": "Coderick AI (SiteGround)",
@@ -210,7 +218,8 @@
       "code": null,
       "tags": [],
       "status": "live",
-      "id": "coderick-ai-(siteground)"
+      "id": "coderick-ai-(siteground)",
+      "useful": 70
     },
     {
       "name": "Wasmer Pro",
@@ -230,7 +239,8 @@
       "verified": "2026-11-20",
       "tags": [],
       "status": "live",
-      "id": "wasmer-pro"
+      "id": "wasmer-pro",
+      "useful": 70
     },
     {
       "name": "Meku",
@@ -250,7 +260,8 @@
       "status": "live",
       "audience": null,
       "ends_note": null,
-      "id": "meku"
+      "id": "meku",
+      "useful": 64
     },
     {
       "name": "PageAI",
@@ -268,7 +279,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "pageai"
+      "id": "pageai",
+      "useful": 66
     },
     {
       "name": "DocuWriter.ai",
@@ -286,7 +298,8 @@
       "status": "live",
       "audience": null,
       "ends_note": null,
-      "id": "docuwriterai"
+      "id": "docuwriterai",
+      "useful": 70
     },
     {
       "name": "Thunkable",
@@ -304,7 +317,8 @@
       "tags": [],
       "renewal": null,
       "status": "live",
-      "id": "thunkable"
+      "id": "thunkable",
+      "useful": 70
     },
     {
       "name": "TeleportHQ",
@@ -324,7 +338,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "teleporthq"
+      "id": "teleporthq",
+      "useful": 62
     },
     {
       "name": "MindPal",
@@ -344,7 +359,8 @@
       "tags": [],
       "audience": null,
       "ends_note": null,
-      "id": "mindpal"
+      "id": "mindpal",
+      "useful": 60
     },
     {
       "name": "Pabbly Plus",
@@ -364,7 +380,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "pabbly-plus"
+      "id": "pabbly-plus",
+      "useful": 68
     },
     {
       "name": "Adobe Creative Cloud Pro",
@@ -384,7 +401,8 @@
       "code": null,
       "tags": [],
       "status": "live",
-      "id": "adobe-creative-cloud-pro"
+      "id": "adobe-creative-cloud-pro",
+      "useful": 93
     },
     {
       "name": "Adobe Firefly",
@@ -404,7 +422,8 @@
       "tags": [],
       "status": "live",
       "ends_note": null,
-      "id": "adobe-firefly"
+      "id": "adobe-firefly",
+      "useful": 83
     },
     {
       "name": "Higgsfield",
@@ -424,7 +443,8 @@
       "code": null,
       "status": "live",
       "audience": null,
-      "id": "higgsfield"
+      "id": "higgsfield",
+      "useful": 67
     },
     {
       "name": "Krea",
@@ -444,7 +464,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "krea"
+      "id": "krea",
+      "useful": 70
     },
     {
       "name": "Recraft",
@@ -464,7 +485,8 @@
       "renewal": null,
       "status": "live",
       "ends_note": null,
-      "id": "recraft"
+      "id": "recraft",
+      "useful": 71
     },
     {
       "name": "Kavel",
@@ -484,7 +506,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "kavel"
+      "id": "kavel",
+      "useful": 51
     },
     {
       "name": "OpenArt",
@@ -504,7 +527,8 @@
       "tags": [],
       "renewal": null,
       "status": "live",
-      "id": "openart"
+      "id": "openart",
+      "useful": 63
     },
     {
       "name": "Topaz Labs",
@@ -526,7 +550,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "topaz-labs"
+      "id": "topaz-labs",
+      "useful": 68
     },
     {
       "name": "Luminar (Skylum)",
@@ -548,7 +573,8 @@
       "code": null,
       "renewal": null,
       "status": "live",
-      "id": "luminar-(skylum)"
+      "id": "luminar-(skylum)",
+      "useful": 76
     },
     {
       "name": "ON1 Photo RAW 2027",
@@ -570,7 +596,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "on1-photo-raw-2027"
+      "id": "on1-photo-raw-2027",
+      "useful": 70
     },
     {
       "name": "Dreamina",
@@ -592,7 +619,8 @@
       "code": null,
       "status": "live",
       "audience": null,
-      "id": "dreamina"
+      "id": "dreamina",
+      "useful": 53
     },
     {
       "name": "invideo",
@@ -612,7 +640,8 @@
       "tags": [],
       "status": "live",
       "audience": null,
-      "id": "invideo"
+      "id": "invideo",
+      "useful": 64
     },
     {
       "name": "Synthesia",
@@ -630,7 +659,8 @@
       "tags": [],
       "renewal": null,
       "status": "live",
-      "id": "synthesia"
+      "id": "synthesia",
+      "useful": 63
     },
     {
       "name": "Colossyan",
@@ -650,7 +680,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "colossyan"
+      "id": "colossyan",
+      "useful": 62
     },
     {
       "name": "Framov",
@@ -670,7 +701,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "framov"
+      "id": "framov",
+      "useful": 65
     },
     {
       "name": "Filmora",
@@ -690,7 +722,8 @@
       "status": "live",
       "audience": null,
       "ends_note": null,
-      "id": "filmora"
+      "id": "filmora",
+      "useful": 54
     },
     {
       "name": "Kling",
@@ -710,7 +743,8 @@
       "tags": [],
       "status": "live",
       "audience": null,
-      "id": "kling"
+      "id": "kling",
+      "useful": 65
     },
     {
       "name": "Fliki",
@@ -728,7 +762,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "fliki"
+      "id": "fliki",
+      "useful": 65
     },
     {
       "name": "Mubert",
@@ -746,7 +781,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "mubert"
+      "id": "mubert",
+      "useful": 63
     },
     {
       "name": "ElevenLabs",
@@ -768,7 +804,8 @@
       "verified": "2026-11-21",
       "code": null,
       "status": "live",
-      "id": "elevenlabs"
+      "id": "elevenlabs",
+      "useful": 96
     },
     {
       "name": "Krisp",
@@ -786,7 +823,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "krisp"
+      "id": "krisp",
+      "useful": 78
     },
     {
       "name": "Leelo",
@@ -808,7 +846,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "leelo"
+      "id": "leelo",
+      "useful": 62
     },
     {
       "name": "Podwise",
@@ -826,7 +865,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "podwise"
+      "id": "podwise",
+      "useful": 52
     },
     {
       "name": "ProWritingAid",
@@ -848,7 +888,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "prowritingaid"
+      "id": "prowritingaid",
+      "useful": 80
     },
     {
       "name": "Craft",
@@ -866,7 +907,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "craft"
+      "id": "craft",
+      "useful": 62
     },
     {
       "name": "dochost",
@@ -884,7 +926,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "dochost"
+      "id": "dochost",
+      "useful": 62
     },
     {
       "name": "RewriteBar",
@@ -906,7 +949,8 @@
       "status": "live",
       "audience": null,
       "ends_note": null,
-      "id": "rewritebar"
+      "id": "rewritebar",
+      "useful": 75
     },
     {
       "name": "Refine",
@@ -929,7 +973,8 @@
       "status": "live",
       "audience": null,
       "ends_note": null,
-      "id": "refine"
+      "id": "refine",
+      "useful": 70
     },
     {
       "name": "DuoTyping",
@@ -949,7 +994,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "duotyping"
+      "id": "duotyping",
+      "useful": 68
     },
     {
       "name": "SeoWriting.AI",
@@ -969,7 +1015,8 @@
       "renewal": null,
       "status": "live",
       "ends_note": null,
-      "id": "seowritingai"
+      "id": "seowritingai",
+      "useful": 58
     },
     {
       "name": "Scalenut",
@@ -989,7 +1036,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "scalenut"
+      "id": "scalenut",
+      "useful": 64
     },
     {
       "name": "SE Ranking",
@@ -1007,7 +1055,8 @@
       "renewal": null,
       "status": "live",
       "ends_note": null,
-      "id": "se-ranking"
+      "id": "se-ranking",
+      "useful": 52
     },
     {
       "name": "PDF Pals",
@@ -1030,7 +1079,8 @@
       "status": "live",
       "audience": null,
       "ends_note": null,
-      "id": "pdf-pals"
+      "id": "pdf-pals",
+      "useful": 66
     },
     {
       "name": "NotebookLM Tools",
@@ -1048,7 +1098,8 @@
       "status": "live",
       "audience": null,
       "ends_note": null,
-      "id": "notebooklm-tools"
+      "id": "notebooklm-tools",
+      "useful": 51
     },
     {
       "name": "EvidenceLens",
@@ -1068,7 +1119,8 @@
       "status": "live",
       "audience": null,
       "ends_note": null,
-      "id": "evidencelens"
+      "id": "evidencelens",
+      "useful": 70
     },
     {
       "name": "AI Toolbox",
@@ -1088,7 +1140,8 @@
       "status": "live",
       "audience": null,
       "ends_note": null,
-      "id": "ai-toolbox"
+      "id": "ai-toolbox",
+      "useful": 73
     },
     {
       "name": "Carry",
@@ -1110,7 +1163,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "carry"
+      "id": "carry",
+      "useful": 66
     },
     {
       "name": "Cloudways",
@@ -1128,7 +1182,8 @@
       "tags": [],
       "renewal": null,
       "status": "live",
-      "id": "cloudways"
+      "id": "cloudways",
+      "useful": 61
     },
     {
       "name": "Kinsta",
@@ -1146,7 +1201,8 @@
       "renewal": null,
       "status": "live",
       "ends_note": null,
-      "id": "kinsta"
+      "id": "kinsta",
+      "useful": 55
     },
     {
       "name": "Hostinger AI Builder",
@@ -1164,7 +1220,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "hostinger-ai-builder"
+      "id": "hostinger-ai-builder",
+      "useful": 53
     },
     {
       "name": "Static.run",
@@ -1182,7 +1239,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "staticrun"
+      "id": "staticrun",
+      "useful": 52
     },
     {
       "name": "tl;dv",
@@ -1202,7 +1260,8 @@
       "verified": "2026-11-21",
       "tags": [],
       "status": "live",
-      "id": "tl;dv"
+      "id": "tl;dv",
+      "useful": 76
     },
     {
       "name": "Otter.ai",
@@ -1224,7 +1283,8 @@
       "code": null,
       "status": "live",
       "ends_note": null,
-      "id": "otterai"
+      "id": "otterai",
+      "useful": 73
     },
     {
       "name": "MeetGeek",
@@ -1242,7 +1302,8 @@
       "tags": [],
       "renewal": null,
       "status": "live",
-      "id": "meetgeek"
+      "id": "meetgeek",
+      "useful": 58
     },
     {
       "name": "Noota",
@@ -1260,7 +1321,8 @@
       "renewal": null,
       "status": "live",
       "ends_note": null,
-      "id": "noota"
+      "id": "noota",
+      "useful": 61
     },
     {
       "name": "Sembly AI",
@@ -1278,7 +1340,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "sembly-ai"
+      "id": "sembly-ai",
+      "useful": 55
     },
     {
       "name": "Voibe",
@@ -1296,7 +1359,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "voibe"
+      "id": "voibe",
+      "useful": 56
     },
     {
       "name": "MeetingDebrief",
@@ -1316,7 +1380,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "meetingdebrief"
+      "id": "meetingdebrief",
+      "useful": 66
     },
     {
       "name": "Landbot",
@@ -1334,7 +1399,8 @@
       "tags": [],
       "renewal": null,
       "status": "live",
-      "id": "landbot"
+      "id": "landbot",
+      "useful": 64
     },
     {
       "name": "Tidio",
@@ -1352,7 +1418,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "tidio"
+      "id": "tidio",
+      "useful": 55
     },
     {
       "name": "Botsify",
@@ -1374,7 +1441,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "botsify"
+      "id": "botsify",
+      "useful": 56
     },
     {
       "name": "HelpJet",
@@ -1396,7 +1464,8 @@
       "code": null,
       "renewal": null,
       "audience": null,
-      "id": "helpjet"
+      "id": "helpjet",
+      "useful": 37
     },
     {
       "name": "TinyCommand",
@@ -1414,7 +1483,8 @@
       "tags": [],
       "status": "live",
       "audience": null,
-      "id": "tinycommand"
+      "id": "tinycommand",
+      "useful": 73
     },
     {
       "name": "Perch",
@@ -1434,7 +1504,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "perch"
+      "id": "perch",
+      "useful": 74
     },
     {
       "name": "DevIntern",
@@ -1452,7 +1523,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "devintern"
+      "id": "devintern",
+      "useful": 67
     },
     {
       "name": "Slashspace",
@@ -1470,7 +1542,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "slashspace"
+      "id": "slashspace",
+      "useful": 70
     },
     {
       "name": "Enconvo",
@@ -1490,7 +1563,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "enconvo"
+      "id": "enconvo",
+      "useful": 71
     },
     {
       "name": "Layerwise",
@@ -1508,7 +1582,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "layerwise"
+      "id": "layerwise",
+      "useful": 61
     },
     {
       "name": "Aikeedo",
@@ -1526,7 +1601,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "aikeedo"
+      "id": "aikeedo",
+      "useful": 70
     },
     {
       "name": "Vinaa",
@@ -1546,7 +1622,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "vinaa"
+      "id": "vinaa",
+      "useful": 76
     },
     {
       "name": "Fluent",
@@ -1568,7 +1645,8 @@
       "status": "live",
       "audience": null,
       "ends_note": null,
-      "id": "fluent"
+      "id": "fluent",
+      "useful": 70
     },
     {
       "name": "Kveeky",
@@ -1586,7 +1664,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "kveeky"
+      "id": "kveeky",
+      "useful": 66
     },
     {
       "name": "Flowith",
@@ -1606,7 +1685,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "flowith"
+      "id": "flowith",
+      "useful": 67
     },
     {
       "name": "Lara Translate",
@@ -1624,7 +1704,8 @@
       "tags": [],
       "renewal": null,
       "status": "live",
-      "id": "lara-translate"
+      "id": "lara-translate",
+      "useful": 56
     },
     {
       "name": "Trinka AI",
@@ -1642,7 +1723,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "trinka-ai"
+      "id": "trinka-ai",
+      "useful": 57
     },
     {
       "name": "YouMind",
@@ -1660,7 +1742,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "youmind"
+      "id": "youmind",
+      "useful": 68
     },
     {
       "name": "Upplai",
@@ -1680,7 +1763,8 @@
       "verified": "2026-11-21",
       "renewal": null,
       "audience": null,
-      "id": "upplai"
+      "id": "upplai",
+      "useful": 49
     },
     {
       "name": "NightCafe",
@@ -1700,7 +1784,8 @@
       "tags": [],
       "status": "live",
       "audience": null,
-      "id": "nightcafe"
+      "id": "nightcafe",
+      "useful": 58
     },
     {
       "name": "Magnific (ex-Freepik)",
@@ -1720,7 +1805,8 @@
       "renewal": null,
       "status": "live",
       "ends_note": null,
-      "id": "magnific-(ex-freepik)"
+      "id": "magnific-(ex-freepik)",
+      "useful": 59
     },
     {
       "name": "Dzine",
@@ -1738,7 +1824,8 @@
       "tags": [],
       "renewal": null,
       "status": "live",
-      "id": "dzine"
+      "id": "dzine",
+      "useful": 63
     },
     {
       "name": "Pictory",
@@ -1758,7 +1845,8 @@
       "tags": [],
       "status": "live",
       "audience": null,
-      "id": "pictory"
+      "id": "pictory",
+      "useful": 75
     },
     {
       "name": "quso.ai",
@@ -1778,7 +1866,8 @@
       "code": null,
       "status": "live",
       "ends_note": null,
-      "id": "qusoai"
+      "id": "qusoai",
+      "useful": 65
     },
     {
       "name": "BlitzReels",
@@ -1796,7 +1885,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "blitzreels"
+      "id": "blitzreels",
+      "useful": 68
     },
     {
       "name": "Vid.AI",
@@ -1814,7 +1904,8 @@
       "tags": [],
       "renewal": null,
       "status": "live",
-      "id": "vidai"
+      "id": "vidai",
+      "useful": 68
     },
     {
       "name": "ClipUGC",
@@ -1832,7 +1923,8 @@
       "status": "live",
       "audience": null,
       "ends_note": null,
-      "id": "clipugc"
+      "id": "clipugc",
+      "useful": 65
     },
     {
       "name": "Vadoo AI",
@@ -1850,7 +1942,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "vadoo-ai"
+      "id": "vadoo-ai",
+      "useful": 59
     },
     {
       "name": "LALAL.AI",
@@ -1868,7 +1961,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "lalalai"
+      "id": "lalalai",
+      "useful": 59
     },
     {
       "name": "Narration Box",
@@ -1886,7 +1980,8 @@
       "status": "live",
       "audience": null,
       "ends_note": null,
-      "id": "narration-box"
+      "id": "narration-box",
+      "useful": 64
     },
     {
       "name": "Verbatik AI",
@@ -1904,7 +1999,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "verbatik-ai"
+      "id": "verbatik-ai",
+      "useful": 57
     },
     {
       "name": "GetGenie",
@@ -1922,7 +2018,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "getgenie"
+      "id": "getgenie",
+      "useful": 61
     },
     {
       "name": "TrueRanker",
@@ -1942,7 +2039,8 @@
       "code": null,
       "renewal": null,
       "audience": null,
-      "id": "trueranker"
+      "id": "trueranker",
+      "useful": 51
     },
     {
       "name": "Predis.ai",
@@ -1960,7 +2058,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "predisai"
+      "id": "predisai",
+      "useful": 61
     },
     {
       "name": "PostNitro",
@@ -1980,7 +2079,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "postnitro"
+      "id": "postnitro",
+      "useful": 58
     },
     {
       "name": "Reply.io",
@@ -1998,7 +2098,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "replyio"
+      "id": "replyio",
+      "useful": 58
     },
     {
       "name": "Ocoya",
@@ -2016,7 +2117,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "ocoya"
+      "id": "ocoya",
+      "useful": 55
     },
     {
       "name": "ContentStudio",
@@ -2036,7 +2138,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "contentstudio"
+      "id": "contentstudio",
+      "useful": 61
     },
     {
       "name": "Supergrow",
@@ -2054,7 +2157,8 @@
       "tags": [],
       "renewal": null,
       "status": "live",
-      "id": "supergrow"
+      "id": "supergrow",
+      "useful": 61
     },
     {
       "name": "Tagshop AI",
@@ -2072,7 +2176,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "tagshop-ai"
+      "id": "tagshop-ai",
+      "useful": 61
     },
     {
       "name": "Decktopus",
@@ -2092,7 +2197,8 @@
       "tags": [],
       "status": "live",
       "audience": null,
-      "id": "decktopus"
+      "id": "decktopus",
+      "useful": 64
     },
     {
       "name": "EngageBay",
@@ -2110,7 +2216,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "engagebay"
+      "id": "engagebay",
+      "useful": 58
     },
     {
       "name": "Groupboss",
@@ -2128,7 +2235,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "groupboss"
+      "id": "groupboss",
+      "useful": 58
     },
     {
       "name": "Two Minute Reports",
@@ -2146,7 +2254,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "two-minute-reports"
+      "id": "two-minute-reports",
+      "useful": 61
     },
     {
       "name": "FeedBoss",
@@ -2166,7 +2275,8 @@
       "source": "https://wurd.ai/blog/ai-black-friday-deals",
       "verified": "2026-11-21",
       "renewal": null,
-      "id": "feedboss"
+      "id": "feedboss",
+      "useful": 51
     },
     {
       "name": "Onethread",
@@ -2186,7 +2296,8 @@
       "code": null,
       "renewal": null,
       "audience": null,
-      "id": "onethread"
+      "id": "onethread",
+      "useful": 45
     },
     {
       "name": "Salesmate",
@@ -2206,7 +2317,8 @@
       "verified": "2026-11-21",
       "renewal": null,
       "audience": null,
-      "id": "salesmate"
+      "id": "salesmate",
+      "useful": 39
     },
     {
       "name": "Agency Handy",
@@ -2226,7 +2338,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "agency-handy"
+      "id": "agency-handy",
+      "useful": 64
     },
     {
       "name": "Leadpages",
@@ -2244,7 +2357,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "leadpages"
+      "id": "leadpages",
+      "useful": 61
     },
     {
       "name": "Together AI",
@@ -2264,7 +2378,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "together-ai"
+      "id": "together-ai",
+      "useful": 52
     },
     {
       "name": "Novita AI",
@@ -2284,7 +2399,8 @@
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "novita-ai"
+      "id": "novita-ai",
+      "useful": 58
     },
     {
       "name": "Singahi",
@@ -2307,7 +2423,8 @@
       "verified": "2026-11-23",
       "code": null,
       "renewal": null,
-      "id": "singahi"
+      "id": "singahi",
+      "useful": 72
     }
   ],
   "no_deal": [

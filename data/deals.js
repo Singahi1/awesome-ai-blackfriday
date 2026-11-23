@@ -42,7 +42,8 @@ window.DEALS = {
       "verified": "2026-11-20",
       "renewal": null,
       "ends_note": null,
-      "id": "typingmind"
+      "id": "typingmind",
+      "useful": 90
     },
     {
       "name": "Google AI Pro",
@@ -65,7 +66,8 @@ window.DEALS = {
       "verified": "2026-11-20",
       "code": null,
       "status": "live",
-      "id": "google-ai-pro"
+      "id": "google-ai-pro",
+      "useful": 88
     },
     {
       "name": "Microsoft 365 Premium",
@@ -85,7 +87,8 @@ window.DEALS = {
       "code": null,
       "tags": [],
       "audience": null,
-      "id": "microsoft-365-premium"
+      "id": "microsoft-365-premium",
+      "useful": 74
     },
     {
       "name": "Perplexity Pro",
@@ -107,7 +110,8 @@ window.DEALS = {
       "code": null,
       "renewal": null,
       "audience": null,
-      "id": "perplexity-pro"
+      "id": "perplexity-pro",
+      "useful": 77
     },
     {
       "name": "Grok / X Premium",
@@ -127,7 +131,8 @@ window.DEALS = {
       "tags": [],
       "renewal": null,
       "audience": null,
-      "id": "grok---x-premium"
+      "id": "grok---x-premium",
+      "useful": 73
     },
     {
       "name": "Canva Pro",
@@ -147,7 +152,8 @@ window.DEALS = {
       "code": null,
       "tags": [],
       "status": "live",
-      "id": "canva-pro"
+      "id": "canva-pro",
+      "useful": 79
     },
     {
       "name": "GitHub Copilot",
@@ -169,7 +175,8 @@ window.DEALS = {
       "code": null,
       "audience": null,
       "ends_note": null,
-      "id": "github-copilot"
+      "id": "github-copilot",
+      "useful": 84
     },
     {
       "name": "BoltAI",
@@ -191,7 +198,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "boltai"
+      "id": "boltai",
+      "useful": 65
     },
     {
       "name": "Coderick AI (SiteGround)",
@@ -211,7 +219,8 @@ window.DEALS = {
       "code": null,
       "tags": [],
       "status": "live",
-      "id": "coderick-ai-(siteground)"
+      "id": "coderick-ai-(siteground)",
+      "useful": 70
     },
     {
       "name": "Wasmer Pro",
@@ -231,7 +240,8 @@ window.DEALS = {
       "verified": "2026-11-20",
       "tags": [],
       "status": "live",
-      "id": "wasmer-pro"
+      "id": "wasmer-pro",
+      "useful": 70
     },
     {
       "name": "Meku",
@@ -251,7 +261,8 @@ window.DEALS = {
       "status": "live",
       "audience": null,
       "ends_note": null,
-      "id": "meku"
+      "id": "meku",
+      "useful": 64
     },
     {
       "name": "PageAI",
@@ -269,7 +280,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "pageai"
+      "id": "pageai",
+      "useful": 66
     },
     {
       "name": "DocuWriter.ai",
@@ -287,7 +299,8 @@ window.DEALS = {
       "status": "live",
       "audience": null,
       "ends_note": null,
-      "id": "docuwriterai"
+      "id": "docuwriterai",
+      "useful": 70
     },
     {
       "name": "Thunkable",
@@ -305,7 +318,8 @@ window.DEALS = {
       "tags": [],
       "renewal": null,
       "status": "live",
-      "id": "thunkable"
+      "id": "thunkable",
+      "useful": 70
     },
     {
       "name": "TeleportHQ",
@@ -325,7 +339,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "teleporthq"
+      "id": "teleporthq",
+      "useful": 62
     },
     {
       "name": "MindPal",
@@ -345,7 +360,8 @@ window.DEALS = {
       "tags": [],
       "audience": null,
       "ends_note": null,
-      "id": "mindpal"
+      "id": "mindpal",
+      "useful": 60
     },
     {
       "name": "Pabbly Plus",
@@ -365,7 +381,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "pabbly-plus"
+      "id": "pabbly-plus",
+      "useful": 68
     },
     {
       "name": "Adobe Creative Cloud Pro",
@@ -385,7 +402,8 @@ window.DEALS = {
       "code": null,
       "tags": [],
       "status": "live",
-      "id": "adobe-creative-cloud-pro"
+      "id": "adobe-creative-cloud-pro",
+      "useful": 93
     },
     {
       "name": "Adobe Firefly",
@@ -405,7 +423,8 @@ window.DEALS = {
       "tags": [],
       "status": "live",
       "ends_note": null,
-      "id": "adobe-firefly"
+      "id": "adobe-firefly",
+      "useful": 83
     },
     {
       "name": "Higgsfield",
@@ -425,7 +444,8 @@ window.DEALS = {
       "code": null,
       "status": "live",
       "audience": null,
-      "id": "higgsfield"
+      "id": "higgsfield",
+      "useful": 67
     },
     {
       "name": "Krea",
@@ -445,7 +465,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "krea"
+      "id": "krea",
+      "useful": 70
     },
     {
       "name": "Recraft",
@@ -465,7 +486,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "ends_note": null,
-      "id": "recraft"
+      "id": "recraft",
+      "useful": 71
     },
     {
       "name": "Kavel",
@@ -485,7 +507,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "kavel"
+      "id": "kavel",
+      "useful": 51
     },
     {
       "name": "OpenArt",
@@ -505,7 +528,8 @@ window.DEALS = {
       "tags": [],
       "renewal": null,
       "status": "live",
-      "id": "openart"
+      "id": "openart",
+      "useful": 63
     },
     {
       "name": "Topaz Labs",
@@ -527,7 +551,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "topaz-labs"
+      "id": "topaz-labs",
+      "useful": 68
     },
     {
       "name": "Luminar (Skylum)",
@@ -549,7 +574,8 @@ window.DEALS = {
       "code": null,
       "renewal": null,
       "status": "live",
-      "id": "luminar-(skylum)"
+      "id": "luminar-(skylum)",
+      "useful": 76
     },
     {
       "name": "ON1 Photo RAW 2027",
@@ -571,7 +597,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "on1-photo-raw-2027"
+      "id": "on1-photo-raw-2027",
+      "useful": 70
     },
     {
       "name": "Dreamina",
@@ -593,7 +620,8 @@ window.DEALS = {
       "code": null,
       "status": "live",
       "audience": null,
-      "id": "dreamina"
+      "id": "dreamina",
+      "useful": 53
     },
     {
       "name": "invideo",
@@ -613,7 +641,8 @@ window.DEALS = {
       "tags": [],
       "status": "live",
       "audience": null,
-      "id": "invideo"
+      "id": "invideo",
+      "useful": 64
     },
     {
       "name": "Synthesia",
@@ -631,7 +660,8 @@ window.DEALS = {
       "tags": [],
       "renewal": null,
       "status": "live",
-      "id": "synthesia"
+      "id": "synthesia",
+      "useful": 63
     },
     {
       "name": "Colossyan",
@@ -651,7 +681,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "colossyan"
+      "id": "colossyan",
+      "useful": 62
     },
     {
       "name": "Framov",
@@ -671,7 +702,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "framov"
+      "id": "framov",
+      "useful": 65
     },
     {
       "name": "Filmora",
@@ -691,7 +723,8 @@ window.DEALS = {
       "status": "live",
       "audience": null,
       "ends_note": null,
-      "id": "filmora"
+      "id": "filmora",
+      "useful": 54
     },
     {
       "name": "Kling",
@@ -711,7 +744,8 @@ window.DEALS = {
       "tags": [],
       "status": "live",
       "audience": null,
-      "id": "kling"
+      "id": "kling",
+      "useful": 65
     },
     {
       "name": "Fliki",
@@ -729,7 +763,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "fliki"
+      "id": "fliki",
+      "useful": 65
     },
     {
       "name": "Mubert",
@@ -747,7 +782,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "mubert"
+      "id": "mubert",
+      "useful": 63
     },
     {
       "name": "ElevenLabs",
@@ -769,7 +805,8 @@ window.DEALS = {
       "verified": "2026-11-21",
       "code": null,
       "status": "live",
-      "id": "elevenlabs"
+      "id": "elevenlabs",
+      "useful": 96
     },
     {
       "name": "Krisp",
@@ -787,7 +824,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "krisp"
+      "id": "krisp",
+      "useful": 78
     },
     {
       "name": "Leelo",
@@ -809,7 +847,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "leelo"
+      "id": "leelo",
+      "useful": 62
     },
     {
       "name": "Podwise",
@@ -827,7 +866,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "podwise"
+      "id": "podwise",
+      "useful": 52
     },
     {
       "name": "ProWritingAid",
@@ -849,7 +889,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "prowritingaid"
+      "id": "prowritingaid",
+      "useful": 80
     },
     {
       "name": "Craft",
@@ -867,7 +908,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "craft"
+      "id": "craft",
+      "useful": 62
     },
     {
       "name": "dochost",
@@ -885,7 +927,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "dochost"
+      "id": "dochost",
+      "useful": 62
     },
     {
       "name": "RewriteBar",
@@ -907,7 +950,8 @@ window.DEALS = {
       "status": "live",
       "audience": null,
       "ends_note": null,
-      "id": "rewritebar"
+      "id": "rewritebar",
+      "useful": 75
     },
     {
       "name": "Refine",
@@ -930,7 +974,8 @@ window.DEALS = {
       "status": "live",
       "audience": null,
       "ends_note": null,
-      "id": "refine"
+      "id": "refine",
+      "useful": 70
     },
     {
       "name": "DuoTyping",
@@ -950,7 +995,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "duotyping"
+      "id": "duotyping",
+      "useful": 68
     },
     {
       "name": "SeoWriting.AI",
@@ -970,7 +1016,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "ends_note": null,
-      "id": "seowritingai"
+      "id": "seowritingai",
+      "useful": 58
     },
     {
       "name": "Scalenut",
@@ -990,7 +1037,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "scalenut"
+      "id": "scalenut",
+      "useful": 64
     },
     {
       "name": "SE Ranking",
@@ -1008,7 +1056,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "ends_note": null,
-      "id": "se-ranking"
+      "id": "se-ranking",
+      "useful": 52
     },
     {
       "name": "PDF Pals",
@@ -1031,7 +1080,8 @@ window.DEALS = {
       "status": "live",
       "audience": null,
       "ends_note": null,
-      "id": "pdf-pals"
+      "id": "pdf-pals",
+      "useful": 66
     },
     {
       "name": "NotebookLM Tools",
@@ -1049,7 +1099,8 @@ window.DEALS = {
       "status": "live",
       "audience": null,
       "ends_note": null,
-      "id": "notebooklm-tools"
+      "id": "notebooklm-tools",
+      "useful": 51
     },
     {
       "name": "EvidenceLens",
@@ -1069,7 +1120,8 @@ window.DEALS = {
       "status": "live",
       "audience": null,
       "ends_note": null,
-      "id": "evidencelens"
+      "id": "evidencelens",
+      "useful": 70
     },
     {
       "name": "AI Toolbox",
@@ -1089,7 +1141,8 @@ window.DEALS = {
       "status": "live",
       "audience": null,
       "ends_note": null,
-      "id": "ai-toolbox"
+      "id": "ai-toolbox",
+      "useful": 73
     },
     {
       "name": "Carry",
@@ -1111,7 +1164,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "carry"
+      "id": "carry",
+      "useful": 66
     },
     {
       "name": "Cloudways",
@@ -1129,7 +1183,8 @@ window.DEALS = {
       "tags": [],
       "renewal": null,
       "status": "live",
-      "id": "cloudways"
+      "id": "cloudways",
+      "useful": 61
     },
     {
       "name": "Kinsta",
@@ -1147,7 +1202,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "ends_note": null,
-      "id": "kinsta"
+      "id": "kinsta",
+      "useful": 55
     },
     {
       "name": "Hostinger AI Builder",
@@ -1165,7 +1221,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "hostinger-ai-builder"
+      "id": "hostinger-ai-builder",
+      "useful": 53
     },
     {
       "name": "Static.run",
@@ -1183,7 +1240,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "staticrun"
+      "id": "staticrun",
+      "useful": 52
     },
     {
       "name": "tl;dv",
@@ -1203,7 +1261,8 @@ window.DEALS = {
       "verified": "2026-11-21",
       "tags": [],
       "status": "live",
-      "id": "tl;dv"
+      "id": "tl;dv",
+      "useful": 76
     },
     {
       "name": "Otter.ai",
@@ -1225,7 +1284,8 @@ window.DEALS = {
       "code": null,
       "status": "live",
       "ends_note": null,
-      "id": "otterai"
+      "id": "otterai",
+      "useful": 73
     },
     {
       "name": "MeetGeek",
@@ -1243,7 +1303,8 @@ window.DEALS = {
       "tags": [],
       "renewal": null,
       "status": "live",
-      "id": "meetgeek"
+      "id": "meetgeek",
+      "useful": 58
     },
     {
       "name": "Noota",
@@ -1261,7 +1322,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "ends_note": null,
-      "id": "noota"
+      "id": "noota",
+      "useful": 61
     },
     {
       "name": "Sembly AI",
@@ -1279,7 +1341,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "sembly-ai"
+      "id": "sembly-ai",
+      "useful": 55
     },
     {
       "name": "Voibe",
@@ -1297,7 +1360,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "voibe"
+      "id": "voibe",
+      "useful": 56
     },
     {
       "name": "MeetingDebrief",
@@ -1317,7 +1381,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "meetingdebrief"
+      "id": "meetingdebrief",
+      "useful": 66
     },
     {
       "name": "Landbot",
@@ -1335,7 +1400,8 @@ window.DEALS = {
       "tags": [],
       "renewal": null,
       "status": "live",
-      "id": "landbot"
+      "id": "landbot",
+      "useful": 64
     },
     {
       "name": "Tidio",
@@ -1353,7 +1419,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "tidio"
+      "id": "tidio",
+      "useful": 55
     },
     {
       "name": "Botsify",
@@ -1375,7 +1442,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "botsify"
+      "id": "botsify",
+      "useful": 56
     },
     {
       "name": "HelpJet",
@@ -1397,7 +1465,8 @@ window.DEALS = {
       "code": null,
       "renewal": null,
       "audience": null,
-      "id": "helpjet"
+      "id": "helpjet",
+      "useful": 37
     },
     {
       "name": "TinyCommand",
@@ -1415,7 +1484,8 @@ window.DEALS = {
       "tags": [],
       "status": "live",
       "audience": null,
-      "id": "tinycommand"
+      "id": "tinycommand",
+      "useful": 73
     },
     {
       "name": "Perch",
@@ -1435,7 +1505,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "perch"
+      "id": "perch",
+      "useful": 74
     },
     {
       "name": "DevIntern",
@@ -1453,7 +1524,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "devintern"
+      "id": "devintern",
+      "useful": 67
     },
     {
       "name": "Slashspace",
@@ -1471,7 +1543,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "slashspace"
+      "id": "slashspace",
+      "useful": 70
     },
     {
       "name": "Enconvo",
@@ -1491,7 +1564,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "enconvo"
+      "id": "enconvo",
+      "useful": 71
     },
     {
       "name": "Layerwise",
@@ -1509,7 +1583,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "layerwise"
+      "id": "layerwise",
+      "useful": 61
     },
     {
       "name": "Aikeedo",
@@ -1527,7 +1602,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "aikeedo"
+      "id": "aikeedo",
+      "useful": 70
     },
     {
       "name": "Vinaa",
@@ -1547,7 +1623,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "vinaa"
+      "id": "vinaa",
+      "useful": 76
     },
     {
       "name": "Fluent",
@@ -1569,7 +1646,8 @@ window.DEALS = {
       "status": "live",
       "audience": null,
       "ends_note": null,
-      "id": "fluent"
+      "id": "fluent",
+      "useful": 70
     },
     {
       "name": "Kveeky",
@@ -1587,7 +1665,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "kveeky"
+      "id": "kveeky",
+      "useful": 66
     },
     {
       "name": "Flowith",
@@ -1607,7 +1686,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "flowith"
+      "id": "flowith",
+      "useful": 67
     },
     {
       "name": "Lara Translate",
@@ -1625,7 +1705,8 @@ window.DEALS = {
       "tags": [],
       "renewal": null,
       "status": "live",
-      "id": "lara-translate"
+      "id": "lara-translate",
+      "useful": 56
     },
     {
       "name": "Trinka AI",
@@ -1643,7 +1724,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "trinka-ai"
+      "id": "trinka-ai",
+      "useful": 57
     },
     {
       "name": "YouMind",
@@ -1661,7 +1743,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "youmind"
+      "id": "youmind",
+      "useful": 68
     },
     {
       "name": "Upplai",
@@ -1681,7 +1764,8 @@ window.DEALS = {
       "verified": "2026-11-21",
       "renewal": null,
       "audience": null,
-      "id": "upplai"
+      "id": "upplai",
+      "useful": 49
     },
     {
       "name": "NightCafe",
@@ -1701,7 +1785,8 @@ window.DEALS = {
       "tags": [],
       "status": "live",
       "audience": null,
-      "id": "nightcafe"
+      "id": "nightcafe",
+      "useful": 58
     },
     {
       "name": "Magnific (ex-Freepik)",
@@ -1721,7 +1806,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "ends_note": null,
-      "id": "magnific-(ex-freepik)"
+      "id": "magnific-(ex-freepik)",
+      "useful": 59
     },
     {
       "name": "Dzine",
@@ -1739,7 +1825,8 @@ window.DEALS = {
       "tags": [],
       "renewal": null,
       "status": "live",
-      "id": "dzine"
+      "id": "dzine",
+      "useful": 63
     },
     {
       "name": "Pictory",
@@ -1759,7 +1846,8 @@ window.DEALS = {
       "tags": [],
       "status": "live",
       "audience": null,
-      "id": "pictory"
+      "id": "pictory",
+      "useful": 75
     },
     {
       "name": "quso.ai",
@@ -1779,7 +1867,8 @@ window.DEALS = {
       "code": null,
       "status": "live",
       "ends_note": null,
-      "id": "qusoai"
+      "id": "qusoai",
+      "useful": 65
     },
     {
       "name": "BlitzReels",
@@ -1797,7 +1886,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "blitzreels"
+      "id": "blitzreels",
+      "useful": 68
     },
     {
       "name": "Vid.AI",
@@ -1815,7 +1905,8 @@ window.DEALS = {
       "tags": [],
       "renewal": null,
       "status": "live",
-      "id": "vidai"
+      "id": "vidai",
+      "useful": 68
     },
     {
       "name": "ClipUGC",
@@ -1833,7 +1924,8 @@ window.DEALS = {
       "status": "live",
       "audience": null,
       "ends_note": null,
-      "id": "clipugc"
+      "id": "clipugc",
+      "useful": 65
     },
     {
       "name": "Vadoo AI",
@@ -1851,7 +1943,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "vadoo-ai"
+      "id": "vadoo-ai",
+      "useful": 59
     },
     {
       "name": "LALAL.AI",
@@ -1869,7 +1962,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "lalalai"
+      "id": "lalalai",
+      "useful": 59
     },
     {
       "name": "Narration Box",
@@ -1887,7 +1981,8 @@ window.DEALS = {
       "status": "live",
       "audience": null,
       "ends_note": null,
-      "id": "narration-box"
+      "id": "narration-box",
+      "useful": 64
     },
     {
       "name": "Verbatik AI",
@@ -1905,7 +2000,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "verbatik-ai"
+      "id": "verbatik-ai",
+      "useful": 57
     },
     {
       "name": "GetGenie",
@@ -1923,7 +2019,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "getgenie"
+      "id": "getgenie",
+      "useful": 61
     },
     {
       "name": "TrueRanker",
@@ -1943,7 +2040,8 @@ window.DEALS = {
       "code": null,
       "renewal": null,
       "audience": null,
-      "id": "trueranker"
+      "id": "trueranker",
+      "useful": 51
     },
     {
       "name": "Predis.ai",
@@ -1961,7 +2059,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "predisai"
+      "id": "predisai",
+      "useful": 61
     },
     {
       "name": "PostNitro",
@@ -1981,7 +2080,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "postnitro"
+      "id": "postnitro",
+      "useful": 58
     },
     {
       "name": "Reply.io",
@@ -1999,7 +2099,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "replyio"
+      "id": "replyio",
+      "useful": 58
     },
     {
       "name": "Ocoya",
@@ -2017,7 +2118,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "ocoya"
+      "id": "ocoya",
+      "useful": 55
     },
     {
       "name": "ContentStudio",
@@ -2037,7 +2139,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "contentstudio"
+      "id": "contentstudio",
+      "useful": 61
     },
     {
       "name": "Supergrow",
@@ -2055,7 +2158,8 @@ window.DEALS = {
       "tags": [],
       "renewal": null,
       "status": "live",
-      "id": "supergrow"
+      "id": "supergrow",
+      "useful": 61
     },
     {
       "name": "Tagshop AI",
@@ -2073,7 +2177,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "tagshop-ai"
+      "id": "tagshop-ai",
+      "useful": 61
     },
     {
       "name": "Decktopus",
@@ -2093,7 +2198,8 @@ window.DEALS = {
       "tags": [],
       "status": "live",
       "audience": null,
-      "id": "decktopus"
+      "id": "decktopus",
+      "useful": 64
     },
     {
       "name": "EngageBay",
@@ -2111,7 +2217,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "engagebay"
+      "id": "engagebay",
+      "useful": 58
     },
     {
       "name": "Groupboss",
@@ -2129,7 +2236,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "groupboss"
+      "id": "groupboss",
+      "useful": 58
     },
     {
       "name": "Two Minute Reports",
@@ -2147,7 +2255,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "two-minute-reports"
+      "id": "two-minute-reports",
+      "useful": 61
     },
     {
       "name": "FeedBoss",
@@ -2167,7 +2276,8 @@ window.DEALS = {
       "source": "https://wurd.ai/blog/ai-black-friday-deals",
       "verified": "2026-11-21",
       "renewal": null,
-      "id": "feedboss"
+      "id": "feedboss",
+      "useful": 51
     },
     {
       "name": "Onethread",
@@ -2187,7 +2297,8 @@ window.DEALS = {
       "code": null,
       "renewal": null,
       "audience": null,
-      "id": "onethread"
+      "id": "onethread",
+      "useful": 45
     },
     {
       "name": "Salesmate",
@@ -2207,7 +2318,8 @@ window.DEALS = {
       "verified": "2026-11-21",
       "renewal": null,
       "audience": null,
-      "id": "salesmate"
+      "id": "salesmate",
+      "useful": 39
     },
     {
       "name": "Agency Handy",
@@ -2227,7 +2339,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "agency-handy"
+      "id": "agency-handy",
+      "useful": 64
     },
     {
       "name": "Leadpages",
@@ -2245,7 +2358,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "leadpages"
+      "id": "leadpages",
+      "useful": 61
     },
     {
       "name": "Together AI",
@@ -2265,7 +2379,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "together-ai"
+      "id": "together-ai",
+      "useful": 52
     },
     {
       "name": "Novita AI",
@@ -2285,7 +2400,8 @@ window.DEALS = {
       "renewal": null,
       "status": "live",
       "audience": null,
-      "id": "novita-ai"
+      "id": "novita-ai",
+      "useful": 58
     },
     {
       "name": "Singahi",
@@ -2308,7 +2424,8 @@ window.DEALS = {
       "verified": "2026-11-23",
       "code": null,
       "renewal": null,
-      "id": "singahi"
+      "id": "singahi",
+      "useful": 72
     }
   ],
   "no_deal": [
