@@ -33,9 +33,11 @@ lines.append(
     "voice, writing and research. Every row was read on the **vendor's own pricing or offer-terms page**, "
     "with the date it was checked, the price before and after, and what the plan renews at.\n"
 )
+OWNER = os.environ.get("GH_OWNER", "Singahi1")
+REPO = os.environ.get("GH_REPO", "awesome-ai-blackfriday")
+
 lines.append(
-    f"**[Browse the filterable site →](https://{os.environ.get('GH_OWNER', 'YOURNAME')}.github.io/"
-    f"{os.environ.get('GH_REPO', 'awesome-ai-blackfriday')}/)** · "
+    f"**[Browse the filterable site →](https://{OWNER}.github.io/{REPO}/)** · "
     f"**{len(deals)} deals** · snapshot {meta['generated']} · "
     f"Black Friday {meta['black_friday']} · Cyber Monday {meta['cyber_monday']}\n"
 )
