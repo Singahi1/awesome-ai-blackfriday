@@ -177,7 +177,7 @@ h1 em { font-style: normal; color: var(--acid); }
   padding: 18px; transition: border-color .15s, transform .15s, background .15s;
 }
 /* whole card is a link; real controls sit above the overlay */
-.card .stretched { position: absolute; inset: 0; z-index: 1; border-radius: var(--radius); }
+.card .stretched { position: absolute; inset: -1px; z-index: 1; border-radius: var(--radius); }
 .card .stretched:focus-visible { outline: 2px solid var(--acid); outline-offset: 2px; }
 .card a:not(.stretched), .card button { position: relative; z-index: 2; }
 .card:hover { border-color: #3d4753; transform: translateY(-2px); background: #141920; }
