@@ -13,7 +13,7 @@ errors = []
 data = json.load(open(PATH))
 
 REQUIRED = ["id", "name", "category", "what", "deal", "status", "url", "source", "verified"]
-STATUSES = {"live", "standing", "perk", "upcoming", "expired"}
+STATUSES = {"live", "standing", "perk", "upcoming", "expired", "announced"}
 
 if not isinstance(data.get("deals"), list) or not data["deals"]:
     errors.append("deals must be a non-empty list")

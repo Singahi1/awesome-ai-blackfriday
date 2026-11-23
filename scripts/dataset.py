@@ -16,6 +16,7 @@ TODAY = date(2026, 11, 23)
 CATEGORIES = [
     "AI Chat & Assistants",
     "Coding & Agents",
+    "Meetings & Automation",
     "Image & Design",
     "Video",
     "Voice & Audio",
@@ -533,9 +534,26 @@ NO_DEAL = [
     ("Semrush", "No seasonal sale — SEO Toolkit is $117.33/mo billed annually. Ahrefs states it never discounts seasonally either.", "https://www.semrush.com/pricing/", "2026-10-29"),
     ("Obsidian Sync", "No promo; Sync is $4/user/mo billed annually.", "https://obsidian.md/pricing", "2026-11-17"),
     ("Vercel / Supabase / Cloudflare / PostHog", "No Black Friday offers on any of these pricing pages — free tiers only.", "https://vercel.com/pricing", "2026-11-19"),
+    ("CapCut", "Pro $19.99/mo or $179.99/yr, Ultra $79/mo. No seasonal offer on the pricing page.", "https://www.capcut.com/pricing", "2026-11-14"),
+    ("Suno", "Pro $10/mo, Premier $30/mo, 20% off annual. 2025's sale page now redirects — no 2026 offer.", "https://suno.com/pricing", "2026-11-14"),
+    ("Leonardo.Ai", "Essential $12, Premium $30, Ultimate $60/mo; yearly is 20% off year-round. No 2026 sale.", "https://leonardo.ai/pricing", "2026-11-22"),
+    ("Ideogram", "Plus $20/mo, Pro $60/mo; 'up to 33% off' is the standing annual discount, not an event.", "https://ideogram.ai/pricing", "2026-11-22"),
+    ("Playground AI", "20% off annual billing is the standing term; no Black Friday label.", "https://playground.com/pricing", "2026-11-22"),
+    ("Speechify", "No 2026 offer on the pricing page, and no verified 2025 offer to fall back on.", "https://speechify.com/pricing/", "2026-11-21"),
+    ("Murf AI", "No 2026 offer. 2025 ran 33% off annual — not repeated so far.", "https://murf.ai/pricing", "2026-11-21"),
+    ("QuillBot", "No 2026 offer found. 2025 ran 40% off annual with BFCMDEAL.", "https://quillbot.com/premium", "2026-11-21"),
+    ("Descript", "Hobbyist $16, Creator $24, Business $50 per person/mo. No 2026 offer.", "https://www.descript.com/pricing", "2026-11-21"),
+    ("VEED", "No 2026 offer. 2025 ran 45% off annual with code BLACKFRIDAY.", "https://www.veed.io/pricing", "2026-11-21"),
+    ("OpusClip", "No 2026 offer. 2025 ran 65% off annual.", "https://www.opus.pro/pricing", "2026-11-21"),
+    ("Figma", "Professional $20/seat/mo monthly, $16 annual. No seasonal sale; education plan is the real saving.", "https://www.figma.com/pricing/", "2026-11-22"),
+    ("Zapier", "Professional from $29.99/mo monthly, $19.99 yearly. No Black Friday offer.", "https://zapier.com/pricing", "2026-11-22"),
+    ("Loom", "Business $18/user/mo, Business + AI $24. Annual saves 17%; no seasonal offer.", "https://www.loom.com/pricing", "2026-11-22"),
+    ("Motion", "Pro AI $49/mo, Business AI $69/mo; $29/$39 on annual. No Black Friday offer.", "https://www.usemotion.com/pricing", "2026-11-22"),
+    ("Wix / Webflow", "No sale banner on either pricing page. Webflow nonprofits get 50% off year-round.", "https://webflow.com/pricing", "2026-11-22"),
 ]
 
 WATCHLIST = [
+    ("Framer", "Black Friday page says the sale starts Nov 27 at 9am CET, but no discount or terms were published when checked.", "https://www.framer.com/black-friday/"),
     ("TradingView", "Black Friday page is live but 'launches in' — countdown points to Nov 23, 08:00 UTC.", "https://www.tradingview.com/black-friday/"),
     ("Surfer SEO", "Deal lands Nov 27; terms not published yet.", "https://surferseo.com/pricing/"),
     ("Emergent / Bolt bundle", "A tracker reports a one-year bundle for $69, but it is not on Bolt's pricing page — unconfirmed.", "https://bolt.new/pricing"),
@@ -543,12 +561,413 @@ WATCHLIST = [
 
 ALWAYS_ON = [
     ("Google AI Pro for students", "Free for 12 months for US college students 18+, verified with SheerID. Worth $239.88 at the monthly price. Redeem by Dec 31; a card is required and it renews at $19.99 unless cancelled.", "https://one.google.com/ai-student", "Student"),
-    ("GitHub Copilot Student", "Free Copilot Pro while you remain eligible (verified student status).", "https://education.github.com/pack", "Student"),
+    ("GitHub Copilot Student", "Free Copilot Pro while you remain eligible (verified student status). Copilot Free is also free for individuals.", "https://education.github.com/pack", "Student"),
     ("JetBrains", "40% off personal subscriptions for former students; 50% off IDEs and JetBrains AI for startups for up to 5 years.", "https://www.jetbrains.com/store/", "Standing"),
+    ("Modal", "$30/month of free compute credits on the Starter plan, plus up to $10k for academics.", "https://modal.com/pricing", "Free tier"),
+    ("Lambda", "Up to $5,000 in cloud credits for qualifying researchers, by application.", "https://lambda.ai/pricing", "Research"),
+    ("RunPod", "Referral credit of $5–$500 after a first $10 spend, plus $1k–$25k in startup credits by application.", "https://www.runpod.io/pricing", "Referral"),
     ("DigitalOcean", "$200 in credit for the first 60 days on a new account.", "https://www.digitalocean.com/pricing", "Standing"),
     ("n8n", "Startup plan: 50% off Business for companies under 20 employees.", "https://n8n.io/pricing/", "Standing"),
-    ("Midjourney / Suno / Claude / Perplexity", "20% off for paying annually — not a Black Friday deal, but it is the discount that never expires.", "https://www.midjourney.com/plans", "Standing"),
+    ("Ideogram / Leonardo / Playground / Midjourney / Suno", "Up to 33%, 20%, 20%, 20% and 20% off respectively for paying annually — not a Black Friday deal, but it never expires.", "https://www.midjourney.com/plans", "Standing"),
+    ("Otter.ai / Fireflies / Fathom", "Annual billing is the discount here: 51%, 44% and 25% respectively, charged every day of the year.", "https://otter.ai/pricing", "Standing"),
 ]
+
+# ================================================================ batch 2
+# harvested from tracker tables published 20–23 Nov 2026; every row keeps the
+# tracker URL as `source` and the date its vendor page was read
+AID = "https://aideals.app/deals/black-friday"
+WURD = "https://wurd.ai/blog/ai-black-friday-deals"
+MEET = "https://aiincontext.com/articles/bf2026-ai-meeting-notes-tools"
+IMG = "https://aiincontext.com/articles/bf2026-ai-image-tools"
+TP = "https://taskpanel.io/deals/discounts"
+
+# ---------------------------------------------------------------- meetings
+add(name="tl;dv", category="Meetings & Automation",
+    what="Records, transcribes and summarises Zoom, Meet and Teams calls",
+    deal="45% off the Business annual plan — $29/seat/mo drops to about $15.95 (500 coupons only)",
+    discount=45, price_before="$348/yr per seat", price_after="~$191/yr per seat",
+    code="BLACKFRIDAY45", ends=None, ends_note="No end date; capped at 500 coupons",
+    renewal="Renews at $29/seat/mo", audience="Business annual plan",
+    url="https://tldv.io/pricing/", source=MEET, verified="2026-11-21")
+
+add(name="Otter.ai", category="Meetings & Automation",
+    what="Live transcription, summaries and action items",
+    deal="50% off one year — offered inside the app, not on the pricing page",
+    discount=50, price_before="$16.99/mo", price_after="~$8.49/mo",
+    ends="2026-11-29", audience="Existing monthly subscribers, billed at cycle end",
+    renewal="Year two at list price", tags=["targeted"],
+    url="https://otter.ai/pricing", source=MEET, verified="2026-11-21")
+
+add(name="MeetGeek", category="Meetings & Automation",
+    what="Meeting recorder with AI summaries and CRM sync",
+    deal="30% off Pro and Business for 12 months, monthly or annual",
+    discount=30, code="BLACKFRIDAY2026", ends=None, ends_note="No end date printed",
+    audience="New subscriptions",
+    url="https://meetgeek.ai/pricing", source=AID, verified="2026-11-21")
+
+add(name="Noota", category="Meetings & Automation",
+    what="AI meeting notes and recruiting interviews",
+    deal="40% off a new annual Pro or Business plan for the first year",
+    discount=40, ends="2026-11-30", audience="New annual plans",
+    url="https://noota.io/pricing", source=AID, verified="2026-11-21")
+
+add(name="Sembly AI", category="Meetings & Automation",
+    what="Meeting assistant with team-wide searchable notes",
+    deal="20% off any plan, any billing period, for 12 months",
+    discount=20, code="BF2026", ends=None, ends_note="No end date printed",
+    url="https://www.sembly.ai/pricing/", source=AID, verified="2026-11-21")
+
+add(name="Voibe", category="Meetings & Automation",
+    what="Local-first voice dictation for Mac",
+    deal="25% off every plan — monthly, annual and lifetime",
+    discount=25, code="BFCM26", ends=None, ends_note="No end date printed",
+    url="https://voibe.app/pricing", source=AID, verified="2026-11-21")
+
+add(name="MeetingDebrief", category="Meetings & Automation",
+    what="Turns recordings into structured debriefs",
+    deal="35% off the one-time licence, any number of devices",
+    discount=35, code="BFCM2026", ends=None, ends_note="No end date printed",
+    tags=["lifetime"], url="https://meetingdebrief.com/", source=AID, verified="2026-11-21")
+
+add(name="Landbot", category="Meetings & Automation",
+    what="No-code chatbot builder for web and WhatsApp",
+    deal="50% off the first year of an annual Starter, Professional or WhatsApp plan",
+    discount=50, ends="2026-11-30", ends_note="Runs Nov 10–30",
+    audience="Accounts without an active paid subscription",
+    url="https://landbot.io/pricing", source=AID, verified="2026-11-21")
+
+add(name="Tidio", category="Meetings & Automation",
+    what="AI live chat and support automation",
+    deal="20% off the first year of an annual Starter or Growth plan",
+    discount=20, code="BF2026", ends=None, ends_note="No end date printed",
+    url="https://www.tidio.com/pricing/", source=AID, verified="2026-11-21")
+
+add(name="Botsify", category="Meetings & Automation",
+    what="White-label AI agents for agencies",
+    deal="Founding Partner lifetime licence at $499 one-time, with white-label access",
+    discount=None, price_before="Subscription pricing", price_after="$499 lifetime",
+    ends=None, ends_note="No end date printed", tags=["lifetime"],
+    url="https://botsify.com/pricing", source=WURD, verified="2026-11-21")
+
+add(name="HelpJet", category="Meetings & Automation",
+    what="Support chatbot trained on your docs",
+    deal="Double the monthly replies on annual plans (1,000 → 2,000), applied automatically",
+    discount=None, price_before="1,000 replies/mo", price_after="2,000 replies/mo",
+    ends=None, ends_note="No end date printed", status="perk", tags=["perk"],
+    url="https://helpjet.ai/pricing", source=WURD, verified="2026-11-21")
+
+# ---------------------------------------------------------------- coding
+add(name="TinyCommand", category="Coding & Agents",
+    what="AI ops agent for cloud infrastructure",
+    deal="90% off the first year on yearly plans — pay one month, get twelve",
+    discount=90, ends="2026-12-07", ends_note="Runs Nov 14 – Dec 7",
+    renewal="Full annual price in year two",
+    url="https://tinycommand.com/pricing", source=AID, verified="2026-11-21")
+
+add(name="Perch", category="Coding & Agents",
+    what="AI coding-agent monitor for Mac",
+    deal="40% off a one-time Mac licence, solo or per team seat (first 500 orders)",
+    discount=40, code="BLACKFRIDAY2026", ends=None, ends_note="No end date; 500-order cap",
+    tags=["lifetime"], url="https://perch.dev/", source=AID, verified="2026-11-21")
+
+add(name="DevIntern", category="Coding & Agents",
+    what="AI coding agent that works like a junior developer",
+    deal="40% off the first invoice of Team or Business, or the one-time Supporter licence",
+    discount=40, code="BLACKFRIDAY26", ends=None, ends_note="No end date printed",
+    url="https://devintern.dev/pricing", source=AID, verified="2026-11-21")
+
+add(name="Slashspace", category="Coding & Agents",
+    what="Team workspace for AI coding sessions",
+    deal="51% off the yearly plan",
+    discount=51, code="BF2026", ends=None, ends_note="No end date printed",
+    url="https://slashspace.app/pricing", source=AID, verified="2026-11-21")
+
+add(name="Enconvo", category="Coding & Agents",
+    what="AI agent launcher for macOS with MCP support",
+    deal="30% off lifetime licences, plus the first month or year of Cloud plans",
+    discount=30, ends=None, ends_note="No end date printed", tags=["lifetime"],
+    url="https://enconvo.com/pricing", source=AID, verified="2026-11-21")
+
+add(name="Layerwise", category="Coding & Agents",
+    what="AI review layer for pull requests",
+    deal="20% off any plan for 12 months, monthly or annual",
+    discount=20, code="BLACKFRIDAY2026", ends=None, ends_note="No end date printed",
+    url="https://layerwise.dev/pricing", source=AID, verified="2026-11-21")
+
+add(name="Aikeedo", category="Coding & Agents",
+    what="Self-hosted AI SaaS starter kit",
+    deal="Up to 50% off the Core plan (first 12 months), the commercial licence and every add-on",
+    discount=50, ends="2026-12-01", ends_note="Runs Nov 24 – Dec 1",
+    url="https://aikeedo.com/pricing", source=AID, verified="2026-11-21")
+
+add(name="Vinaa", category="Coding & Agents",
+    what="AI assistant for Mac with local model support",
+    deal="Up to 45% off lifetime licences for 1, 2 or 3 Macs",
+    discount=45, ends=None, ends_note="No end date printed", tags=["lifetime"],
+    url="https://vinaa.app/pricing", source=AID, verified="2026-11-21")
+
+add(name="Fluent", category="Coding & Agents",
+    what="Mac AI assistant that works inside any app",
+    deal="25% off Basic, Standard and Team lifetime licences — Basic $49 → $36.75",
+    discount=25, price_before="$49 one-time", price_after="$36.75 one-time",
+    code="BF2026", ends="2026-12-01", tags=["lifetime"],
+    url="https://fluentmac.app/buy", source=AID, verified="2026-11-21")
+
+add(name="Kveeky", category="Coding & Agents",
+    what="AI app builder with credit-based pricing",
+    deal="35% off paid plans, applied at checkout",
+    discount=35, code="BF2026", ends=None, ends_note="No end date printed",
+    url="https://kveeky.com/pricing", source=AID, verified="2026-11-21")
+
+add(name="Flowith", category="AI Chat & Assistants",
+    what="Canvas-style AI workspace with multi-model threads",
+    deal="Up to 31% off Black Pass plans — Go from $9.99/mo",
+    discount=31, price_before="Black Pass list", price_after="from $9.99/mo",
+    ends="2026-11-30", ends_note="Runs Nov 20–30",
+    url="https://flowith.io/pricing", source=AID, verified="2026-11-21")
+
+# ---------------------------------------------------------------- writing / research
+add(name="Lara Translate", category="Writing & Docs",
+    what="Document, image and audio translation in 200+ languages",
+    deal="50% off one year of Pro or Team (tiers 1–3), billed annually",
+    discount=50, code="BLCKFRDY2026", ends=None, ends_note="No end date printed",
+    audience="Annual billing, tiers 1–3",
+    url="https://laratranslate.com/pricing", source=WURD, verified="2026-11-21")
+
+add(name="Trinka AI", category="Writing & Docs",
+    what="Academic grammar and style checker with AI detection",
+    deal="40% off all annual plans, applied automatically",
+    discount=40, ends="2026-11-30", ends_note="Auto-applied at checkout",
+    url="https://www.trinka.ai/pricing", source=WURD, verified="2026-11-21")
+
+add(name="YouMind", category="Writing & Docs",
+    what="AI workspace that turns research into articles and slides",
+    deal="50% off the Max plan",
+    discount=50, ends=None, ends_note="No end date printed",
+    url="https://youmind.com/pricing", source=WURD, verified="2026-11-21")
+
+add(name="Upplai", category="Writing & Docs",
+    what="AI resume tailoring for applicant tracking systems",
+    deal="20% off resume packages of $20 and up",
+    discount=20, code="CYBER20", ends=None, ends_note="Announced by the vendor, no date",
+    status="announced", tags=["announced"],
+    url="https://upplai.com/pricing", source=WURD, verified="2026-11-21")
+
+# ---------------------------------------------------------------- image
+add(name="NightCafe", category="Image & Design",
+    what="Community image generation with credit packs",
+    deal="Double credits in the first month plus 5 free Kling 4.0 videos per $10 spent",
+    discount=None, price_before="400 credits/mo", price_after="800 credits first month",
+    ends="2026-11-30", ends_note="11:59 PM PT on Cyber Monday",
+    renewal="Credits return to normal from month two",
+    url="https://creator.nightcafe.studio/pricing", source=IMG, verified="2026-11-21")
+
+add(name="Magnific (ex-Freepik)", category="Image & Design",
+    what="Upscaling and AI image tools plus stock assets",
+    deal="40% off credits on individual subscriptions — Premium $14.50/mo (was $20)",
+    discount=27, price_before="$20/mo", price_after="$14.50/mo",
+    ends="2026-12-10", audience="Individual subscriptions, not labelled Black Friday",
+    url="https://www.magnific.ai/pricing", source=AID, verified="2026-11-21")
+
+add(name="Dzine", category="Image & Design",
+    what="Design and image generation canvas",
+    deal="40% off the first year of individual annual plans",
+    discount=40, code="BF40", ends=None, ends_note="No end date printed",
+    audience="New subscribers and current monthly subscribers",
+    url="https://www.dzine.ai/pricing", source=AID, verified="2026-11-21")
+
+# ---------------------------------------------------------------- video
+add(name="Pictory", category="Video",
+    what="Turns scripts, URLs and decks into short videos",
+    deal="50% off Professional on annual billing — $29.50/mo instead of $59 (Starter $25, Teams $119)",
+    discount=50, price_before="$59/mo", price_after="$29.50/mo",
+    code="BLACKFRIDAY2026", ends=None, ends_note="Labelled 'Black Friday Special', no end date",
+    renewal="Renews at $59/mo",
+    url="https://pictory.ai/pricing", source=WURD, verified="2026-11-21")
+
+add(name="quso.ai", category="Video",
+    what="Long video to short clips, formerly Vidyo.ai",
+    deal="50% off new yearly Lite, Essential and Growth plans — kept at every renewal",
+    discount=50, ends="2026-12-01", tags=["recurring"],
+    renewal="Discount is permanent on this plan", audience="New yearly plans",
+    url="https://quso.ai/pricing", source=AID, verified="2026-11-21")
+
+add(name="BlitzReels", category="Video",
+    what="Short-form video generator",
+    deal="60% off the first year on annual Starter, Growth or Agency versus paying monthly",
+    discount=60, ends=None, ends_note="No end date printed",
+    url="https://blitzreels.com/pricing", source=AID, verified="2026-11-21")
+
+add(name="Vid.AI", category="Video",
+    what="Text-to-video and avatar videos",
+    deal="Up to 60% off the first month, or 40% off the first year",
+    discount=60, ends=None, ends_note="No end date printed", audience="New customers",
+    url="https://vid.ai/pricing", source=AID, verified="2026-11-21")
+
+add(name="ClipUGC", category="Video",
+    what="UGC-style ad videos with AI actors",
+    deal="50% off the first 2 months of monthly Professional or Business",
+    discount=50, ends="2026-12-06",
+    url="https://clipugc.com/pricing", source=AID, verified="2026-11-21")
+
+add(name="Vadoo AI", category="Video",
+    what="AI video generator with subtitles and dubbing",
+    deal="30% off the Pro or Advance annual plan",
+    discount=30, code="BF30", ends=None, ends_note="No end date printed",
+    url="https://vadoo.tv/pricing", source=AID, verified="2026-11-21")
+
+# ---------------------------------------------------------------- voice
+add(name="LALAL.AI", category="Voice & Audio",
+    what="Stem splitting and vocal removal",
+    deal="40% off annual Pro for the first year, plus top-ups",
+    discount=40, ends=None, ends_note="No written expiry on the vendor page",
+    url="https://www.lalal.ai/pricing/", source=AID, verified="2026-11-21")
+
+add(name="Narration Box", category="Voice & Audio",
+    what="Text-to-speech narration for videos and podcasts",
+    deal="55% off annual Plus, Pro and Scale plans for the first year",
+    discount=55, ends="2026-12-02",
+    url="https://narrationbox.com/pricing", source=AID, verified="2026-11-21")
+
+add(name="Verbatik AI", category="Voice & Audio",
+    what="Text-to-speech with 140+ languages",
+    deal="30% off the first 12 months of any plan, plus prepaid credit packs",
+    discount=30, code="BFCM26", ends=None, ends_note="No end date printed",
+    url="https://verbatik.com/pricing", source=AID, verified="2026-11-21")
+
+# ---------------------------------------------------------------- marketing
+add(name="GetGenie", category="SEO & Marketing",
+    what="AI SEO writing assistant for WordPress",
+    deal="Up to 50% off, applied automatically (45% while the sale is pending)",
+    discount=50, ends=None, ends_note="No end date printed",
+    url="https://getgenie.ai/pricing/", source=WURD, verified="2026-11-21")
+
+add(name="TrueRanker", category="SEO & Marketing",
+    what="Rank tracking plus AI-visibility monitoring",
+    deal="50% off Starter, Pro and Agency annual plans for the first year, or 25% off monthly for 12 months",
+    discount=50, ends=None, ends_note="Announced by the vendor, no date",
+    status="announced", tags=["announced"],
+    url="https://trueranker.com/pricing", source=WURD, verified="2026-11-21")
+
+add(name="Predis.ai", category="SEO & Marketing",
+    what="AI social media post and ad generator",
+    deal="Up to 50% off annual plans (Rise 50%, Core 40%, Enterprise+ 15%)",
+    discount=50, ends=None, ends_note="No end date printed",
+    url="https://predis.ai/pricing/", source=AID, verified="2026-11-21")
+
+add(name="PostNitro", category="SEO & Marketing",
+    what="Carousel and social post generator",
+    deal="Up to 40% off Creator+ and Team+ — 40% off annual (BF26A), 16.7% off monthly (BF26M), recurring",
+    discount=40, code="BF26A (annual) / BF26M (monthly)", ends=None,
+    ends_note="No end date printed", tags=["recurring"],
+    url="https://postnitro.ai/pricing", source=AID, verified="2026-11-21")
+
+add(name="Reply.io", category="SEO & Marketing",
+    what="Cold outreach and AI SDR platform",
+    deal="40% off Reply plans; 25% off annual Jason AI SDR plans",
+    discount=40, code="BF26REPLY / BF26JASON (AI SDR)", ends=None,
+    ends_note="No end date printed",
+    url="https://reply.io/pricing/", source=AID, verified="2026-11-21")
+
+add(name="Ocoya", category="SEO & Marketing",
+    what="AI social media management",
+    deal="30% off Starter, Team and Agency plans, billed monthly",
+    discount=30, ends=None, ends_note="No end date printed",
+    url="https://www.ocoya.com/pricing", source=AID, verified="2026-11-21")
+
+add(name="ContentStudio", category="SEO & Marketing",
+    what="Social media scheduling with AI content generation",
+    deal="Up to 50% off yearly plans (Standard 34%, Advanced 39%, Agency Unlimited 50%)",
+    discount=50, price_before="$29/mo", price_after="$19/mo",
+    ends=None, ends_note="No end date printed",
+    url="https://contentstudio.io/pricing", source=WURD, verified="2026-11-21")
+
+add(name="Supergrow", category="SEO & Marketing",
+    what="LinkedIn content and scheduling with AI",
+    deal="50% off all annual plans for the first year",
+    discount=50, code="BF50", ends=None, ends_note="No end date printed",
+    audience="New customers and monthly subscribers switching to annual",
+    url="https://www.supergrow.ai/pricing", source=AID, verified="2026-11-21")
+
+add(name="Tagshop AI", category="SEO & Marketing",
+    what="Turns product catalogues into social video ads",
+    deal="Up to 51% off yearly Starter, Growth and Pro plans",
+    discount=51, ends=None, ends_note="No end date printed",
+    url="https://tagshop.ai/pricing", source=AID, verified="2026-11-21")
+
+add(name="Decktopus", category="SEO & Marketing",
+    what="AI presentation and carousel maker",
+    deal="66% off the first year of Pro and Business annual — Pro $40.76 for the year",
+    discount=66, price_before="$120/yr", price_after="$40.76/yr",
+    code="BF26", ends=None, ends_note="No end date printed",
+    renewal="Renews at the annual list price",
+    url="https://www.decktopus.com/pricing", source=WURD, verified="2026-11-21")
+
+add(name="EngageBay", category="SEO & Marketing",
+    what="All-in-one CRM with marketing automation",
+    deal="40% off all plans plus 50,000 free email credits and free HubSpot migration",
+    discount=40, ends=None, ends_note="No end date printed",
+    url="https://www.engagebay.com/pricing", source=WURD, verified="2026-11-21")
+
+add(name="Groupboss", category="SEO & Marketing",
+    what="Turns Facebook group joins into leads",
+    deal="40% off the first year of a yearly plan — Basic $47.40",
+    discount=40, code="GBCM40", ends=None, ends_note="No end date printed",
+    url="https://groupboss.io/pricing", source=WURD, verified="2026-11-21")
+
+add(name="Two Minute Reports", category="SEO & Marketing",
+    what="Client reporting for marketing agencies",
+    deal="50% off the first year of any annual plan",
+    discount=50, ends=None, ends_note="New customers only, no end date printed",
+    url="https://twominutereports.com/pricing", source=WURD, verified="2026-11-21")
+
+add(name="FeedBoss", category="SEO & Marketing",
+    what="Connects ChatGPT, Claude and Grok to LinkedIn",
+    deal="50% off all plans",
+    discount=50, code="BFCM2026", ends=None, ends_note="Announced by the vendor, no date",
+    status="announced", tags=["announced"], audience="New customers",
+    url="https://feedboss.io/pricing", source=WURD, verified="2026-11-21")
+
+add(name="Onethread", category="SEO & Marketing",
+    what="Project management for small teams",
+    deal="30% off annual plans, no code needed",
+    discount=30, ends=None, ends_note="Announced by the vendor, no date",
+    status="announced", tags=["announced"],
+    url="https://onethread.com/pricing", source=WURD, verified="2026-11-21")
+
+add(name="Salesmate", category="SEO & Marketing",
+    what="CRM with built-in marketing automation",
+    deal="An extra 10% off annual subscriptions on all plans",
+    discount=10, code="BLACKFRIDAY26", ends=None, ends_note="Announced by the vendor, no date",
+    status="announced", tags=["announced"],
+    url="https://www.salesmate.io/pricing/", source=WURD, verified="2026-11-21")
+
+add(name="Agency Handy", category="SEO & Marketing",
+    what="Client portal and agency management with an AI agent",
+    deal="Up to 70% off yearly plans — Freelancer $109/yr",
+    discount=70, price_before="$363/yr", price_after="$109/yr",
+    code="YEARLY70", ends=None, ends_note="No end date printed",
+    url="https://agencyhandy.com/pricing", source=WURD, verified="2026-11-21")
+
+add(name="Leadpages", category="Hosting & Infra",
+    what="Landing pages and lead capture",
+    deal="Up to 60% off the first year of annual plans (60% Pro and Business, 40% Grow)",
+    discount=60, ends=None, ends_note="No end date printed",
+    url="https://www.leadpages.com/pricing", source=AID, verified="2026-11-21")
+
+# ---------------------------------------------------------------- infra
+add(name="Together AI", category="Hosting & Infra",
+    what="Inference API and GPU clusters",
+    deal="18% off B200 post-training — $9.00/GPU-hour instead of $11.00",
+    discount=18, price_before="$11.00/GPU-hr", price_after="$9.00/GPU-hr",
+    ends="2026-12-14", ends_note="Post-training only",
+    url="https://www.together.ai/pricing", source=TP, verified="2026-11-23")
+
+add(name="Novita AI", category="Hosting & Infra",
+    what="GPU instances and 200+ model APIs",
+    deal="50% off batch inference tokens",
+    discount=50, ends=None, ends_note="No end date printed", tags=["usage-only"],
+    url="https://novita.ai/pricing", source=TP, verified="2026-11-23")
 
 payload = {
     "meta": {

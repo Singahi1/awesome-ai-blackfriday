@@ -222,9 +222,12 @@
            <span>${esc(d.code)}</span><span class="hint">copy code</span>
          </button></div>` : '';
 
-    const tags = (d.tags || []).map((t) => t === 'editor-pick'
+    const tags = [
+      ...(d.status === 'announced' ? ['<span class="tagpill">announced</span>'] : []),
+      ...(d.status === 'perk' ? ['<span class="tagpill">credit perk</span>'] : []),
+    ].concat((d.tags || []).filter((t) => t !== 'announced' && t !== 'perk').map((t) => t === 'editor-pick'
       ? '<span class="tagpill pick">Editor’s pick</span>'
-      : `<span class="tagpill">${esc(t)}</span>`).join('');
+      : `<span class="tagpill">${esc(t)}</span>`)).join('');
 
     const endsTxt = d.ends_note && !d.ends ? d.ends_note : endLabel(d);
     const title = d.ends_note && d.ends ? ` title="${esc(d.ends_note)}"` : '';
