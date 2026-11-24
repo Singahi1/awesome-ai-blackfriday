@@ -2,7 +2,7 @@
 
 > A curated list of Black Friday and Cyber Monday deals on AI tools — chat, coding, image, video, voice, writing and research. Every row was read on the **vendor's own pricing or offer-terms page**, with the date it was checked, the price before and after, and what the plan renews at.
 
-**[Browse the filterable site →](https://Singahi1.github.io/awesome-ai-blackfriday/)** · **117 deals** · snapshot 2026-11-23 · Black Friday 2026-11-27 · Cyber Monday 2026-11-30
+**[Browse the filterable site →](https://Singahi1.github.io/awesome-ai-blackfriday/)** · **117 deals** · snapshot 2026-11-24 · Black Friday 2026-11-27 · Cyber Monday 2026-11-30
 
 No affiliate links. No coupon-site folklore. If a vendor's page doesn't state the offer, it isn't here — that's why ChatGPT, Claude, Cursor and Midjourney appear in [the no-deal table](#-verified-no-deal) instead of the list.
 
@@ -30,12 +30,12 @@ No affiliate links. No coupon-site folklore. If a vendor's page doesn't state th
 
 | Tool | Deal | Before → after | Code | Ends | Checked |
 | --- | --- | --- | --- | --- | --- |
-| [TypingMind](https://www.typingmind.com/buy) | 60% off Lifetime Premium — about $79 once, no subscription | $199 one-time → ~$79 one-time | `BLACKFRIDAY2026` | 15 Dec | 20 Nov |
-| [Google AI Pro](https://one.google.com/about/plans) | Up to 50% off select Google AI annual plans (member early access; some accounts see AI Pro at $4.99/mo for 3 months) | $19.99/mo → from $4.99/mo | — | 26 Nov* | 20 Nov |
+| [TypingMind](https://www.typingmind.com/buy) | 60% off Lifetime Premium — about $79 once, no subscription | $199 one-time → ~$79 one-time | — | 15 Dec | 24 Nov |
+| [Google AI Pro](https://one.google.com/about/plans) | Up to 50% off select Google AI annual plans (member early access; some accounts see AI Pro at $4.99/mo for 3 months) | $19.99/mo → from $4.99/mo | — | 26 Nov* | 24 Nov |
 | [Grok / X Premium](https://grok.com/plans) | 50% off the first month on monthly plans — Premium $30 → $15 | $30/mo → $15 first month | — | —* | 16 Nov |
 | [Flowith](https://flowith.io/pricing) | Up to 31% off Black Pass plans — Go from $9.99/mo | Black Pass list → from $9.99/mo | — | 30 Nov* | 21 Nov |
 | [Microsoft 365 Premium](https://www.microsoft.com/en-us/microsoft-365/buy/compare-all-microsoft-365-products) | 30% off the first month or first year | $19.99/mo → $13.99 first month | — | —* | 16 Nov |
-| [Perplexity Pro](https://www.perplexity.ai/pro) | No price cut — adds $40 of Computer credits (Max adds $450) | $17/mo billed yearly → $17/mo + credits | — | —* | 18 Nov |
+| [Perplexity Pro](https://www.perplexity.ai/pro) | No price cut — adds $40 of Computer credits (Max adds $450) | $17/mo billed yearly → $17/mo + credits | — | —* | 24 Nov |
 
 ## Coding & Agents
 
@@ -56,7 +56,7 @@ No affiliate links. No coupon-site folklore. If a vendor's page doesn't state th
 | [DevIntern](https://devintern.dev/pricing) | 40% off the first invoice of Team or Business, or the one-time Supporter licence | — | `BLACKFRIDAY26` | —* | 21 Nov |
 | [PageAI](https://pageai.pro/pricing) | 37% off | — | `BF26` | —* | 17 Nov |
 | [Kveeky](https://kveeky.com/pricing) | 35% off paid plans, applied at checkout | — | `BF2026` | —* | 21 Nov |
-| [GitHub Copilot](https://github.com/features/copilot/plans) | 30% off Copilot Fusion model usage on paid plans (plan price unchanged: Pro $10, Pro+ $39, Max $100) | Fusion usage at list price → 30% off usage | — | 30 Nov | 20 Nov |
+| [GitHub Copilot](https://github.com/features/copilot/plans) | 30% off Copilot Fusion model usage on paid plans (plan price unchanged: Pro $10, Pro+ $39, Max $100) | Fusion usage at list price → 30% off usage | — | 30 Nov | 24 Nov |
 | [Meku](https://meku.dev/pricing) | 30% off all yearly plans | Yearly list price → 30% off year one | `BLFCM2026` | 1 Dec | 17 Nov |
 | [Enconvo](https://enconvo.com/pricing) | 30% off lifetime licences, plus the first month or year of Cloud plans | — | — | —* | 21 Nov |
 | [TeleportHQ](https://teleporthq.io/pricing) | 25% off Premium — $20.99/mo against $28 | $28/mo → $20.99/mo | — | —* | 20 Nov |
@@ -69,7 +69,7 @@ No affiliate links. No coupon-site folklore. If a vendor's page doesn't state th
 | --- | --- | --- | --- | --- | --- |
 | [Otter.ai](https://otter.ai/pricing) | 50% off one year — offered inside the app, not on the pricing page | $16.99/mo → ~$8.49/mo | — | 29 Nov | 21 Nov |
 | [Landbot](https://landbot.io/pricing) | 50% off the first year of an annual Starter, Professional or WhatsApp plan | — | — | 30 Nov* | 21 Nov |
-| [tl;dv](https://tldv.io/pricing/) | 45% off the Business annual plan — $29/seat/mo drops to about $15.95 (500 coupons only) | $348/yr per seat → ~$191/yr per seat | `BLACKFRIDAY45` | —* | 21 Nov |
+| [tl;dv](https://tldv.io/pricing/) | 45% off the Business annual plan — $29/seat/mo drops to about $15.95 (500 coupons only) | $348/yr per seat → ~$18/mo annual | — | —* | 24 Nov |
 | [Noota](https://noota.io/pricing) | 40% off a new annual Pro or Business plan for the first year | — | — | 30 Nov | 21 Nov |
 | [MeetingDebrief](https://meetingdebrief.com/) | 35% off the one-time licence, any number of devices | — | `BFCM2026` | —* | 21 Nov |
 | [MeetGeek](https://meetgeek.ai/pricing) | 30% off Pro and Business for 12 months, monthly or annual | — | `BLACKFRIDAY2026` | —* | 21 Nov |
@@ -86,12 +86,12 @@ No affiliate links. No coupon-site folklore. If a vendor's page doesn't state th
 | [Dreamina](https://dreamina.capcut.com/pricing) | Basic $0.29 for the first month (renews $15/mo); Standard $21.60 first month | $15/mo → $0.29 first month | — | —* | 18 Nov |
 | [Luminar (Skylum)](https://skylum.com/luminar) | Up to 77% off Desktop, All Platforms and Max licences | List price → up to 77% off | — | —* | 18 Nov |
 | [Higgsfield](https://higgsfield.ai/pricing) | Up to 70% off premium plans — earlier 63% window closed, new flash window opened Nov 23 | — | — | 24 Nov* | 23 Nov |
-| [Krea](https://www.krea.ai/pricing) | Up to 70% off yearly plans | — | — | —* | 18 Nov |
-| [Topaz Labs](https://topazlabs.com/pricing/) | Up to 67% off — Studio Collection $299/yr (was $499), Topaz Photo $169 (was $199) | $499/yr → $299/yr | — | —* | 18 Nov |
+| [Krea](https://www.krea.ai/pricing) | Up to 70% off yearly plans | — | — | —* | 24 Nov |
+| [Topaz Labs](https://topazlabs.com/pricing/) | Up to 67% off — Studio Collection $299/yr (was $499), Topaz Photo $169 (was $199) | $499/yr → $299/yr | — | —* | 24 Nov |
 | [Adobe Firefly](https://www.adobe.com/products/firefly/plans.html) | Pro $9.99/mo (50% off) and Pro Plus $19.99/mo (60% off) for 6 months, 4,000 credits/mo | $19.99 / $49.99/mo → $9.99 / $19.99/mo | — | 6 Dec | 21 Nov |
 | [Adobe Creative Cloud Pro](https://www.adobe.com/creativecloud/plans.html) | 57% off the first year — $29.99/mo instead of $69.99 (students $15.99, teams $44.99/licence) | $69.99/mo → $29.99/mo | — | 27 Nov* | 18 Nov |
 | [Canva Pro](https://www.canva.com/pricing/) | 50% off the first 3 months — $9/mo instead of $18 | $18/mo → $9/mo for 3 months | — | —* | 21 Nov |
-| [Recraft](https://www.recraft.ai/pricing) | 40% off any yearly plan, from $6/mo billed annually | Yearly list → from $6/mo | — | 1 Dec | 20 Nov |
+| [Recraft](https://www.recraft.ai/pricing) | 40% off any yearly plan, from $6/mo billed annually | Yearly list → from $6/mo | — | 1 Dec | 24 Nov |
 | [OpenArt](https://openart.ai/pricing) | Up to 40% off annual plans — Starter $11/mo (was $14), Pro $36/mo (was $56); up to 50% off select models | $14 / $56/mo → $11 / $36/mo | — | 30 Nov* | 18 Nov |
 | [ON1 Photo RAW 2027](https://www.on1.com/landing/black-friday/) | One-time $59.99 (was $99.99); MAX $129.99 (was $169.99); subscriptions up to 22% off | $99.99 → $59.99 | — | 27 Nov* | 13 Nov |
 | [Dzine](https://www.dzine.ai/pricing) | 40% off the first year of individual annual plans | — | `BF40` | —* | 21 Nov |
@@ -104,13 +104,13 @@ No affiliate links. No coupon-site folklore. If a vendor's page doesn't state th
 | Tool | Deal | Before → after | Code | Ends | Checked |
 | --- | --- | --- | --- | --- | --- |
 | [invideo](https://invideo.io/pricing/) | Up to 75% off — pay for 12 months, get 24; Ultra $40/seat/mo for 2 years | $160/seat/mo → $40/seat/mo (24 mo) | — | —* | 17 Nov |
+| [Pictory](https://pictory.ai/pricing) | 70% off Professional annual ($17.50/mo, was $59) | $59/mo → $17.50/mo annual | — | —* | 24 Nov |
 | [BlitzReels](https://blitzreels.com/pricing) | 60% off the first year on annual Starter, Growth or Agency versus paying monthly | — | — | —* | 21 Nov |
 | [Vid.AI](https://vid.ai/pricing) | Up to 60% off the first month, or 40% off the first year | — | — | —* | 21 Nov |
-| [Synthesia](https://www.synthesia.io/pricing) | Up to 50% off yearly plans (Black Friday / Cyber Week) | — | — | 7 Dec* | 21 Nov |
+| [Synthesia](https://www.synthesia.io/pricing) | Up to 50% off yearly plans (Black Friday / Cyber Week) | — | — | 7 Dec* | 24 Nov |
 | [Framov](https://framov.com/pricing) | 50% off annual plans — Basic $179.40/yr (was $358.80) | $358.80/yr → $179.40/yr | — | —* | 20 Nov |
 | [Kling](https://kling.ai/pricing) | 35% off for 3 months, or 50% off the first year — Standard $60 first year (then $79.20) | $79.20/yr → $60/yr | — | 30 Nov* | 18 Nov |
 | [Fliki](https://fliki.ai/pricing) | 50% off annual Standard and Premium (price shows at checkout) | — | `FLIKIBFCM50` | —* | 18 Nov |
-| [Pictory](https://pictory.ai/pricing) | 50% off Professional on annual billing — $29.50/mo instead of $59 (Starter $25, Teams $119) | $59/mo → $29.50/mo | `BLACKFRIDAY2026` | —* | 21 Nov |
 | [quso.ai](https://quso.ai/pricing) | 50% off new yearly Lite, Essential and Growth plans — kept at every renewal | — | — | 1 Dec | 21 Nov |
 | [ClipUGC](https://clipugc.com/pricing) | 50% off the first 2 months of monthly Professional or Business | — | — | 6 Dec | 21 Nov |
 | [Colossyan](https://www.colossyan.com/pricing) | 40% off the first year of Professional — $35.40/mo (was $59) | $59/mo → $35.40/mo | `BLACKFRIDAY40` | 30 Nov* | 20 Nov |
@@ -121,8 +121,8 @@ No affiliate links. No coupon-site folklore. If a vendor's page doesn't state th
 
 | Tool | Deal | Before → after | Code | Ends | Checked |
 | --- | --- | --- | --- | --- | --- |
-| [ElevenLabs](https://elevenlabs.io/pricing) | Up to 55% off the first year — Creator $99 (was $220), Pro $445.50 (was $990) | $220/yr → $99/yr | — | 1 Dec* | 21 Nov |
-| [Krisp](https://krisp.ai/pricing/) | 55% off annual plans | — | `KRISPBF2026` | —* | 20 Nov |
+| [ElevenLabs](https://elevenlabs.io/pricing) | Up to 55% off the first year — Creator $99 (was $220), Pro $445.50 (was $990) | $220/yr → $99/yr | — | 1 Dec* | 24 Nov |
+| [Krisp](https://krisp.ai/pricing/) | 55% off annual plans | — | — | —* | 24 Nov |
 | [Narration Box](https://narrationbox.com/pricing) | 55% off annual Plus, Pro and Scale plans for the first year | — | — | 2 Dec | 21 Nov |
 | [Mubert](https://mubert.com/render/pricing) | Up to 50% off annual plans for the first year | — | — | —* | 20 Nov |
 | [Podwise](https://podwise.ai/pricing) | 40% off Standard ($42.48/yr) and Pro ($85.68/yr) — renewals stay discounted | — | `BF2026` | —* | 20 Nov |
@@ -134,7 +134,7 @@ No affiliate links. No coupon-site folklore. If a vendor's page doesn't state th
 
 | Tool | Deal | Before → after | Code | Ends | Checked |
 | --- | --- | --- | --- | --- | --- |
-| [ProWritingAid](https://prowritingaid.com/pricing) | 50% off yearly ($60 vs $120) and lifetime ($199.50 vs $399); 25% off Story Credits | $120/yr → $60/yr | — | 29 Nov* | 18 Nov |
+| [ProWritingAid](https://prowritingaid.com/pricing) | 50% off yearly ($60 vs $120) and lifetime ($199.50 vs $399); 25% off Story Credits | $120/yr → $60/yr | — | 29 Nov* | 24 Nov |
 | [RewriteBar](https://rewritebar.com/) | 50% off — Standard lifetime $14.50 instead of $29 | $29 one-time → $14.50 one-time | `BF2026` | 3 Dec | 20 Nov |
 | [DuoTyping](https://duotyping.com/pricing) | 50% off the first payment of Pro — $4.95 instead of $9.90 | $9.90/mo → $4.95 first month | `BFCM2026` | —* | 20 Nov |
 | [Lara Translate](https://laratranslate.com/pricing) | 50% off one year of Pro or Team (tiers 1–3), billed annually | — | `BLCKFRDY2026` | —* | 21 Nov |
@@ -184,10 +184,10 @@ No affiliate links. No coupon-site folklore. If a vendor's page doesn't state th
 
 | Tool | Deal | Before → after | Code | Ends | Checked |
 | --- | --- | --- | --- | --- | --- |
-| [Hostinger AI Builder](https://www.hostinger.com/ai-builder) | Site-wide banner: up to 85% off | — | — | —* | 20 Nov |
+| [Hostinger AI Builder](https://www.hostinger.com/ai-builder) | Site-wide banner: up to 85% off | — | — | —* | 24 Nov |
 | [Cloudways](https://www.cloudways.com/en/black-friday-offer.php) | 80% off the first 2 months of a new account (capped at $200/mo) — AI Website Builder $1.60/mo | — | `BFCM802` | 4 Dec* | 18 Nov |
 | [Leadpages](https://www.leadpages.com/pricing) | Up to 60% off the first year of annual plans (60% Pro and Business, 40% Grow) | — | — | —* | 21 Nov |
-| [Kinsta](https://kinsta.com/pricing/) | 50% off monthly plans for 3 months, or 3 months free on annual plans | — | — | 1 Dec | 19 Nov |
+| [Kinsta](https://kinsta.com/pricing/) | 50% off monthly plans for 3 months, or 3 months free on annual plans | — | — | 1 Dec | 24 Nov |
 | [Novita AI](https://novita.ai/pricing) | 50% off batch inference tokens | — | — | —* | 23 Nov |
 | [Static.run](https://static.run/pricing) | 30% off all plans, recurring | — | `BLFCM2026` | 1 Dec* | 9 Nov |
 | [Together AI](https://www.together.ai/pricing) | 18% off B200 post-training — $9.00/GPU-hour instead of $11.00 | $11.00/GPU-hr → $9.00/GPU-hr | — | 14 Dec* | 23 Nov |
