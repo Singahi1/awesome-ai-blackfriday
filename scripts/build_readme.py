@@ -73,6 +73,8 @@ for c in data["categories"]:
         deal = d["deal"].replace("|", "\\|")
         if d.get("sponsored"):
             deal = "**Partner offer** — " + deal
+        if d.get("status") == "expired":
+            deal = "**Expired** — " + deal
         code = f"`{d['code']}`" if d.get("code") else "—"
         end = fmt_end(d.get("ends")) + ("*" if d.get("ends_note") else "")
         lines.append(f"| {name} | {deal} | {price(d)} | {code} | {end} | {fmt_end(d['verified'])} |")

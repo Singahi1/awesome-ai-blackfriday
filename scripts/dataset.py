@@ -10,7 +10,7 @@ import os
 from datetime import date, datetime
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-TODAY = date(2026, 11, 23)
+TODAY = date(2026, 11, 25)
 
 # category order used by the site
 CATEGORIES = [
@@ -45,33 +45,34 @@ def add(**kw):
 # ---------------------------------------------------------------- AI chat
 add(name="TypingMind", category="AI Chat & Assistants",
     what="Bring-your-own-key chat client for GPT, Claude, Gemini + 20 more",
-    deal="60% off Lifetime Premium — about $79 once, no subscription",
-    discount=60, price_before="$199 one-time", price_after="~$79 one-time",
-    code="BLACKFRIDAY2026", ends="2026-12-15", status="live",
+    deal="60% off Lifetime Premium — $79.20 once instead of $198, no subscription",
+    discount=60, price_before="$198 one-time", price_after="$79.20 one-time",
+    code="BLACKFRIDAY2026", ends="2026-12-15",
+    ends_note="Vendor docs say Dec 15; some trackers report Nov 30 — confirm at checkout",
     audience="New customers", tags=["lifetime"],
     url="https://www.typingmind.com/buy",
     source="https://docs.typingmind.com/resources/ai-black-friday-deals",
-    verified="2026-11-20")
+    verified="2026-11-25")
 
 add(name="Google AI Pro", category="AI Chat & Assistants",
     what="Gemini 4, 5 TB storage, higher Antigravity limits",
-    deal="Up to 50% off select Google AI annual plans (member early access; some accounts see AI Pro at $4.99/mo for 3 months)",
-    discount=50, price_before="$19.99/mo", price_after="from $4.99/mo",
-    ends="2026-11-26", ends_note="Subscriber early access; public offers from Nov 27",
+    deal="Up to 50% off select Google AI annual plans for existing AI / storage subscribers; some see AI Pro at $99.99 for year one. New-subscriber offers start Nov 27.",
+    discount=50, price_before="$199.99/yr", price_after="from $99.99/yr (targeted)",
+    ends="2026-11-26", ends_note="Member early access through Nov 26; exact offer depends on current plan",
     audience="Existing Google AI / storage subscribers first",
-    tags=["targeted", "annual"], renewal="Renews at $19.99/mo unless cancelled",
+    tags=["targeted", "annual"], renewal="Renews at $199.99/yr unless cancelled",
     url="https://one.google.com/about/plans",
     source="https://whichaicoder.com/ai-coding-black-friday-deals/",
-    verified="2026-11-20")
+    verified="2026-11-25")
 
 add(name="Microsoft 365 Premium", category="AI Chat & Assistants",
     what="Office apps plus Copilot in Word, Excel and Outlook",
-    deal="30% off the first month or first year",
-    discount=30, price_before="$19.99/mo", price_after="$13.99 first month",
-    ends=None, ends_note="No end date printed", status="live",
-    renewal="Full price after the intro period",
+    deal="30% off the first month ($13.99) or first year ($139.99)",
+    discount=30, price_before="$19.99/mo or $199.99/yr", price_after="$13.99 first month / $139.99 first year",
+    ends="2026-11-28", ends_note="Microsoft Store Black Friday window Nov 19–28; offer while advertised",
+    status="live", renewal="Full price after the intro period",
     url="https://www.microsoft.com/en-us/microsoft-365/buy/compare-all-microsoft-365-products",
-    source="https://geotoolbox.ai/blog/black-friday-ai-deals", verified="2026-11-16")
+    source="https://www.microsoft.com/en-us/store/b/black-friday", verified="2026-11-25")
 
 add(name="Perplexity Pro", category="AI Chat & Assistants",
     what="Answer engine with research modes",
@@ -79,7 +80,7 @@ add(name="Perplexity Pro", category="AI Chat & Assistants",
     discount=None, price_before="$17/mo billed yearly", price_after="$17/mo + credits",
     ends=None, ends_note="'Limited time', undated", status="perk",
     tags=["perk"], url="https://www.perplexity.ai/pro",
-    source="https://www.zemith.com/en/contents/ai-black-friday-deals", verified="2026-11-18")
+    source="https://www.zemith.com/en/contents/ai-black-friday-deals", verified="2026-11-24")
 
 add(name="Grok / X Premium", category="AI Chat & Assistants",
     what="X subscription tiers that share the Cursor plan family",
@@ -106,7 +107,7 @@ add(name="GitHub Copilot", category="Coding & Agents",
     ends="2026-11-30", status="live", tags=["usage-only"],
     renewal="Discount ends; usage returns to list price",
     url="https://github.com/features/copilot/plans",
-    source="https://whichaicoder.com/ai-coding-black-friday-deals/", verified="2026-11-20")
+    source="https://whichaicoder.com/ai-coding-black-friday-deals/", verified="2026-11-24")
 
 add(name="BoltAI", category="Coding & Agents",
     what="Native Mac AI client for coding and writing with your own keys",
@@ -211,18 +212,18 @@ add(name="Adobe Firefly", category="Image & Design",
 
 add(name="Higgsfield", category="Image & Design",
     what="AI video and image studio (cinematic camera controls)",
-    deal="Up to 70% off premium plans — earlier 63% window closed, new flash window opened Nov 23",
-    discount=70, ends="2026-11-24", ends_note="00:00 UTC — a 24-hour window",
+    deal="Up to 69% off premium plans in the Nov 24 wave — Plus $30/mo billed yearly (was $59). Separate Black Friday Market add-ons are up to 75% off through Nov 30.",
+    discount=69, ends="2026-11-25", ends_note="Plan wave ends 00:00 UTC Nov 25; add-on Market ends Nov 30",
     tags=["flash"], renewal="Renews at plan list price",
     url="https://higgsfield.ai/pricing",
-    source="https://thoughtcook.github.io/verified-black-friday/", verified="2026-11-23")
+    source="https://higgsfield.ai/", verified="2026-11-25")
 
 add(name="Krea", category="Image & Design",
     what="Real-time image generation and upscaling",
     deal="Up to 70% off yearly plans",
     discount=70, ends=None, ends_note="No end date printed", tags=["annual"],
     url="https://www.krea.ai/pricing",
-    source="https://www.prompthackers.co/ai-tools/black-friday-deals", verified="2026-11-18")
+    source="https://www.prompthackers.co/ai-tools/black-friday-deals", verified="2026-11-24")
 
 add(name="Recraft", category="Image & Design",
     what="Vector and brand-consistent image generation",
@@ -230,7 +231,7 @@ add(name="Recraft", category="Image & Design",
     discount=40, price_before="Yearly list", price_after="from $6/mo",
     ends="2026-12-01", audience="New plans only",
     url="https://www.recraft.ai/pricing",
-    source="https://buildstacktools.com/guides/black-friday-ai-dev-tool-deals-2026.html", verified="2026-11-20")
+    source="https://buildstacktools.com/guides/black-friday-ai-dev-tool-deals-2026.html", verified="2026-11-24")
 
 add(name="Kavel", category="Image & Design",
     what="Image and video generation credits",
@@ -251,11 +252,12 @@ add(name="OpenArt", category="Image & Design",
 
 add(name="Topaz Labs", category="Image & Design",
     what="Photo and video upscaling, denoise, sharpening",
-    deal="Up to 67% off — Studio Collection $299/yr (was $499), Topaz Photo $169 (was $199)",
+    deal="Up to 67% off — Studio Collection $299/yr (was $499), Topaz Photo $169 (was $199); daily deals rotate",
     discount=67, price_before="$499/yr", price_after="$299/yr",
-    ends=None, ends_note="No end date printed", tags=["bundle"],
+    ends=None, ends_note="Vendor prints a countdown, not a written end date; daily deal prices rotate",
+    tags=["bundle"],
     url="https://topazlabs.com/pricing/",
-    source="https://www.prompthackers.co/ai-tools/black-friday-deals", verified="2026-11-18")
+    source="https://topazlabs.com/pricing/", verified="2026-11-25")
 
 add(name="Luminar (Skylum)", category="Image & Design",
     what="One-time-purchase AI photo editor",
@@ -275,12 +277,13 @@ add(name="ON1 Photo RAW 2027", category="Image & Design",
 
 add(name="Dreamina", category="Image & Design",
     what="ByteDance image and video generator",
-    deal="Basic $0.29 for the first month (renews $15/mo); Standard $21.60 first month",
+    deal="[Expired October campaign] Basic $0.29 for the first month (renews $15/mo); Standard $21.60 first month",
     discount=98, price_before="$15/mo", price_after="$0.29 first month",
-    ends=None, ends_note="No end date printed", tags=["first-month"],
+    ends="2026-10-30", ends_note="October 21–30 campaign ended; residual sale banners are stale",
+    status="expired", tags=["first-month", "expired"],
     renewal="Renews at $15/mo — the steepest cliff on this list",
-    url="https://dreamina.capcut.com/pricing",
-    source="https://www.zemith.com/en/contents/ai-black-friday-deals", verified="2026-11-18")
+    url="https://dreamina.capcut.com/ai-video/dreamina-october-offer-faq-2026",
+    source="https://dreamina.capcut.com/ai-video/dreamina-october-offer-faq-2026", verified="2026-11-25")
 
 # ---------------------------------------------------------------- video
 add(name="invideo", category="Video",
@@ -294,11 +297,13 @@ add(name="invideo", category="Video",
 
 add(name="Synthesia", category="Video",
     what="AI avatar videos from text or slides",
-    deal="Up to 50% off yearly plans (Black Friday / Cyber Week)",
-    discount=50, ends="2026-12-07",
-    ends_note="Runs Nov 23 10:00 GMT – Dec 7", audience="New customers and free-plan upgrades",
+    deal="Pro $19 for the first month (then $89/mo), or $44/mo billed yearly ($528/yr, was $59/mo); up to 51% off",
+    discount=51, price_before="$89/mo monthly / $59/mo yearly", price_after="$19 first month / $44/mo yearly",
+    ends="2026-12-07",
+    ends_note="Nov 23 16:00 GMT – Dec 7 07:59 GMT; excludes Japan",
+    audience="New customers and free-plan upgrades",
     url="https://www.synthesia.io/pricing",
-    source="https://howtoai.com/ai-black-friday-deals/", verified="2026-11-21")
+    source="https://www.synthesia.io/pricing", verified="2026-11-25")
 
 add(name="Colossyan", category="Video",
     what="Training videos from documents and slides",
@@ -356,14 +361,14 @@ add(name="ElevenLabs", category="Voice & Audio",
     renewal="Renews at the regular annual price from year two",
     tags=["editor-pick"],
     url="https://elevenlabs.io/pricing",
-    source="https://elevenlabs.io/black-friday-promo", verified="2026-11-21")
+    source="https://join.elevenlabs.io/bfcm/terms", verified="2026-11-25")
 
 add(name="Krisp", category="Voice & Audio",
     what="AI noise cancellation and meeting notes",
     deal="55% off annual plans",
     discount=55, code="KRISPBF2026", ends=None, ends_note="No end date printed",
     url="https://krisp.ai/pricing/",
-    source="https://buildstacktools.com/guides/black-friday-ai-dev-tool-deals-2026.html", verified="2026-11-20")
+    source="https://buildstacktools.com/guides/black-friday-ai-dev-tool-deals-2026.html", verified="2026-11-24")
 
 add(name="Leelo", category="Voice & Audio",
     what="AI voice studio for narration, videos and podcasts",
@@ -387,7 +392,7 @@ add(name="ProWritingAid", category="Writing & Docs",
     discount=50, price_before="$120/yr", price_after="$60/yr",
     ends="2026-11-29", ends_note="11:59 PM PT — the vendor blog says Dec 4, go by the pricing page",
     tags=["lifetime"], url="https://prowritingaid.com/pricing",
-    source="https://www.prompthackers.co/ai-tools/black-friday-deals", verified="2026-11-18")
+    source="https://www.prompthackers.co/ai-tools/black-friday-deals", verified="2026-11-24")
 
 add(name="Craft", category="Writing & Docs",
     what="Docs and notes with built-in AI",
@@ -502,14 +507,14 @@ add(name="Kinsta", category="Hosting & Infra",
     deal="50% off monthly plans for 3 months, or 3 months free on annual plans",
     discount=50, ends="2026-12-01", audience="New customers",
     url="https://kinsta.com/pricing/",
-    source="https://www.greatfrontend.com/blog/black-friday-deals-for-front-end-developers-2026", verified="2026-11-19")
+    source="https://www.greatfrontend.com/blog/black-friday-deals-for-front-end-developers-2026", verified="2026-11-24")
 
 add(name="Hostinger AI Builder", category="Hosting & Infra",
     what="AI website builder plus hosting",
     deal="Site-wide banner: up to 85% off",
     discount=85, ends=None, ends_note="No end date printed",
     url="https://www.hostinger.com/ai-builder",
-    source="https://buildstacktools.com/guides/black-friday-ai-dev-tool-deals-2026.html", verified="2026-11-20")
+    source="https://buildstacktools.com/guides/black-friday-ai-dev-tool-deals-2026.html", verified="2026-11-24")
 
 add(name="Static.run", category="Hosting & Infra",
     what="Static site hosting with analytics and one-click deploy",
@@ -536,7 +541,6 @@ NO_DEAL = [
     ("Obsidian Sync", "No promo; Sync is $4/user/mo billed annually.", "https://obsidian.md/pricing", "2026-11-17"),
     ("Vercel / Supabase / Cloudflare / PostHog", "No Black Friday offers on any of these pricing pages — free tiers only.", "https://vercel.com/pricing", "2026-11-19"),
     ("CapCut", "Pro $19.99/mo or $179.99/yr, Ultra $79/mo. No seasonal offer on the pricing page.", "https://www.capcut.com/pricing", "2026-11-14"),
-    ("Suno", "Pro $10/mo, Premier $30/mo, 20% off annual. 2025's sale page now redirects — no 2026 offer.", "https://suno.com/pricing", "2026-11-14"),
     ("Leonardo.Ai", "Essential $12, Premium $30, Ultimate $60/mo; yearly is 20% off year-round. No 2026 sale.", "https://leonardo.ai/pricing", "2026-11-22"),
     ("Ideogram", "Plus $20/mo, Pro $60/mo; 'up to 33% off' is the standing annual discount, not an event.", "https://ideogram.ai/pricing", "2026-11-22"),
     ("Playground AI", "20% off annual billing is the standing term; no Black Friday label.", "https://playground.com/pricing", "2026-11-22"),
@@ -544,7 +548,6 @@ NO_DEAL = [
     ("Murf AI", "No 2026 offer. 2025 ran 33% off annual — not repeated so far.", "https://murf.ai/pricing", "2026-11-21"),
     ("QuillBot", "No 2026 offer found. 2025 ran 40% off annual with BFCMDEAL.", "https://quillbot.com/premium", "2026-11-21"),
     ("Descript", "Hobbyist $16, Creator $24, Business $50 per person/mo. No 2026 offer.", "https://www.descript.com/pricing", "2026-11-21"),
-    ("VEED", "No 2026 offer. 2025 ran 45% off annual with code BLACKFRIDAY.", "https://www.veed.io/pricing", "2026-11-21"),
     ("OpusClip", "No 2026 offer. 2025 ran 65% off annual.", "https://www.opus.pro/pricing", "2026-11-21"),
     ("Figma", "Professional $20/seat/mo monthly, $16 annual. No seasonal sale; education plan is the real saving.", "https://www.figma.com/pricing/", "2026-11-22"),
     ("Zapier", "Professional from $29.99/mo monthly, $19.99 yearly. No Black Friday offer.", "https://zapier.com/pricing", "2026-11-22"),
@@ -593,11 +596,12 @@ add(name="tl;dv", category="Meetings & Automation",
 
 add(name="Otter.ai", category="Meetings & Automation",
     what="Live transcription, summaries and action items",
-    deal="50% off one year — offered inside the app, not on the pricing page",
-    discount=50, price_before="$16.99/mo", price_after="~$8.49/mo",
-    ends="2026-11-29", audience="Existing monthly subscribers, billed at cycle end",
-    renewal="Year two at list price", tags=["targeted"],
-    url="https://otter.ai/pricing", source=MEET, verified="2026-11-21")
+    deal="50% off Pro or Business annual (Black Friday window); a separate Cyber Monday window runs through Dec 6",
+    discount=50, price_before="$16.99/mo Pro", price_after="50% off annual",
+    ends="2026-11-29", ends_note="Black Friday window ends Nov 29; Cyber Monday window ends Dec 6",
+    renewal="Year two at list price",
+    url="https://otter.ai/black-friday",
+    source="https://otter.ai/black-friday", verified="2026-11-25")
 
 add(name="MeetGeek", category="Meetings & Automation",
     what="Meeting recorder with AI summaries and CRM sync",
@@ -639,9 +643,12 @@ add(name="Landbot", category="Meetings & Automation",
 
 add(name="Tidio", category="Meetings & Automation",
     what="AI live chat and support automation",
-    deal="20% off the first year of an annual Starter or Growth plan",
-    discount=20, code="BF2026", ends=None, ends_note="No end date printed",
-    url="https://www.tidio.com/pricing/", source=AID, verified="2026-11-21")
+    deal="20% off the first payment on Starter or Growth, monthly or annual, with code BF2026; add-ons excluded (except Shopify)",
+    discount=20, code="BF2026", ends="2026-12-08",
+    ends_note="Official window Nov 25 – Dec 8, 2026; vendor timezone",
+    renewal="Full price after the first payment",
+    url="https://www.tidio.com/black-friday/",
+    source="https://www.tidio.com/black-friday/", verified="2026-11-25")
 
 add(name="Botsify", category="Meetings & Automation",
     what="White-label AI agents for agencies",
@@ -780,11 +787,12 @@ add(name="Dzine", category="Image & Design",
 # ---------------------------------------------------------------- video
 add(name="Pictory", category="Video",
     what="Turns scripts, URLs and decks into short videos",
-    deal="50% off Professional on annual billing — $29.50/mo instead of $59 (Starter $25, Teams $119)",
-    discount=50, price_before="$59/mo", price_after="$29.50/mo",
-    code="BLACKFRIDAY2026", ends=None, ends_note="Labelled 'Black Friday Special', no end date",
-    renewal="Renews at $59/mo",
-    url="https://pictory.ai/pricing", source=WURD, verified="2026-11-21")
+    deal="70% off Professional annual — $17.50/mo instead of $59; Starter $12.50 and Teams $59.50 also on sale",
+    discount=70, price_before="$59/mo", price_after="$17.50/mo",
+    code="BLACKFRIDAY2026", ends=None, ends_note="Labelled 'Black Friday Offer', no written end date",
+    renewal="Renews at the annual list price",
+    url="https://pictory.ai/pricing/",
+    source="https://pictory.ai/pricing/", verified="2026-11-25")
 
 add(name="quso.ai", category="Video",
     what="Long video to short clips, formerly Vidyo.ai",
@@ -970,6 +978,45 @@ add(name="Novita AI", category="Hosting & Infra",
     discount=50, ends=None, ends_note="No end date printed", tags=["usage-only"],
     url="https://novita.ai/pricing", source=TP, verified="2026-11-23")
 
+# ---------------------------------------------------------------- scan 2026-11-25
+add(name="Suno", category="Voice & Audio",
+    what="AI music and lyric video generation",
+    deal="30% off the first year of annual Pro, Premier or Platinum plans — web only; monthly plans and credits excluded",
+    discount=30, price_before="$96/yr Pro", price_after="$67.20/yr Pro",
+    ends="2026-11-30", ends_note="Official FAQ: through Nov 30; first year only",
+    renewal="Renews at the standard annual price",
+    url="https://suno.com/pricing",
+    source="https://help.suno.com/en/articles/14878337", verified="2026-11-25")
+
+add(name="VEED", category="Video",
+    what="AI video editing, avatars, dubbing and subtitles",
+    deal="30% off the full first year of any annual paid plan, or 30% off the first month on monthly; Enterprise excluded",
+    discount=30, code="BLACKFRIDAY30", ends="2026-12-02",
+    ends_note="Official window Nov 24 – Dec 2, 2026; one code per subscription",
+    renewal="Annual: standard price in year two; monthly: full price after month one",
+    url="https://www.veed.io/tools/black-friday",
+    source="https://www.veed.io/tools/black-friday", verified="2026-11-25")
+
+add(name="neuroflash", category="Writing & Docs",
+    what="AI writing and marketing content with digital twins",
+    deal="25% off annual Essential and Pro plans, or 20% off monthly, with code 9C94CXA6",
+    discount=25, code="9C94CXA6", ends="2026-11-30",
+    ends_note="Through Cyber Monday, Nov 30 at 23:59 (vendor timezone)",
+    renewal="Regular price from Dec 1",
+    url="https://neuroflash.com/black-friday",
+    source="https://neuroflash.com/black-friday", verified="2026-11-25")
+
+add(name="Later", category="SEO & Marketing",
+    what="Social media scheduling, analytics and content planning",
+    deal="6 months free in total on an annual Growth or Scale plan: 3 included with annual billing + 3 extra with the code",
+    discount=25, price_before="Growth $37.50/mo", price_after="3 extra months free on first annual term",
+    code="LATERBF26", ends="2026-12-04",
+    ends_note="New annual purchases Nov 1 – Dec 4, 2026; later.com only, not the iOS app",
+    audience="New customers only; no upgrades or monthly-to-annual switches",
+    renewal="Standard annual rate after the first term",
+    url="https://later.com/black-friday-sale/",
+    source="https://later.com/black-friday-sale/", verified="2026-11-25")
+
 # ---------------------------------------------------------------- partner
 # Listing published by the site's sponsor. Kept visually distinct and marked
 # `sponsored` so it never reads as independently verified like the rows above.
@@ -1025,6 +1072,7 @@ USEFUL_OVERRIDE = {
     "NightCafe": 58, "Trinka AI": 57, "Lara Translate": 56, "Kinsta": 55,
     "Filmora": 54, "Hostinger AI Builder": 53, "Podwise": 52,
     "NotebookLM Tools": 51, "BoltAI": 65, "Bito": 50,
+    "Suno": 69, "VEED": 66, "neuroflash": 55, "Later": 58,
     "Singahi": 72,
 }
 
@@ -1058,7 +1106,7 @@ payload = {
         "black_friday": "2026-11-27",
         "cyber_monday": "2026-11-30",
         "generated": TODAY.isoformat(),
-        "checked_window": "2026-11-09 to 2026-11-23",
+        "checked_window": "2026-11-09 to 2026-11-25",
         "count": len(D),
     },
     "categories": CATEGORIES,
