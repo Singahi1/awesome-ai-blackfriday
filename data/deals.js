@@ -329,8 +329,8 @@ window.DEALS = {
       "tax_inclusive": null,
       "eligibility": "Not stated by vendor",
       "first_seen": "2026-11-24",
-      "last_verified": "2026-11-24",
-      "next_check": "2026-11-25",
+      "last_verified": "2026-11-25",
+      "next_check": "2026-11-26",
       "valid_until": "2026-11-30",
       "evidence": [
         {
@@ -338,6 +338,12 @@ window.DEALS = {
           "url": "https://whichaicoder.com/ai-coding-black-friday-deals/",
           "checked_at": "2026-11-24",
           "excerpt": "30% off Copilot Fusion model usage on paid plans (plan price unchanged: Pro $10, Pro+ $39, Max $100)"
+        },
+        {
+          "type": "vendor_page",
+          "url": "https://github.com/features/copilot/plans",
+          "checked_at": "2026-11-25",
+          "excerpt": "Skip to content 30% off Copilot Fusion usage until Dec 31.Learn more Navigation Menu Products Developers Businesses Resources Pricing Search / Sign in Sign up Take flight with GitHub Copilot Pricing plans For individuals For businesses Free For getting started with GitHub Copilot. $ 0 USD Get started Open in VS Code What's included: 2,000 completions per month Access to Haiku 4.5, GPT-5 mini, and more Community Su"
         }
       ],
       "price_history": [
@@ -422,7 +428,7 @@ window.DEALS = {
       "eligibility": "New customers",
       "first_seen": "2026-11-23",
       "last_verified": "2026-11-23",
-      "next_check": "2026-11-24",
+      "next_check": "2026-11-26",
       "valid_until": "2026-11-28",
       "evidence": [
         {
@@ -809,7 +815,7 @@ window.DEALS = {
       "eligibility": "First-time subscribers, 12-month commitment",
       "first_seen": "2026-11-18",
       "last_verified": "2026-11-18",
-      "next_check": "2026-11-19",
+      "next_check": "2026-11-26",
       "valid_until": "2026-11-27",
       "evidence": [
         {
@@ -1062,7 +1068,7 @@ window.DEALS = {
       "id": "openart",
       "useful": 63,
       "lifecycle": "live",
-      "verification": "stale",
+      "verification": "verified",
       "offer_type": "seasonal",
       "campaign": "black-friday-2026",
       "regions": [],
@@ -1070,8 +1076,8 @@ window.DEALS = {
       "tax_inclusive": null,
       "eligibility": "New annual subscribers, first billing period",
       "first_seen": "2026-11-18",
-      "last_verified": "2026-11-18",
-      "next_check": "2026-11-19",
+      "last_verified": "2026-11-25",
+      "next_check": "2026-11-26",
       "valid_until": "2026-11-30",
       "evidence": [
         {
@@ -1079,6 +1085,12 @@ window.DEALS = {
           "url": "https://www.prompthackers.co/ai-tools/black-friday-deals",
           "checked_at": "2026-11-18",
           "excerpt": "Up to 40% off annual plans — Starter $11/mo (was $14), Pro $36/mo (was $56); up to 50% off select models"
+        },
+        {
+          "type": "vendor_page",
+          "url": "https://openart.ai/pricing",
+          "checked_at": "2026-11-25",
+          "excerpt": "Pricing Download Desktop Enterprise Pricing 40% OFF Login Start for Free OpenArt Pricing LIMITED OFFER Up To 40% Off Annual Plans Our biggest discount of the year 05 DAYS 19 HRS 03 MIN 33 SEC Choose Your Creative Plan Individual plans Business plans Monthly Annually UP TO 40% OFF Starter $14 $11 /mo 25% OFF billed annually Save $42 on your first year Get Started Start experimenting with the magic of AI creation"
         }
       ],
       "price_history": [
@@ -1203,7 +1215,7 @@ window.DEALS = {
       "id": "on1-photo-raw-2027",
       "useful": 70,
       "lifecycle": "live",
-      "verification": "stale",
+      "verification": "conflicting",
       "offer_type": "lifetime",
       "campaign": "black-friday-2026",
       "regions": [],
@@ -1212,7 +1224,7 @@ window.DEALS = {
       "eligibility": "Not stated by vendor",
       "first_seen": "2026-11-13",
       "last_verified": "2026-11-13",
-      "next_check": "2026-11-14",
+      "next_check": "2026-11-26",
       "valid_until": "2026-11-27",
       "evidence": [
         {
@@ -1386,7 +1398,7 @@ window.DEALS = {
       "id": "colossyan",
       "useful": 62,
       "lifecycle": "live",
-      "verification": "stale",
+      "verification": "verified",
       "offer_type": "seasonal",
       "campaign": "black-friday-2026",
       "regions": [],
@@ -1394,8 +1406,8 @@ window.DEALS = {
       "tax_inclusive": null,
       "eligibility": "Not stated by vendor",
       "first_seen": "2026-11-20",
-      "last_verified": "2026-11-20",
-      "next_check": "2026-11-21",
+      "last_verified": "2026-11-25",
+      "next_check": "2026-11-26",
       "valid_until": "2026-11-30",
       "evidence": [
         {
@@ -1403,6 +1415,12 @@ window.DEALS = {
           "url": "https://docs.typingmind.com/resources/ai-black-friday-deals",
           "checked_at": "2026-11-20",
           "excerpt": "40% off the first year of Professional — $35.40/mo (was $59)"
+        },
+        {
+          "type": "vendor_page",
+          "url": "https://www.colossyan.com/pricing/",
+          "checked_at": "2026-11-25",
+          "excerpt": "or that they’ve collected from your use of their services. Show details Accept Customize Black Friday 40% off your first year of Professional BLACKFRIDAY40 Ends in 5d 19h 3m Claim 40% Support Login Platform Solutions Resources Pricing Enterprise Free AI tools Sign up free Book a demo Videos and Courses, all-in-one Your single platform to create video-first, multimodal training and enablement content that engages an"
         }
       ],
       "price_history": [
@@ -1521,7 +1539,7 @@ window.DEALS = {
       "id": "kling",
       "useful": 65,
       "lifecycle": "live",
-      "verification": "stale",
+      "verification": "conflicting",
       "offer_type": "seasonal",
       "campaign": "black-friday-2026",
       "regions": [],
@@ -1530,7 +1548,7 @@ window.DEALS = {
       "eligibility": "Not stated by vendor",
       "first_seen": "2026-11-18",
       "last_verified": "2026-11-18",
-      "next_check": "2026-11-19",
+      "next_check": "2026-11-26",
       "valid_until": "2026-11-30",
       "evidence": [
         {
@@ -1818,7 +1836,7 @@ window.DEALS = {
       "id": "prowritingaid",
       "useful": 80,
       "lifecycle": "live",
-      "verification": "verified",
+      "verification": "conflicting",
       "offer_type": "lifetime",
       "campaign": "black-friday-2026",
       "regions": [],
@@ -1827,7 +1845,7 @@ window.DEALS = {
       "eligibility": "Not stated by vendor",
       "first_seen": "2026-11-24",
       "last_verified": "2026-11-24",
-      "next_check": "2026-11-25",
+      "next_check": "2026-11-26",
       "valid_until": "2026-11-29",
       "evidence": [
         {
@@ -2000,7 +2018,7 @@ window.DEALS = {
       "eligibility": "Not stated by vendor",
       "first_seen": "2026-11-20",
       "last_verified": "2026-11-20",
-      "next_check": "2026-11-21",
+      "next_check": "2026-11-26",
       "valid_until": "2026-11-30",
       "evidence": [
         {
@@ -2347,7 +2365,7 @@ window.DEALS = {
       "eligibility": "Not stated by vendor",
       "first_seen": "2026-11-20",
       "last_verified": "2026-11-20",
-      "next_check": "2026-11-21",
+      "next_check": "2026-11-26",
       "valid_until": "2026-11-30",
       "evidence": [
         {
@@ -2867,7 +2885,7 @@ window.DEALS = {
       "id": "landbot",
       "useful": 64,
       "lifecycle": "live",
-      "verification": "stale",
+      "verification": "conflicting",
       "offer_type": "seasonal",
       "campaign": "black-friday-2026",
       "regions": [],
@@ -2876,7 +2894,7 @@ window.DEALS = {
       "eligibility": "Accounts without an active paid subscription",
       "first_seen": "2026-11-21",
       "last_verified": "2026-11-21",
-      "next_check": "2026-11-22",
+      "next_check": "2026-11-26",
       "valid_until": "2026-11-30",
       "evidence": [
         {
@@ -3445,7 +3463,7 @@ window.DEALS = {
       "id": "flowith",
       "useful": 67,
       "lifecycle": "live",
-      "verification": "stale",
+      "verification": "conflicting",
       "offer_type": "seasonal",
       "campaign": "black-friday-2026",
       "regions": [],
@@ -3454,7 +3472,7 @@ window.DEALS = {
       "eligibility": "Not stated by vendor",
       "first_seen": "2026-11-21",
       "last_verified": "2026-11-21",
-      "next_check": "2026-11-22",
+      "next_check": "2026-11-26",
       "valid_until": "2026-11-30",
       "evidence": [
         {
