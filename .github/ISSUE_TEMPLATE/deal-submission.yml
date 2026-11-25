@@ -1,5 +1,5 @@
 name: Submit a deal
-description: Propose a Black Friday / Cyber Monday deal for the list
+description: Propose a year-round or seasonal deal for the list
 title: "deal: <tool name> — <discount>"
 labels: ["deal-submission"]
 body:
@@ -8,6 +8,7 @@ body:
       value: |
         Thanks. The bar is high on purpose: a deal is listed only if the **vendor's own page** states it.
         Coupon blogs, newsletters and "exclusive code" posts are leads, not proof.
+        Maintainers add accepted deals to `data/deals.source.json`; all JSON/HTML/README/feed files are generated.
   - type: input
     id: tool
     attributes:
@@ -67,6 +68,35 @@ body:
         - SEO & Marketing
         - Hosting & Infra
         - Security & Compliance
+    validations:
+      required: true
+  - type: input
+    id: region
+    attributes:
+      label: Region and currency
+      placeholder: US · USD (or leave blank if the vendor does not state it)
+  - type: input
+    id: campaign
+    attributes:
+      label: Campaign
+      description: Use a lowercase slug, or leave blank for an evergreen offer.
+      placeholder: christmas-2026, diwali-2027, big-billion-days-2027
+  - type: dropdown
+    id: offer_type
+    attributes:
+      label: Offer type
+      options:
+        - Seasonal
+        - Evergreen
+        - Lifetime
+        - Recurring discount
+        - Student
+        - Referral / free credit
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence excerpt
+      description: Paste the exact sentence from the vendor page that states the discount and deadline.
     validations:
       required: true
   - type: checkboxes

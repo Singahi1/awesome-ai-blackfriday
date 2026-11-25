@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{PAGE_TITLE}}</title>
+<meta name="description" content="{{PAGE_DESCRIPTION}}">
+<meta name="theme-color" content="#0b0d10">
+<meta property="og:title" content="{{OG_TITLE}}">
+<meta property="og:description" content="{{OG_DESCRIPTION}}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{CANONICAL}}">
+<link rel="canonical" href="{{CANONICAL}}">
+<link rel="alternate" type="application/rss+xml" title="Awesome AI Deals" href="{{PREFIX}}feed.xml">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%230b0d10'/><text y='.9em' x='50%25' text-anchor='middle' font-size='62' fill='%23c6f24e'>%25</text></svg>">
+<base href="{{BASE_HREF}}">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-view="{{VIEW}}" data-campaign="{{CAMPAIGN}}" data-snapshot="{{SNAPSHOT}}">
+<a class="skip" href="#deals">Skip to deals</a>
+
+<header class="topbar">
+  <div class="wrap topbar-in">
+    <a class="brand" href="{{PREFIX}}">
+      <span class="brand-mark">%</span>
+      <span class="brand-txt">awesome<span class="dim">-ai-</span>deals</span>
+    </a>
+    <nav class="topnav">
+      <a href="{{PREFIX}}#deals">Live deals</a>
+      <a href="{{PREFIX}}black-friday/">Black Friday</a>
+      <a href="{{PREFIX}}archive/">Archive</a>
+      <a href="{{PREFIX}}#method">Method</a>
+      <a class="gh" href="https://github.com/Singahi1/awesome-ai-blackfriday" rel="noopener">GitHub ↗</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero wrap">
+    <div class="hero-grid">
+      <div>
+        <p class="eyebrow"><span class="pulse"></span> <span id="updated">{{UPDATED}}</span></p>
+        <h1>{{HERO_TITLE}}</h1>
+        <p class="lede">{{HERO_LEDE}}</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#deals">Browse the list</a>
+          <a class="btn" href="data/deals.json">Get the JSON</a>
+          <a class="btn" href="feed.xml">RSS feed</a>
+        </div>
+        <p class="support">Supported by <a href="https://singahi.com" target="_blank" rel="noopener">singahi.com</a> — 30% off all compliance, assessment and managed-security services.</p>
+      </div>
+      <div class="stats" id="stats" aria-label="Summary">{{STATIC_STATS}}</div>
+    </div>
+    <div class="ticker" id="ticker" aria-hidden="true">{{STATIC_TICKER}}</div>
+    {{SEASON_STRIP}}
+  </section>
+
+  <section class="wrap" id="deals">
+    <div class="controls">
+      <div class="search">
+        <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16.5 16.5 21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <input id="q" type="search" placeholder="Search tools, categories, codes…" autocomplete="off" aria-label="Search deals">
+        <kbd>/</kbd>
+      </div>
+      {{STALE_CONTROL}}
+      <label class="select">
+        <span>Sort</span>
+        <select id="sort">
+          <option value="useful">Most useful</option>
+          <option value="discount">Biggest discount</option>
+          <option value="ending">Ending soonest</option>
+          <option value="az">A → Z</option>
+          <option value="verified">Recently verified</option>
+        </select>
+      </label>
+    </div>
+
+    <div class="chips" id="cats" role="toolbar" aria-label="Filter by category">{{STATIC_CHIPS}}</div>
+
+    <div class="resultbar">
+      <p id="count">{{STATIC_COUNT}}</p>
+      <button class="linkish" id="reset" hidden>Clear filters</button>
+    </div>
+
+    <div class="grid" id="grid">{{STATIC_CARDS}}</div>
+    <p class="empty" id="empty" hidden>Nothing matches that. Try clearing the search or picking another category.</p>
+    <noscript><p class="fineprint">JavaScript adds filtering and copy buttons. Every deal above is already present in the static HTML.</p></noscript>
+  </section>
+
+  {{NODEAL_SECTION}}
+  {{WATCHLIST_SECTION}}
+  {{ALWAYS_ON_SECTION}}
+
+  <section class="wrap block" id="method">
+    <h2>How this list is built</h2>
+    <div class="method-grid">
+      <div>
+        <h3>1. Evidence, not folklore</h3>
+        <p>Vendor pricing pages and offer terms come first. Dated trackers are used for discovery and are labelled as tracker sources on the card. A blocked page means “stale”, not “expired”.</p>
+      </div>
+      <div>
+        <h3>2. Lifecycle is explicit</h3>
+        <p>Announced, scheduled, live, expired and archived are separate states. “Last verified” and “next check” are stored with every offer, so a year-round list does not quietly rot.</p>
+      </div>
+      <div>
+        <h3>3. The renewal price is the point</h3>
+        <p>A first-month price that renews high is a coupon, not a deal. Where the vendor prints a renewal price, it is on the card. Usefulness, not headline percentage, controls the default order.</p>
+      </div>
+      <div>
+        <h3>4. Sponsorship is separated</h3>
+        <p>Partner offers are labelled and never presented as independent editorial picks. No paid placement inside the Top picks ranking.</p>
+      </div>
+    </div>
+    <p class="fineprint">Prices and eligibility change often. Always confirm at checkout. Snapshot checked {{CHECKED_WINDOW}}. Data is MIT-licensed; corrections via pull request are welcome.</p>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <p><strong>awesome-ai-deals</strong> — useful AI and software deals, verified and dated. Updated <span id="foot-date">{{FOOT_DATE}}</span>.<br>
+      <span class="dim">Supported by <a href="https://singahi.com" target="_blank" rel="noopener">singahi.com</a> — compliance, penetration testing and managed security, 30% off all services.</span></p>
+    <p class="dim">Black Friday <span id="bf-date">27 Nov 2026</span> · Cyber Monday <span id="cm-date">30 Nov 2026</span> · <a href="feed.xml">RSS</a></p>
+  </div>
+</footer>
+
+<script src="data/deals.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

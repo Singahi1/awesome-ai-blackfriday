@@ -8,6 +8,7 @@ cd "$(dirname "$0")"
 
 python3 scripts/validate.py
 python3 scripts/build_readme.py
+python3 scripts/build_site.py
 
 git init -q 2>/dev/null || true
 git add -A

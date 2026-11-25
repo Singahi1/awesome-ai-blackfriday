@@ -1,64 +1,96 @@
 # Contributing
 
-The whole list is one file: [`data/deals.json`](data/deals.json). A contribution is a PR that edits that file — the site and the README are generated from it.
+The canonical, human-editable dataset is **`data/deals.source.json`**. Everything else is generated:
+
+- `data/deals.json` and `data/deals.js`
+- `README.md`
+- `index.html`, `black-friday/index.html`, `archive/index.html`
+- `feed.xml`, `sitemap.xml`, `robots.txt`
+
+Never edit a generated file directly. A JSON-only or HTML-only PR will be overwritten by the next build.
 
 ## The bar for a listing
 
-A deal goes in only if **all** of these are true:
+A deal is listed only when:
 
-1. **The vendor's own page states it.** A pricing page, a `/black-friday` landing page, or published offer terms. Coupon aggregators, newsletters and "exclusive code" blog posts don't count on their own.
-2. **You include the URL you read it on**, in `source`.
-3. **You include the date you read it**, in `verified` (`YYYY-MM-DD`).
-4. **You state what it renews at**, if the vendor prints it. A first-month price with a steep renewal is a coupon, not a deal — say so.
-5. **It is a real discount**, not a standing annual-billing rate dressed up as seasonal. Those belong in `always_on`.
+1. The vendor’s own pricing, promo or offer-terms page states it. Trackers are discovery sources, not proof.
+2. The exact price or discount, eligible plan and billing period are recorded.
+3. The deadline is copied from the vendor. If no date is printed, `valid_until` is `null` — never guess.
+4. Renewal terms are recorded where the vendor prints them.
+5. Region and currency are recorded when stated. Leave `regions` empty rather than guessing.
+6. The evidence array contains the URL, check date, source type and a short excerpt.
 
-If the vendor has *no* offer, that's also a useful contribution: add it to `no_deal` with the date you checked. The no-deal table is the part readers trust most.
+A blocked or unavailable page means `verification: "stale"`, not `expired`.
 
-## Row format
+## Schema v2 row
 
 ```json
 {
-  "id": "elevenlabs",
-  "name": "ElevenLabs",
-  "category": "Voice & Audio",
-  "what": "Text-to-speech, voice cloning, dubbing, music and agents",
-  "deal": "Up to 55% off the first year — Creator $99 (was $220)",
-  "discount": 55,
-  "price_before": "$220/yr",
-  "price_after": "$99/yr",
+  "id": "example-tool",
+  "name": "Example Tool",
+  "category": "AI Chat & Assistants",
+  "what": "One-line description of what the tool does.",
+  "deal": "40% off the first year of the Pro annual plan.",
+  "discount": 40,
+  "price_before": "$199/yr",
+  "price_after": "$119.40/yr",
   "code": null,
-  "ends": "2026-12-01",
-  "ends_note": "11:59 PM ET",
-  "renewal": "Renews at the regular annual price from year two",
-  "status": "live",
-  "audience": "New and upgrading subscribers",
-  "tags": ["annual", "editor-pick"],
-  "url": "https://elevenlabs.io/pricing",
-  "source": "https://elevenlabs.io/black-friday-promo",
-  "verified": "2026-11-21"
+  "valid_until": "2026-12-31",
+  "ends_note": "Ends 23:59 PT on 31 December.",
+  "renewal": "Renews at the regular annual price from year two.",
+  "lifecycle": "live",
+  "verification": "verified",
+  "offer_type": "seasonal",
+  "campaign": "christmas-2026",
+  "regions": ["US"],
+  "currency": "USD",
+  "tax_inclusive": false,
+  "eligibility": "New subscribers only.",
+  "first_seen": "2026-11-25",
+  "last_verified": "2026-11-25",
+  "next_check": "2026-11-26",
+  "evidence": [
+    {
+      "type": "vendor_terms",
+      "url": "https://example.com/offer-terms",
+      "checked_at": "2026-11-25",
+      "excerpt": "40% off Pro annual through 31 December."
+    }
+  ],
+  "price_history": [
+    { "observed_at": "2026-11-25", "before": "$199/yr", "after": "$119.40/yr" }
+  ],
+  "useful": 72,
+  "tags": ["annual"],
+  "sponsored": false,
+  "url": "https://example.com/pricing",
+  "source": "https://example.com/offer-terms"
 }
 ```
 
-### Fields
+### Lifecycle
 
-| Field | Notes |
-| --- | --- |
-| `category` | One of the strings in `categories`. Don't invent new ones in a PR — open an issue. |
-| `discount` | Integer percentage for sorting, or `null` when the offer isn't a percentage (credits, bundles, perks). |
-| `ends` | `YYYY-MM-DD`, or `null` when the vendor prints no end date. Never guess a date. |
-| `ends_note` | Deadline detail (timezone, "countdown only", terms window). |
-| `status` | `live`, `standing`, `perk`, `upcoming`, `expired`. |
-| `tags` | Free-form: `lifetime`, `annual`, `student`, `offline`, `flash`, `bundle`, `editor-pick`… |
+`announced` → `scheduled` → `live` → `expired` → `archived`
 
-## Before you open the PR
+### Verification
+
+`verified`, `stale`, `unverified`, `conflicting`, `reported`, `announced`, `standing`
+
+### Offer types
+
+`seasonal`, `evergreen`, `lifetime`, `recurring`, `partner`, `perk`, `referral`, `student`
+
+## Before opening a PR
 
 ```bash
-python3 scripts/validate.py     # schema, ids, dates, categories
-python3 scripts/build_readme.py # regenerate README.md
+python3 scripts/dataset.py
+python3 scripts/validate.py
+python3 scripts/build_readme.py
+python3 scripts/build_site.py
 ```
 
-Both must pass, and the README must be regenerated in the same PR. CI runs the validator.
+Commit the source change and every regenerated artifact in the same PR. CI fails if the generated diff is missing.
 
 ## Removing a dead deal
 
-Deals end. If a code stops working or a page drops the offer, either set `"status": "expired"` or delete the row and add a line to `no_deal`. Don't leave a dead code in the list — that's worse than an empty row.
+Set `lifecycle` to `expired`, keep `valid_until`, and retain the row for price history. Do not delete it. If a page merely fails to load, set `verification` to `stale` and leave the lifecycle unchanged.

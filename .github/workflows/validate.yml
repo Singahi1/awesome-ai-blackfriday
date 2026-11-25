@@ -13,12 +13,19 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Validate dataset
+      - name: Generate runtime data
+        run: python3 scripts/dataset.py
+      - name: Validate canonical source
         run: python3 scripts/validate.py
-      - name: README is in sync with the dataset
+      - name: Generate README and static site
         run: |
           python3 scripts/build_readme.py
-          git diff --exit-code README.md || {
-            echo "::error::README.md is out of date — run python3 scripts/build_readme.py and commit the result.";
+          python3 scripts/build_site.py
+      - name: Static build smoke tests
+        run: python3 scripts/smoke_test.py
+      - name: Generated files are in sync
+        run: |
+          git diff --exit-code || {
+            echo "::error::Generated files are stale — run dataset.py, validate.py, build_readme.py and build_site.py, then commit the result.";
             exit 1;
           }
