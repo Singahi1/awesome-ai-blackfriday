@@ -5,7 +5,7 @@
     "cyber_monday": "2026-11-30",
     "generated": "2026-11-25",
     "checked_window": "2026-11-09 to 2026-11-25",
-    "count": 121
+    "count": 122
   },
   "categories": [
     "AI Chat & Assistants",
@@ -2402,6 +2402,29 @@
       "audience": null,
       "id": "novita-ai",
       "useful": 58
+    },
+    {
+      "name": "SiteData",
+      "category": "SEO & Marketing",
+      "what": "Research website traffic, SEO keywords, competitor ads and AdSense publisher networks",
+      "deal": "50% off annual plans or 30% off monthly for the life of the subscription, auto-applied at Stripe checkout \u2014 Starter $49.50/yr (was $99) or $20.30/mo (was $29)",
+      "discount": 50,
+      "price_before": "$99/yr or $29/mo",
+      "price_after": "$49.50/yr or $20.30/mo",
+      "ends": "2026-11-30",
+      "ends_note": "Ends Nov 30 at 24:00 UTC+8 (16:00 UTC)",
+      "audience": "New and existing customers",
+      "tags": [
+        "recurring"
+      ],
+      "renewal": "Same discounted rate on renewals while the subscription stays active",
+      "url": "https://sitedata.dev/black-friday",
+      "source": "https://sitedata.dev/black-friday",
+      "verified": "2026-11-25",
+      "code": null,
+      "status": "live",
+      "id": "sitedata",
+      "useful": 59
     },
     {
       "name": "Suno",

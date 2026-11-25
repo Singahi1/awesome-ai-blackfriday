@@ -2,7 +2,7 @@
 
 > A curated list of Black Friday and Cyber Monday deals on AI tools — chat, coding, image, video, voice, writing and research. Every row was read on the **vendor's own pricing or offer-terms page**, with the date it was checked, the price before and after, and what the plan renews at.
 
-**[Browse the filterable site →](https://Singahi1.github.io/awesome-ai-blackfriday/)** · **121 deals** · snapshot 2026-11-25 · Black Friday 2026-11-27 · Cyber Monday 2026-11-30
+**[Browse the filterable site →](https://Singahi1.github.io/awesome-ai-blackfriday/)** · **122 deals** · snapshot 2026-11-25 · Black Friday 2026-11-27 · Cyber Monday 2026-11-30
 
 No affiliate links. No coupon-site folklore. If a vendor's page doesn't state the offer, it isn't here — that's why ChatGPT, Claude, Cursor and Midjourney appear in [the no-deal table](#-verified-no-deal) instead of the list.
 
@@ -173,6 +173,7 @@ No affiliate links. No coupon-site folklore. If a vendor's page doesn't state th
 | [Supergrow](https://www.supergrow.ai/pricing) | 50% off all annual plans for the first year | — | `BF50` | —* | 21 Nov |
 | [Two Minute Reports](https://twominutereports.com/pricing) | 50% off the first year of any annual plan | — | — | —* | 21 Nov |
 | [FeedBoss](https://feedboss.io/pricing) | 50% off all plans | — | `BFCM2026` | —* | 21 Nov |
+| [SiteData](https://sitedata.dev/black-friday) | 50% off annual plans or 30% off monthly for the life of the subscription, auto-applied at Stripe checkout — Starter $49.50/yr (was $99) or $20.30/mo (was $29) | $99/yr or $29/mo → $49.50/yr or $20.30/mo | — | 30 Nov* | 25 Nov |
 | [SeoWriting.AI](https://seowriting.ai/pricing) | 40% off yearly plans, stacked on the usual 25% annual discount — Starter $8.40/mo (was $19) | $19/mo → $8.40/mo | `BLACKFRIDAY40` | 7 Dec | 17 Nov |
 | [PostNitro](https://postnitro.ai/pricing) | Up to 40% off Creator+ and Team+ — 40% off annual (BF26A), 16.7% off monthly (BF26M), recurring | — | `BF26A (annual) / BF26M (monthly)` | —* | 21 Nov |
 | [Reply.io](https://reply.io/pricing/) | 40% off Reply plans; 25% off annual Jason AI SDR plans | — | `BF26REPLY / BF26JASON (AI SDR)` | —* | 21 Nov |

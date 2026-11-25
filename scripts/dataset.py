@@ -979,6 +979,16 @@ add(name="Novita AI", category="Hosting & Infra",
     url="https://novita.ai/pricing", source=TP, verified="2026-11-23")
 
 # ---------------------------------------------------------------- scan 2026-11-25
+add(name="SiteData", category="SEO & Marketing",
+    what="Research website traffic, SEO keywords, competitor ads and AdSense publisher networks",
+    deal="50% off annual plans or 30% off monthly for the life of the subscription, auto-applied at Stripe checkout — Starter $49.50/yr (was $99) or $20.30/mo (was $29)",
+    discount=50, price_before="$99/yr or $29/mo", price_after="$49.50/yr or $20.30/mo",
+    ends="2026-11-30", ends_note="Ends Nov 30 at 24:00 UTC+8 (16:00 UTC)",
+    audience="New and existing customers", tags=["recurring"],
+    renewal="Same discounted rate on renewals while the subscription stays active",
+    url="https://sitedata.dev/black-friday",
+    source="https://sitedata.dev/black-friday", verified="2026-11-25")
+
 add(name="Suno", category="Voice & Audio",
     what="AI music and lyric video generation",
     deal="30% off the first year of annual Pro, Premier or Platinum plans — web only; monthly plans and credits excluded",
@@ -1072,7 +1082,7 @@ USEFUL_OVERRIDE = {
     "NightCafe": 58, "Trinka AI": 57, "Lara Translate": 56, "Kinsta": 55,
     "Filmora": 54, "Hostinger AI Builder": 53, "Podwise": 52,
     "NotebookLM Tools": 51, "BoltAI": 65, "Bito": 50,
-    "Suno": 69, "VEED": 66, "neuroflash": 55, "Later": 58,
+    "Suno": 69, "VEED": 66, "neuroflash": 55, "Later": 58, "SiteData": 59,
     "Singahi": 72,
 }
 
