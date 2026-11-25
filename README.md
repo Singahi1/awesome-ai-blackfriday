@@ -3,7 +3,7 @@
 > A year-round list of useful AI and software deals — live offers, standing discounts and seasonal campaigns — with prices, deadlines, renewal terms and dated evidence.
 
 **[Browse the site →](https://Singahi1.github.io/awesome-ai-blackfriday/)** · **[RSS](https://Singahi1.github.io/awesome-ai-blackfriday/feed.xml)** · **[JSON](https://Singahi1.github.io/awesome-ai-blackfriday/data/deals.json)**
-**116 live** · 5 announced · 1 expired · 90 recheck due · snapshot 2026-11-25
+**116 live** · 5 announced · 1 expired · 84 recheck due · snapshot 2026-11-25
 
 **Current campaign:** [Black Friday 2026](https://singahi1.github.io/awesome-ai-blackfriday/black-friday/) — November 27.
 **Next up:** Christmas 2026 — collecting verified offers; no thin page launched yet.
@@ -49,7 +49,7 @@ Default order is **usefulness**, not percentage. `recheck due` means the stored 
 
 | Tool | Deal | Before → after | Code | Ends | Checked |
 | --- | --- | --- | --- | --- | --- |
-| [GitHub Copilot](https://github.com/features/copilot/plans) | 30% off Copilot Fusion model usage on paid plans (plan price unchanged: Pro $10, Pro+ $39, Max $100) | Fusion usage at list price → 30% off usage | — | 30 Nov | 24 Nov (tracker) |
+| [GitHub Copilot](https://github.com/features/copilot/plans) | 30% off Copilot Fusion model usage on paid plans (plan price unchanged: Pro $10, Pro+ $39, Max $100) | Fusion usage at list price → 30% off usage | — | 30 Nov | 25 Nov (tracker) |
 | [Vinaa](https://vinaa.app/pricing) | Up to 45% off lifetime licences for 1, 2 or 3 Macs | — | — | — | 21 Nov (tracker) |
 | [Perch](https://perch.dev/) | 40% off a one-time Mac licence, solo or per team seat (first 500 orders) | — | `BLACKFRIDAY2026` | — | 21 Nov (tracker) |
 | [TinyCommand](https://tinycommand.com/pricing) | 90% off the first year on yearly plans — pay one month, get twelve | — | — | 7 Dec | 21 Nov (tracker) |
@@ -101,7 +101,7 @@ Default order is **usefulness**, not percentage. `recheck due` means the stored 
 | [Topaz Labs](https://topazlabs.com/pricing/) | Up to 67% off — Studio Collection $299/yr (was $499), Topaz Photo $169 (was $199); daily deals rotate | $499/yr → $299/yr | — | — | 25 Nov (vendor) |
 | [Higgsfield](https://higgsfield.ai/pricing) | Up to 69% off premium plans in the Nov 24 wave — Plus $30/mo billed yearly (was $59). Separate Black Friday Market add-ons are up to 75% off through Nov 30. | — | — | 25 Nov | 25 Nov (vendor) |
 | [Dzine](https://www.dzine.ai/pricing) | 40% off the first year of individual annual plans | — | `BF40` | — | 21 Nov (tracker) |
-| [OpenArt](https://openart.ai/pricing) | Up to 40% off annual plans — Starter $11/mo (was $14), Pro $36/mo (was $56); up to 50% off select models | $14 / $56/mo → $11 / $36/mo | — | 30 Nov | 18 Nov (tracker) |
+| [OpenArt](https://openart.ai/pricing) | Up to 40% off annual plans — Starter $11/mo (was $14), Pro $36/mo (was $56); up to 50% off select models | $14 / $56/mo → $11 / $36/mo | — | 30 Nov | 25 Nov (tracker) |
 | [Magnific (ex-Freepik)](https://www.magnific.ai/pricing) | 40% off credits on individual subscriptions — Premium $14.50/mo (was $20) | $20/mo → $14.50/mo | — | 10 Dec | 21 Nov (tracker) |
 | [NightCafe](https://creator.nightcafe.studio/pricing) | Double credits in the first month plus 5 free Kling 4.0 videos per $10 spent | 400 credits/mo → 800 credits first month | — | 30 Nov | 21 Nov (tracker) |
 | [Kavel](https://kavel.ai/pricing) | 2× credits on every new plan — a full extra year of credits on yearly plans | Standard credits → 2× credits | — | 1 Dec | 23 Nov (tracker) |
@@ -121,7 +121,7 @@ Default order is **usefulness**, not percentage. `recheck due` means the stored 
 | [quso.ai](https://quso.ai/pricing) | 50% off new yearly Lite, Essential and Growth plans — kept at every renewal | — | — | 1 Dec | 21 Nov (tracker) |
 | [invideo](https://invideo.io/pricing/) | Up to 75% off — pay for 12 months, get 24; Ultra $40/seat/mo for 2 years | $160/seat/mo → $40/seat/mo (24 mo) | — | — | 17 Nov (tracker) |
 | [Synthesia](https://www.synthesia.io/pricing) | Pro $19 for the first month (then $89/mo), or $44/mo billed yearly ($528/yr, was $59/mo); up to 51% off | $89/mo monthly / $59/mo yearly → $19 first month / $44/mo yearly | — | 7 Dec | 25 Nov (vendor) |
-| [Colossyan](https://www.colossyan.com/pricing) | 40% off the first year of Professional — $35.40/mo (was $59) | $59/mo → $35.40/mo | `BLACKFRIDAY40` | 30 Nov | 20 Nov (tracker) |
+| [Colossyan](https://www.colossyan.com/pricing) | 40% off the first year of Professional — $35.40/mo (was $59) | $59/mo → $35.40/mo | `BLACKFRIDAY40` | 30 Nov | 25 Nov (tracker) |
 | [Vadoo AI](https://vadoo.tv/pricing) | 30% off the Pro or Advance annual plan | — | `BF30` | — | 21 Nov (tracker) |
 | [Filmora](https://filmora.wondershare.com/shop/buy/buy-video-editor.html) | Up to 30% off — Premium Yearly $79.99 (was $99.99), Advanced 10% off | $99.99/yr → $79.99/yr | — | 8 Dec | 17 Nov (tracker) |
 
