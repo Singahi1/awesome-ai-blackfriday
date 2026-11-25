@@ -107,7 +107,9 @@ def card(d: dict) -> str:
         pills.append('<span class="tagpill pick">Editor’s pick</span>' if tag == "editor-pick" else f'<span class="tagpill">{esc(tag)}</span>')
     if d.get("regions"):
         pills.append(f'<span class="tagpill">{esc(", ".join(d["regions"]))}</span>')
-    evidence_type = (d.get("evidence") or [{}])[0].get("type", "tracker")
+    evidence = (d.get("evidence") or [{}])[-1]
+    evidence_type = evidence.get("type", "tracker")
+    evidence_url = evidence.get("url", d["source"])
     evidence_label = "vendor" if evidence_type.startswith("vendor_") else "tracker"
     classes = [
         "card",
@@ -131,7 +133,7 @@ def card(d: dict) -> str:
         + "".join(pills)
         + '</div><p class="src">'
         + f'<a href="{esc(d["url"])}" target="_blank" rel="noopener">vendor ↗</a>'
-        + f'<a href="{esc(d["source"])}" target="_blank" rel="noopener">source · {esc(fmt_date(d.get("last_verified")))} ({evidence_label})</a>'
+        + f'<a href="{esc(evidence_url)}" target="_blank" rel="noopener">source · {esc(fmt_date(d.get("last_verified")))} ({evidence_label})</a>'
         + '</p></article>'
     )
 

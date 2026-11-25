@@ -26,9 +26,11 @@ def row(d):
         deal = "**Expired** — " + deal
     price = f"{d.get('price_before')} → {d.get('price_after')}" if d.get("price_before") and d.get("price_after") else (d.get("price_after") or "—")
     code = f"`{d['code']}`" if d.get("code") else "—"
-    evidence = (d.get("evidence") or [{}])[0].get("type", "tracker")
+    evidence = (d.get("evidence") or [{}])[-1].get("type", "tracker")
+    evidence_url = (d.get("evidence") or [{}])[-1].get("url", d["source"])
     evidence = "vendor" if evidence.startswith("vendor_") else "tracker"
-    return f"| {name} | {deal} | {price} | {code} | {fmt(d.get('valid_until'))} | {fmt(d.get('last_verified'))} ({evidence}) |"
+    checked = fmt(d.get("last_verified")) + f" ([{evidence}]({evidence_url}))"
+    return f"| {name} | {deal} | {price} | {code} | {fmt(d.get('valid_until'))} | {checked} |"
 
 
 def table(rows):

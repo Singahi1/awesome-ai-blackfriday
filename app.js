@@ -186,15 +186,15 @@
     if (d.verification === 'conflicting') pills.push('<span class="tagpill stale">conflicting</span>');
     (d.tags || []).filter((t) => !['announced', 'partner', 'perk', 'expired'].includes(t)).forEach((t) => pills.push(t === 'editor-pick' ? '<span class="tagpill pick">Editor’s pick</span>' : `<span class="tagpill">${esc(t)}</span>`));
     if ((d.regions || []).length) pills.push(`<span class="tagpill">${esc(d.regions.join(', '))}</span>`);
-    const evidenceType = (d.evidence || [{}])[0].type || 'tracker';
-    const evidenceLabel = evidenceType.startsWith('vendor_') ? 'vendor' : 'tracker';
+    const evidence = (d.evidence || []).at(-1) || { type: 'tracker', url: d.source };
+    const evidenceLabel = evidence.type.startsWith('vendor_') ? 'vendor' : 'tracker';
     return `<article class="card${cls === 'hot' || cls === 'warm' ? ' ending' : ''}${d.lifecycle === 'expired' ? ' expired-card' : ''}${d.verification === 'stale' ? ' stale-card' : ''}${d.sponsored ? ' sponsored' : ''}">
       <a class="stretched" href="${esc(d.url)}" target="_blank" rel="noopener" aria-label="Open ${esc(d.name)} offer"></a>
       <div class="card-head"><span class="cat">${esc(d.category)}</span>${disc}</div>
       <h3>${esc(d.name)}</h3><p class="what">${esc(d.what)}</p><p class="deal">${esc(d.deal)}</p>
       ${price}${code}${d.renewal ? `<p class="renewal">${esc(d.renewal)}</p>` : ''}
       <div class="meta"><span class="ends ${cls}" title="${esc(d.ends_note || '')}">${esc(endLabel(d))}</span>${pills.join('')}</div>
-      <p class="src"><a href="${esc(d.url)}" target="_blank" rel="noopener">vendor ↗</a><a href="${esc(d.source)}" target="_blank" rel="noopener">source · ${esc(fmtDate(d.last_verified))} (${evidenceLabel})</a></p>
+      <p class="src"><a href="${esc(d.url)}" target="_blank" rel="noopener">vendor ↗</a><a href="${esc(evidence.url)}" target="_blank" rel="noopener">source · ${esc(fmtDate(d.last_verified))} (${evidenceLabel})</a></p>
     </article>`;
   }
 })();
