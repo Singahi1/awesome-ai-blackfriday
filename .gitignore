@@ -3,4 +3,5 @@ __pycache__/
 .DS_Store
 .venv/
 node_modules/
+bot-output/
 research/
