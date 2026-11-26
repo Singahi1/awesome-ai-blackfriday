@@ -92,7 +92,7 @@ window.DEALS = {
       "id": "google-ai-pro",
       "useful": 88,
       "lifecycle": "live",
-      "verification": "verified",
+      "verification": "conflicting",
       "offer_type": "seasonal",
       "campaign": "black-friday-2026",
       "regions": [],
@@ -101,7 +101,7 @@ window.DEALS = {
       "eligibility": "Existing Google AI / storage subscribers first",
       "first_seen": "2026-11-25",
       "last_verified": "2026-11-25",
-      "next_check": "2026-11-26",
+      "next_check": "2026-11-27",
       "valid_until": "2026-11-26",
       "evidence": [
         {
@@ -145,8 +145,8 @@ window.DEALS = {
       "tax_inclusive": null,
       "eligibility": "Not stated by vendor",
       "first_seen": "2026-11-25",
-      "last_verified": "2026-11-25",
-      "next_check": "2026-11-26",
+      "last_verified": "2026-11-26",
+      "next_check": "2026-11-27",
       "valid_until": "2026-11-28",
       "evidence": [
         {
@@ -154,6 +154,12 @@ window.DEALS = {
           "url": "https://www.microsoft.com/en-us/store/b/black-friday",
           "checked_at": "2026-11-25",
           "excerpt": "30% off the first month ($13.99) or first year ($139.99)"
+        },
+        {
+          "type": "vendor_page",
+          "url": "https://www.microsoft.com/en-us/microsoft-365/buy/compare-all-microsoft-365-products",
+          "checked_at": "2026-11-26",
+          "excerpt": "E See how Copilot powers everything you do in Microsoft 365. Discover more Limited-time offer Save 30% and get more from Microsoft 365 Start with Microsoft 365 Premium, now $199.99 $139.99 for your first year, and bring together powerful productivity apps with Copilot, extensive AI usage and exclusive features,1 and advanced security—all in one plan. Terms apply.* Get offer For individuals For business Paid yearly"
         }
       ],
       "price_history": [
@@ -329,8 +335,8 @@ window.DEALS = {
       "tax_inclusive": null,
       "eligibility": "Not stated by vendor",
       "first_seen": "2026-11-24",
-      "last_verified": "2026-11-25",
-      "next_check": "2026-11-26",
+      "last_verified": "2026-11-26",
+      "next_check": "2026-11-27",
       "valid_until": "2026-11-30",
       "evidence": [
         {
@@ -343,6 +349,12 @@ window.DEALS = {
           "type": "vendor_page",
           "url": "https://github.com/features/copilot/plans",
           "checked_at": "2026-11-25",
+          "excerpt": "Skip to content 30% off Copilot Fusion usage until Dec 31.Learn more Navigation Menu Products Developers Businesses Resources Pricing Search / Sign in Sign up Take flight with GitHub Copilot Pricing plans For individuals For businesses Free For getting started with GitHub Copilot. $ 0 USD Get started Open in VS Code What's included: 2,000 completions per month Access to Haiku 4.5, GPT-5 mini, and more Community Su"
+        },
+        {
+          "type": "vendor_page",
+          "url": "https://github.com/features/copilot/plans",
+          "checked_at": "2026-11-26",
           "excerpt": "Skip to content 30% off Copilot Fusion usage until Dec 31.Learn more Navigation Menu Products Developers Businesses Resources Pricing Search / Sign in Sign up Take flight with GitHub Copilot Pricing plans For individuals For businesses Free For getting started with GitHub Copilot. $ 0 USD Get started Open in VS Code What's included: 2,000 completions per month Access to Haiku 4.5, GPT-5 mini, and more Community Su"
         }
       ],
@@ -428,7 +440,7 @@ window.DEALS = {
       "eligibility": "New customers",
       "first_seen": "2026-11-23",
       "last_verified": "2026-11-23",
-      "next_check": "2026-11-26",
+      "next_check": "2026-11-27",
       "valid_until": "2026-11-28",
       "evidence": [
         {
@@ -815,7 +827,7 @@ window.DEALS = {
       "eligibility": "First-time subscribers, 12-month commitment",
       "first_seen": "2026-11-18",
       "last_verified": "2026-11-18",
-      "next_check": "2026-11-26",
+      "next_check": "2026-11-27",
       "valid_until": "2026-11-27",
       "evidence": [
         {
@@ -896,7 +908,7 @@ window.DEALS = {
       "id": "higgsfield",
       "useful": 67,
       "lifecycle": "live",
-      "verification": "verified",
+      "verification": "conflicting",
       "offer_type": "seasonal",
       "campaign": "black-friday-2026",
       "regions": [],
@@ -905,7 +917,7 @@ window.DEALS = {
       "eligibility": "Not stated by vendor",
       "first_seen": "2026-11-25",
       "last_verified": "2026-11-25",
-      "next_check": "2026-11-26",
+      "next_check": "2026-11-27",
       "valid_until": "2026-11-25",
       "evidence": [
         {
@@ -1224,7 +1236,7 @@ window.DEALS = {
       "eligibility": "Not stated by vendor",
       "first_seen": "2026-11-13",
       "last_verified": "2026-11-13",
-      "next_check": "2026-11-26",
+      "next_check": "2026-11-27",
       "valid_until": "2026-11-27",
       "evidence": [
         {
@@ -1845,7 +1857,7 @@ window.DEALS = {
       "eligibility": "Not stated by vendor",
       "first_seen": "2026-11-24",
       "last_verified": "2026-11-24",
-      "next_check": "2026-11-26",
+      "next_check": "2026-11-27",
       "valid_until": "2026-11-29",
       "evidence": [
         {
@@ -2018,7 +2030,7 @@ window.DEALS = {
       "eligibility": "Not stated by vendor",
       "first_seen": "2026-11-20",
       "last_verified": "2026-11-20",
-      "next_check": "2026-11-26",
+      "next_check": "2026-11-27",
       "valid_until": "2026-11-30",
       "evidence": [
         {
@@ -2365,7 +2377,7 @@ window.DEALS = {
       "eligibility": "Not stated by vendor",
       "first_seen": "2026-11-20",
       "last_verified": "2026-11-20",
-      "next_check": "2026-11-26",
+      "next_check": "2026-11-27",
       "valid_until": "2026-11-30",
       "evidence": [
         {
@@ -2645,7 +2657,7 @@ window.DEALS = {
       "id": "otterai",
       "useful": 73,
       "lifecycle": "live",
-      "verification": "verified",
+      "verification": "conflicting",
       "offer_type": "seasonal",
       "campaign": "black-friday-2026",
       "regions": [],
@@ -2654,7 +2666,7 @@ window.DEALS = {
       "eligibility": "Not stated by vendor",
       "first_seen": "2026-11-25",
       "last_verified": "2026-11-25",
-      "next_check": "2026-11-26",
+      "next_check": "2026-11-27",
       "valid_until": "2026-11-29",
       "evidence": [
         {
@@ -5025,8 +5037,8 @@ window.DEALS = {
       "tax_inclusive": null,
       "eligibility": "Not stated by vendor",
       "first_seen": "2026-11-25",
-      "last_verified": "2026-11-25",
-      "next_check": "2026-11-26",
+      "last_verified": "2026-11-26",
+      "next_check": "2026-11-27",
       "valid_until": "2026-11-30",
       "evidence": [
         {
@@ -5034,6 +5046,12 @@ window.DEALS = {
           "url": "https://help.suno.com/en/articles/14878337",
           "checked_at": "2026-11-25",
           "excerpt": "30% off the first year of annual Pro, Premier or Platinum plans — web only; monthly plans and credits excluded"
+        },
+        {
+          "type": "vendor_page",
+          "url": "https://suno.com/pricing",
+          "checked_at": "2026-11-26",
+          "excerpt": "Home Explore Create Studio Library Log in Earn credits Labs More Extra 30% off annual plans Black Friday Sale Get more Suno for less in our biggest sale of the year. Sale ends: 4d 7h 14m 09s Monthly Annual Extra 30% off Free Turn any idea into a song. No cost, just creativity. $0 / month Free forever Join Suno for free Included Access to our free models Included 50 song credits per day Included Standard feature"
         }
       ],
       "price_history": [
