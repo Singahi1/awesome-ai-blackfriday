@@ -2,7 +2,7 @@
   "schema_version": 2,
   "meta": {
     "title": "Awesome AI Deals",
-    "generated": "2026-11-25",
+    "generated": "2026-11-27",
     "checked_window": "2026-11-09 to 2026-11-25",
     "black_friday": "2026-11-27",
     "cyber_monday": "2026-11-30",
@@ -5242,6 +5242,54 @@
           "after": "30% off"
         }
       ]
+    },
+    {
+      "id": "context-dev",
+      "name": "Context.dev",
+      "category": "Research & PDF",
+      "what": "Web search, scraping and crawling APIs for AI agents and applications.",
+      "deal": "30% off new purchases of paid plans for one year, automatically applied; no code needed.",
+      "discount": 30,
+      "price_before": "$20/month (Developer)",
+      "price_after": "$14/month (Developer)",
+      "code": null,
+      "valid_until": "2026-12-01",
+      "ends_note": "November 27–December 1, 2026; ends December 2 at 00:00 EST (05:00 UTC).",
+      "renewal": null,
+      "lifecycle": "live",
+      "verification": "verified",
+      "offer_type": "seasonal",
+      "campaign": "black-friday-2026",
+      "regions": [],
+      "currency": "USD",
+      "tax_inclusive": null,
+      "eligibility": "Any new purchase of a paid plan.",
+      "first_seen": "2026-11-27",
+      "last_verified": "2026-11-27",
+      "next_check": "2026-11-28",
+      "evidence": [
+        {
+          "type": "vendor_page",
+          "url": "https://www.context.dev/pricing",
+          "checked_at": "2026-11-27",
+          "excerpt": "30% off paid plans for 1 year, applied automatically. Ends Dec 1."
+        }
+      ],
+      "price_history": [
+        {
+          "observed_at": "2026-11-27",
+          "before": "$20/month",
+          "after": "$14/month"
+        }
+      ],
+      "useful": 0,
+      "tags": [
+        "api",
+        "web-research"
+      ],
+      "sponsored": false,
+      "url": "https://www.context.dev/pricing",
+      "source": "https://www.context.dev/pricing"
     }
   ],
   "no_deal": [

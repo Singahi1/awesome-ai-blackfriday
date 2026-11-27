@@ -3,7 +3,7 @@
 > A year-round list of useful AI and software deals — live offers, standing discounts and seasonal campaigns — with prices, deadlines, renewal terms and dated evidence.
 
 **[Browse the site →](https://Singahi1.github.io/awesome-ai-blackfriday/)** · **[RSS](https://Singahi1.github.io/awesome-ai-blackfriday/feed.xml)** · **[JSON](https://Singahi1.github.io/awesome-ai-blackfriday/data/deals.json)**
-**116 live** · 5 announced · 1 expired · 85 recheck due · snapshot 2026-11-25
+**117 live** · 5 announced · 1 expired · 85 recheck due · snapshot 2026-11-27
 
 **Current campaign:** [Black Friday 2026](https://singahi1.github.io/awesome-ai-blackfriday/black-friday/) — November 27.
 **Next up:** Christmas 2026 — collecting verified offers; no thin page launched yet.
@@ -163,6 +163,7 @@ Default order is **usefulness**, not percentage. `recheck due` means the stored 
 | [Carry](https://carry.md/) | Lifetime $59 instead of $79 | $79 one-time → $59 one-time | `BLACKFRIDAY20` | — | 20 Nov ([tracker](https://docs.typingmind.com/resources/ai-black-friday-deals)) |
 | [PDF Pals](https://pdfpals.com/buy) | Lifetime $149 (was $249) for 4 Macs; or 20% off Basic and Plus | $249 one-time → $149 one-time | — | 1 Dec | 20 Nov ([tracker](https://docs.typingmind.com/resources/ai-black-friday-deals)) |
 | [NotebookLM Tools](https://notebooklmtools.com/pricing) | 30% off one-month ($4.90) and one-year ($20.30) passes | — | `BLACKFRIDAY2026` | 2 Dec | 20 Nov ([tracker](https://docs.typingmind.com/resources/ai-black-friday-deals)) |
+| [Context.dev](https://www.context.dev/pricing) | 30% off new purchases of paid plans for one year, automatically applied; no code needed. | $20/month (Developer) → $14/month (Developer) | — | 1 Dec | 27 Nov ([vendor](https://www.context.dev/pricing)) |
 
 ## SEO & Marketing
 
