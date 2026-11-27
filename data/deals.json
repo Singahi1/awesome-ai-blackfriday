@@ -1985,21 +1985,26 @@
       "valid_until": "2026-12-03",
       "evidence": [
         {
-          "type": "vendor_page",
-          "url": "https://rewritebar.com/black-friday",
-          "checked_at": "2026-11-27",
-          "excerpt": "50% off every license, extra devices, and Gateway. The code is applied at checkout. BF2026. Ends December 3, 2026, 11:59 PM UTC. Standard $29 → $14.50, Pro $59 → $29.50."
-        },
-        {
           "type": "tracker",
           "url": "https://docs.typingmind.com/resources/ai-black-friday-deals",
           "checked_at": "2026-11-20",
           "excerpt": "50% off — Standard lifetime $14.50 instead of $29"
+        },
+        {
+          "type": "vendor_page",
+          "url": "https://rewritebar.com/black-friday",
+          "checked_at": "2026-11-27",
+          "excerpt": "50% off every license, extra devices, and Gateway. The code is applied at checkout. BF2026. Ends December 3, 2026, 11:59 PM UTC. Standard $29 → $14.50, Pro $59 → $29.50."
         }
       ],
       "price_history": [
         {
           "observed_at": "2026-11-20",
+          "before": "$29 one-time",
+          "after": "$14.50 one-time"
+        },
+        {
+          "observed_at": "2026-11-27",
           "before": "$29 one-time",
           "after": "$14.50 one-time"
         }

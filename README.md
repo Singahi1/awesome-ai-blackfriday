@@ -144,7 +144,7 @@ Default order is **usefulness**, not percentage. `recheck due` means the stored 
 | Tool | Deal | Before → after | Code | Ends | Checked |
 | --- | --- | --- | --- | --- | --- |
 | [ProWritingAid](https://prowritingaid.com/pricing) | 50% off yearly ($60 vs $120) and lifetime ($199.50 vs $399); 25% off Story Credits | $120/yr → $60/yr | — | 29 Nov | 24 Nov ([tracker](https://www.prompthackers.co/ai-tools/black-friday-deals)) |
-| [RewriteBar](https://rewritebar.com/black-friday) | 50% off every one-time license: Standard $14.50 instead of $29, Pro $29.50 instead of $59 | $29 one-time → $14.50 one-time | `BF2026` | 3 Dec | 27 Nov ([tracker](https://docs.typingmind.com/resources/ai-black-friday-deals)) |
+| [RewriteBar](https://rewritebar.com/black-friday) | 50% off every one-time license: Standard $14.50 instead of $29, Pro $29.50 instead of $59 | $29 one-time → $14.50 one-time | `BF2026` | 3 Dec | 27 Nov ([vendor](https://rewritebar.com/black-friday)) |
 | [Refine](https://refine.app/) | 35% off — $24.70 instead of $38 for one Mac | $38 one-time → $24.70 one-time | — | 30 Nov | 20 Nov ([tracker](https://docs.typingmind.com/resources/ai-black-friday-deals)) |
 | [DuoTyping](https://duotyping.com/pricing) | 50% off the first payment of Pro — $4.95 instead of $9.90 | $9.90/mo → $4.95 first month | `BFCM2026` | — | 20 Nov ([tracker](https://docs.typingmind.com/resources/ai-black-friday-deals)) |
 | [YouMind](https://youmind.com/pricing) | 50% off the Max plan | — | — | — | 21 Nov ([tracker](https://wurd.ai/blog/ai-black-friday-deals)) |
