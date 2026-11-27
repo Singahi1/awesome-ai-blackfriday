@@ -3,7 +3,7 @@
 > A year-round list of useful AI and software deals — live offers, standing discounts and seasonal campaigns — with prices, deadlines, renewal terms and dated evidence.
 
 **[Browse the site →](https://Singahi1.github.io/awesome-ai-blackfriday/)** · **[RSS](https://Singahi1.github.io/awesome-ai-blackfriday/feed.xml)** · **[JSON](https://Singahi1.github.io/awesome-ai-blackfriday/data/deals.json)**
-**116 live** · 5 announced · 1 expired · 84 recheck due · snapshot 2026-11-25
+**116 live** · 5 announced · 1 expired · 85 recheck due · snapshot 2026-11-25
 
 **Current campaign:** [Black Friday 2026](https://singahi1.github.io/awesome-ai-blackfriday/black-friday/) — November 27.
 **Next up:** Christmas 2026 — collecting verified offers; no thin page launched yet.
@@ -41,7 +41,7 @@ Default order is **usefulness**, not percentage. `recheck due` means the stored 
 | [TypingMind](https://www.typingmind.com/buy) | 60% off Lifetime Premium — $79.20 once instead of $198, no subscription | $198 one-time → $79.20 one-time | `BLACKFRIDAY2026` | 15 Dec | 25 Nov ([vendor](https://docs.typingmind.com/resources/ai-black-friday-deals)) |
 | [Google AI Pro](https://one.google.com/about/plans) | Up to 50% off select Google AI annual plans for existing AI / storage subscribers; some see AI Pro at $99.99 for year one. New-subscriber offers start Nov 27. | $199.99/yr → from $99.99/yr (targeted) | — | 26 Nov | 25 Nov ([tracker](https://whichaicoder.com/ai-coding-black-friday-deals/)) |
 | [Perplexity Pro](https://www.perplexity.ai/pro) | No price cut — adds $40 of Computer credits (Max adds $450) | $17/mo billed yearly → $17/mo + credits | — | — | 24 Nov ([tracker](https://www.zemith.com/en/contents/ai-black-friday-deals)) |
-| [Microsoft 365 Premium](https://www.microsoft.com/en-us/microsoft-365/buy/compare-all-microsoft-365-products) | 30% off the first month ($13.99) or first year ($139.99) | $19.99/mo or $199.99/yr → $13.99 first month / $139.99 first year | — | 28 Nov | 26 Nov ([vendor](https://www.microsoft.com/en-us/microsoft-365/buy/compare-all-microsoft-365-products)) |
+| [Microsoft 365 Premium](https://www.microsoft.com/en-us/microsoft-365/buy/compare-all-microsoft-365-products) | 30% off the first month ($13.99) or first year ($139.99) | $19.99/mo or $199.99/yr → $13.99 first month / $139.99 first year | — | 28 Nov | 27 Nov ([vendor](https://www.microsoft.com/en-us/microsoft-365/buy/compare-all-microsoft-365-products)) |
 | [Grok / X Premium](https://grok.com/plans) | 50% off the first month on monthly plans — Premium $30 → $15 | $30/mo → $15 first month | — | — | 16 Nov ([tracker](https://geotoolbox.ai/blog/black-friday-ai-deals)) |
 | [Flowith](https://flowith.io/pricing) | Up to 31% off Black Pass plans — Go from $9.99/mo | Black Pass list → from $9.99/mo | — | 30 Nov | 21 Nov ([tracker](https://aideals.app/deals/black-friday)) |
 
@@ -131,7 +131,7 @@ Default order is **usefulness**, not percentage. `recheck due` means the stored 
 | --- | --- | --- | --- | --- | --- |
 | [ElevenLabs](https://elevenlabs.io/pricing) | Up to 55% off the first year — Creator $99 (was $220), Pro $445.50 (was $990) | $220/yr → $99/yr | — | 1 Dec | 25 Nov ([vendor](https://join.elevenlabs.io/bfcm/terms)) |
 | [Krisp](https://krisp.ai/pricing/) | 55% off annual plans | — | `KRISPBF2026` | — | 24 Nov ([tracker](https://buildstacktools.com/guides/black-friday-ai-dev-tool-deals-2026.html)) |
-| [Suno](https://suno.com/pricing) | 30% off the first year of annual Pro, Premier or Platinum plans — web only; monthly plans and credits excluded | $96/yr Pro → $67.20/yr Pro | — | 30 Nov | 26 Nov ([vendor](https://suno.com/pricing)) |
+| [Suno](https://suno.com/pricing) | 30% off the first year of annual Pro, Premier or Platinum plans — web only; monthly plans and credits excluded | $96/yr Pro → $67.20/yr Pro | — | 30 Nov | 27 Nov ([vendor](https://suno.com/pricing)) |
 | [Narration Box](https://narrationbox.com/pricing) | 55% off annual Plus, Pro and Scale plans for the first year | — | — | 2 Dec | 21 Nov ([tracker](https://aideals.app/deals/black-friday)) |
 | [Mubert](https://mubert.com/render/pricing) | Up to 50% off annual plans for the first year | — | — | — | 20 Nov ([tracker](https://buildstacktools.com/guides/black-friday-ai-dev-tool-deals-2026.html)) |
 | [Leelo](https://leelo.ai/pricing) | Lifetime Pro $149 (was $199) with 80,000 credits/mo; 50% more credits on every pack | $199 one-time → $149 one-time | — | 1 Dec | 20 Nov ([tracker](https://docs.typingmind.com/resources/ai-black-friday-deals)) |
